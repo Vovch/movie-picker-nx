@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #272829;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  color: @color-text-default;
+}
+
+.button-primary {
+  color: @color-text-default;
+  background: @color-button-primary;
+  border: 0 none transparent;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+
+  &:hover {
+    background: @color-element-active;
+  }
+
+  &[disabled] {
+    cursor: default;
+    color: @color-text-inactive;
+    background: @color-element-inactive;
+  }
+}
+
+.text-sign-in {
+  color: @color-text-warning;
+  text-align: center;
+  padding: 0 0 @default-offset 0;
+  word-break: break-word;
+}

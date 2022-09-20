@@ -1,0 +1,32 @@
+<movie-picker-modal *ngIf="movie" [isOpen]="isOpen" (hideModal)="handleHideModal()">
+    <div slot="header">{{ movie.name }}</div>
+    <div slot="body">
+        <div class="field">
+            <h3 class="label">Name</h3>
+            <p class="value">{{ movie.name }}</p>
+        </div>
+
+        <div class="field">
+            <h3 class="label">Original Name</h3>
+            <p class="value">{{ movie.originalName }}</p>
+        </div>
+
+        <div class="field">
+            <h3 class="label">Year Produced</h3>
+            <p class="value">{{ movie.yearProduced }}</p>
+        </div>
+
+        <div class="field">
+            <h3 class="label">Year Added</h3>
+            <p class="value">{{ movie.yearAdded }}</p>
+        </div>
+    </div>
+    <div slot="footer" class='footer'>
+      <span *ngIf='!isAuthenticated' class='text-sign-in'>*Sign in to get more functionality</span>
+      <div class='button-group'>
+        <button class="button-primary" [disabled]='!isAuthenticated' (click)="handleToWatchedClick()">Watched</button>
+        <button class="button-primary" [disabled]='!isAuthenticated' (click)="handleToPostponedClick()">Postponed</button>
+        <button class="button-primary" [disabled]='!isAuthenticated' (click)="handleResetStatusClick()">Untouched</button>
+      </div>
+    </div>
+</movie-picker-modal>

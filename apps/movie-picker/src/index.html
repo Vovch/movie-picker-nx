@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>MoviePicker</title>
-    <base href="/" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
-    <movie-picker-root></movie-picker-root>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <title>Movie Picker</title>
+  <base href="/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+  <script>
+    // How this code snippet works:
+    // This logic overwrites the default behavior of `grecaptcha.ready()` to
+    // ensure that it can be safely called at any time. When `grecaptcha.ready()`
+    // is called before reCAPTCHA is loaded, the callback function that is passed
+    // by `grecaptcha.ready()` is enqueued for execution after reCAPTCHA is
+    // loaded.
+    window.app_grecaptcha = {};
+    window.app_grecaptcha.ready = function (cb) {
+      if (typeof grecaptcha === 'undefined') {
+        // window.__grecaptcha_cfg is a global variable that stores reCAPTCHA's
+        // configuration. By default, any functions listed in its 'fns' property
+        // are automatically executed when reCAPTCHA loads.
+        const c = '___grecaptcha_cfg';
+        window[c] = window[c] || {};
+        (window[c]['fns'] = window[c]['fns'] || []).push(cb);
+      } else {
+        cb();
+      }
+    };
+  </script>
+</head>
+<body>
+<movie-picker-root></movie-picker-root>
+</body>
 </html>

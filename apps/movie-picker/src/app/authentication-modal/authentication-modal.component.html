@@ -1,0 +1,33 @@
+<movie-picker-modal [isOpen]="isOpen" (hideModal)="handleHideModal()">
+    <div slot="header">Sign in</div>
+    <div slot="body">
+        <form id="login-form" [formGroup]="loginForm" (ngSubmit)="handleLogin()">
+            <div class="field-wrapper">
+                <label for="login" class="field-label">Login</label>
+                <input
+                    type="text"
+                    id="login"
+                    class="field"
+                    placeholder="Login"
+                    autocomplete="username"
+                    formControlName="login" />
+            </div>
+
+            <div class="field-wrapper">
+                <label for="password" class="field-label">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    class="field"
+                    placeholder="Password"
+                    autocomplete="current-password"
+                    formControlName="password" />
+            </div>
+
+            <div class='text-sign-in' *ngIf='isError'>* Login and password did not match. Please try again.</div>
+        </form>
+    </div>
+    <div slot="footer">
+        <button form="login-form" class="button-primary" type="submit">Sign in</button>
+    </div>
+</movie-picker-modal>

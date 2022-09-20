@@ -1,0 +1,6 @@
+<div class="wrapper" *ngIf='(errors$ | async)?.length'>
+    <div *ngFor="let error of errors$ | async; let i = index" class='message'>
+        <p class='message-text'>{{ error }}</p>
+        <button class='button-close' (click)="removeMessage(i)">X</button>
+    </div>
+</div>

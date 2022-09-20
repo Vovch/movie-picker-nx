@@ -1,0 +1,21 @@
+<header class='header'>
+  <h1 class='main-title'>Movie Picker</h1>
+
+  <div class='auth' *ngIf='isAuthenticated;else loginTemplate'>
+    <u>{{login}}</u>
+    <button class='auth-button' (click)='handleLogOutClick()'>Log out</button>
+  </div>
+
+  <ng-template #loginTemplate>
+    <nav class='auth'>
+      <button class='auth-button' (click)='handleLoginClick()'>Login</button>
+      <button class='auth-button' (click)='handleRegisterClick()'>Register</button>
+    </nav>
+  </ng-template>
+</header>
+<div>
+  <movie-picker-authentication-modal *ngIf='isLoginModalOpen' [isOpen]='isLoginModalOpen'
+                            (hideModal)='handleHideLoginModal()'></movie-picker-authentication-modal>
+  <movie-picker-registration-modal *ngIf='isRegistrationModalOpen' [isOpen]='isRegistrationModalOpen'
+                          (hideModal)='handleHideRegistrationModal()'></movie-picker-registration-modal>
+</div>

@@ -1,0 +1,44 @@
+@import "variables";
+
+.field {
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.label, .value {
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    margin-right: @default-offset;
+  }
+
+  button:last-child {
+    margin-right: 0;
+  }
+
+  @media(max-width: @breakpoint-super-small) {
+    flex-direction: column;
+    width: 100%;
+
+    button {
+      margin-right: 0;
+      margin-bottom: @default-offset;
+    }
+
+    button:last-child {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  }
+}

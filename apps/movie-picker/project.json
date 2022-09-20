@@ -19,6 +19,9 @@
           "apps/movie-picker/src/assets"
         ],
         "styles": ["apps/movie-picker/src/styles.less"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/ui/src/styles"]
+        },
         "scripts": []
       },
       "configurations": {

@@ -1,0 +1,14 @@
+<div *ngIf='isOpen' class='modal-backdrop'>
+  <div class='modal'>
+    <div class='header'>
+      <ng-content select='[slot=header]'></ng-content>
+      <button title='close' class='close' type='button' (click)='handleHideModal()'>&#215;</button>
+    </div>
+    <div class='body'>
+      <ng-content select='[slot=body]'></ng-content>
+    </div>
+    <div class='footer'>
+      <ng-content select='[slot=footer]'></ng-content>
+    </div>
+  </div>
+</div>

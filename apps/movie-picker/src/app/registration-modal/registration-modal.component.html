@@ -1,0 +1,32 @@
+<movie-picker-modal [isOpen]="isOpen" (hideModal)="handleHideModal()">
+  <div slot="header">Sign up</div>
+  <div slot="body">
+    <form id="registration-form" [formGroup]="registrationForm" (ngSubmit)="handleRegister()">
+      <div class="field-wrapper">
+        <label for="login" class="field-label">Login</label>
+        <input
+          type="text"
+          id="login"
+          class="field"
+          placeholder="Login"
+          autocomplete="username"
+          formControlName="login" />
+      </div>
+
+      <div class="field-wrapper">
+        <label for="password" class="field-label">Password</label>
+        <input
+          type="password"
+          id="password"
+          class="field"
+          placeholder="Password"
+          autocomplete="current-password"
+          formControlName="password" />
+      </div>
+      <div id="registration-captcha"></div>
+    </form>
+  </div>
+  <div slot="footer">
+    <button form="registration-form" class="button-primary" type="submit">Sign up</button>
+  </div>
+</movie-picker-modal>

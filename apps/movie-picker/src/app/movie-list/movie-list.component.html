@@ -1,0 +1,22 @@
+<h2 class="list__title">US National Film Registry</h2>
+
+<input
+    id="search"
+    class="search"
+    type="text"
+    [value]="search"
+    (input)="handleSearchChange($event)"
+    placeholder="Search" />
+
+<table class="list">
+    <thead class="list__header">
+        <tr>
+            <th class="list__cell list__column-heading" *ngFor="let column of columns">{{ column }}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="list__row" *ngFor="let movie of filteredMovies" (click)="handleRowClick(movie)">
+            <td class="list__cell" *ngFor="let column of columns">{{ movie[column] }}</td>
+        </tr>
+    </tbody>
+</table>

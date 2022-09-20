@@ -1,13 +1,23 @@
-import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Message } from '@movie-picker/api-interfaces';
+import {Component, OnInit} from '@angular/core';
+import {HTTPService} from './http.service';
+import {MoviesService} from './movies.service';
+import {AuthenticationService} from './authentication.service';
 
 @Component({
-  selector: 'movie-picker-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.less'],
+    selector: 'movie-picker-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.less'],
 })
-export class AppComponent {
-  hello$ = this.http.get<Message>('/api/hello');
-  constructor(private http: HttpClient) {}
+export class AppComponent implements OnInit {
+    constructor(private http: HTTPService, private moviesService: MoviesService, private auth: AuthenticationService) {}
+
+    ngOnInit() {
+        const {login, hash} = this.auth.getAuthInfo();
+
+        if (login && hash) {
+          this.moviesService.fetchUserLists(login, hash);
+        }
+
+        this.http.getMovies().subscribe((movieList) => this.moviesService.changeMoviesList(movieList));
+    }
 }
