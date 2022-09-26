@@ -1,0 +1,83 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/movie-picker-react/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/movie-picker-react",
+        "index": "apps/movie-picker-react/src/index.html",
+        "baseHref": "/",
+        "main": "apps/movie-picker-react/src/main.tsx",
+        "polyfills": "apps/movie-picker-react/src/polyfills.ts",
+        "tsConfig": "apps/movie-picker-react/tsconfig.app.json",
+        "assets": [
+          "apps/movie-picker-react/src/favicon.ico",
+          "apps/movie-picker-react/src/assets"
+        ],
+        "styles": [],
+        "scripts": [],
+        "webpackConfig": "@nrwl/react/plugins/webpack"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/movie-picker-react/src/environments/environment.ts",
+              "with": "apps/movie-picker-react/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/webpack:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "movie-picker-react:build",
+        "hmr": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "movie-picker-react:build:development"
+        },
+        "production": {
+          "buildTarget": "movie-picker-react:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/movie-picker-react/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/movie-picker-react"],
+      "options": {
+        "jestConfig": "apps/movie-picker-react/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

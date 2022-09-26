@@ -6,6 +6,8 @@
     "api-interfaces": "libs/api-interfaces",
     "movie-picker": "apps/movie-picker",
     "movie-picker-e2e": "apps/movie-picker-e2e",
+    "movie-picker-react": "apps/movie-picker-react",
+    "movie-picker-react-e2e": "apps/movie-picker-react-e2e",
     "ui": "libs/ui"
   }
 }
