@@ -1,0 +1,4952 @@
+[
+  {
+    "name": "12 разгневанных мужчин",
+    "originalName": "12 Angry Men",
+    "yearProduced": "1957",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "13 озёр",
+    "originalName": "13 Lakes",
+    "yearProduced": "2004",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "20 000 льё под водой",
+    "originalName": "20,000 Leagues Under the Sea",
+    "yearProduced": "1916",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "4 маленькие девочки",
+    "originalName": "4 Little Girls",
+    "yearProduced": "1997",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "42-я улица",
+    "originalName": "42nd Street",
+    "yearProduced": "1933",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "H2O",
+    "originalName": "H2O",
+    "yearProduced": "1929",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Авантюра леди Хелен",
+    "originalName": "Lady Helen’s Escapade",
+    "yearProduced": "1909",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Адская петля",
+    "originalName": "Hell’s Hinges",
+    "yearProduced": "1916",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Академия Рашмор",
+    "originalName": "Rushmore",
+    "yearProduced": "1998",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Аллилуйя!",
+    "originalName": "Hallelujah",
+    "yearProduced": "1929",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Алчность",
+    "originalName": "Greed",
+    "yearProduced": "1924",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Амадей",
+    "originalName": "Amadeus",
+    "yearProduced": "1984",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Америка, Америка",
+    "originalName": "America, America",
+    "yearProduced": "1963",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Американец в Париже",
+    "originalName": "An American in Paris",
+    "yearProduced": "1951",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Американские граффити",
+    "originalName": "American Graffiti",
+    "yearProduced": "1973",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Анатомия убийства",
+    "originalName": "Anatomy of a Murder",
+    "yearProduced": "1959",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Антония: Портрет женщины",
+    "originalName": "Antonia: A Portrait of the Woman",
+    "yearProduced": "1974",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Аплодисменты",
+    "originalName": "Applause",
+    "yearProduced": "1929",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Апокалипсис сегодня",
+    "originalName": "Apocalypse Now",
+    "yearProduced": "1979",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Асфальтовые джунгли",
+    "originalName": "The Asphalt Jungle",
+    "yearProduced": "1950",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Атлантик-Сити",
+    "originalName": "Atlantic City",
+    "yearProduced": "1980",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Атомное кафе",
+    "originalName": "The Atomic Cafe",
+    "yearProduced": "1982",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Афера",
+    "originalName": "The Sting",
+    "yearProduced": "1973",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Африканская королева",
+    "originalName": "The African Queen",
+    "yearProduced": "1951",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Аэроплан!",
+    "originalName": "Airplane!",
+    "yearProduced": "1980",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Багдадский вор",
+    "originalName": "The Thief of Bagdad",
+    "yearProduced": "1924",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Балбесы",
+    "originalName": "The Goonies",
+    "yearProduced": "1985",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Банковский сыщик",
+    "originalName": "The Bank Dick",
+    "yearProduced": "1940",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Барабаны зимы",
+    "originalName": "Uksuum Cauyai: The Drums of Winter",
+    "yearProduced": "1988",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Бараньи отбивные",
+    "originalName": "Lambchops",
+    "yearProduced": "1929",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Бегущий по лезвию",
+    "originalName": "Blade Runner",
+    "yearProduced": "1982",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Бедная маленькая богатая девочка",
+    "originalName": "The Poor Little Rich Girl",
+    "yearProduced": "1917",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Без ума от оружия",
+    "originalName": "Gun Crazy",
+    "yearProduced": "1950",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Безмятежная скорость",
+    "originalName": "Serene Velocity",
+    "yearProduced": "1970",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Безопасность прениже всего!",
+    "originalName": "Safety Last!",
+    "yearProduced": "1923",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Бекки Шарп",
+    "originalName": "Becky Sharp",
+    "yearProduced": "1935",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Белое каление",
+    "originalName": "White Heat",
+    "yearProduced": "1949",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Белоснежка",
+    "originalName": "Snow-White",
+    "yearProduced": "1933",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Белоснежка и семь гномов",
+    "originalName": "Snow White and the Seven Dwarfs",
+    "yearProduced": "1937",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Бен-Гур: история Христа",
+    "originalName": "Ben-Hur: A Tale of the Christ",
+    "yearProduced": "1925",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Бен-Гур",
+    "originalName": "Ben-Hur",
+    "yearProduced": "1959",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Бесконечное лето",
+    "originalName": "The Endless Summer",
+    "yearProduced": "1966",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Беспечный ездок",
+    "originalName": "Easy Rider",
+    "yearProduced": "1969",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Бешеная утка",
+    "originalName": "Duck Amuck",
+    "yearProduced": "1953",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Бешеный бык",
+    "originalName": "Raging Bull",
+    "yearProduced": "1980",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Битва века",
+    "originalName": "The Battle of the Century",
+    "yearProduced": "1927",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Битва под Сан-Пьетро",
+    "originalName": "The Battle of San Pietro",
+    "yearProduced": "1945",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Близкие контакты третьей степени",
+    "originalName": "Close Encounters of the Third Kind",
+    "yearProduced": "1977",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Бог ей судья",
+    "originalName": "Leave Her to Heaven",
+    "yearProduced": "1945",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Бой за звание чемпиона мира по боксу между Джеффрисом и Джонсоном",
+    "originalName": "Jeffries-Johnson World’s Championship Boxing Contest",
+    "yearProduced": "1910",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Бой Корбетта и Фицсиммонса",
+    "originalName": "The Corbett-Fitzsimmons Fight",
+    "yearProduced": "1897",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Более странно, чем в раю",
+    "originalName": "Stranger Than Paradise",
+    "yearProduced": "1984",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Больница",
+    "originalName": "Hospital",
+    "yearProduced": "1970",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Больница",
+    "originalName": "The Hospital",
+    "yearProduced": "1971",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Большая тропа",
+    "originalName": "The Big Trail",
+    "yearProduced": "1930",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Большое ограбление поезда",
+    "originalName": "The Great Train Robbery",
+    "yearProduced": "1903",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Большой Лебовски",
+    "originalName": "The Big Lebowski",
+    "yearProduced": "1998",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Большой парад",
+    "originalName": "The Big Parade",
+    "yearProduced": "1925",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Большой страх",
+    "originalName": "The Tall T",
+    "yearProduced": "1957",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Бонни и Клайд",
+    "originalName": "Bonnie and Clyde",
+    "yearProduced": "1967",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Братья Блюз",
+    "originalName": "The Blues Brothers",
+    "yearProduced": "1980",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Брачные ограничения",
+    "originalName": "Matrimony’s Speed Limit",
+    "yearProduced": "1913",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Бриолин",
+    "originalName": "Grease",
+    "yearProduced": "1978",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Будучи там",
+    "originalName": "Being There",
+    "yearProduced": "1979",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Буллит",
+    "originalName": "Bullitt",
+    "yearProduced": "1968",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Бульвар Сансет",
+    "originalName": "Sunset Boulevard",
+    "yearProduced": "1950",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Бунтарь без причины",
+    "originalName": "Rebel Without a Cause",
+    "yearProduced": "1955",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Бутч Кэссиди и Санденс Кид",
+    "originalName": "Butch Cassidy and the Sundance Kid",
+    "yearProduced": "1969",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Быстрые перемены в школе Риджмонт-Хай",
+    "originalName": "Fast Times at Ridgemont High",
+    "yearProduced": "1982",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Быть или не быть",
+    "originalName": "To Be or Not to Be",
+    "yearProduced": "1942",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Бэмби",
+    "originalName": "Bambi",
+    "yearProduced": "1942",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "В 3:10 на Юму",
+    "originalName": "3:10 to Yuma",
+    "yearProduced": "1957",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "В джазе только девушки",
+    "originalName": "Some Like It Hot",
+    "yearProduced": "1959",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "В краю охотников за головами",
+    "originalName": "In the Land of the Head Hunters",
+    "yearProduced": "1914",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "В нашем дворе",
+    "originalName": "Within Our Gates",
+    "yearProduced": "1920",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "В порту",
+    "originalName": "On the Waterfront",
+    "yearProduced": "1954",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "В укромном месте",
+    "originalName": "In a Lonely Place",
+    "yearProduced": "1950",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "В чужие руки: Истории Киндертранспорта",
+    "originalName": "Into the Arms of Strangers: Stories of the Kindertransport",
+    "yearProduced": "2000",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "ВАЛЛ-И",
+    "originalName": "WALL-E",
+    "yearProduced": "2008",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Ванда",
+    "originalName": "Wanda",
+    "yearProduced": "1970",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Веер леди Уиндермир",
+    "originalName": "Lady Windermere’s Fan",
+    "yearProduced": "1925",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Великий диктатор",
+    "originalName": "The Great Dictator",
+    "yearProduced": "1940",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Великолепная семёрка",
+    "originalName": "The Magnificent Seven",
+    "yearProduced": "1960",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Великолепные Эмберсоны",
+    "originalName": "The Magnificent Ambersons",
+    "yearProduced": "1942",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Вертикальный взлёт",
+    "originalName": "Twelve O’Clock High",
+    "yearProduced": "1949",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Вестсайдская история",
+    "originalName": "West Side Story",
+    "yearProduced": "1961",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Весь этот джаз",
+    "originalName": "All That Jazz",
+    "yearProduced": "1979",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Ветер",
+    "originalName": "The Wind",
+    "yearProduced": "1928",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Взвод",
+    "originalName": "Platoon",
+    "yearProduced": "1986",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Вилли Вонка и шоколадная фабрика",
+    "originalName": "Willy Wonka & the Chocolate Factory",
+    "yearProduced": "1971",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Винчестер 73",
+    "originalName": "Winchester '73",
+    "yearProduced": "1950",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Властелин колец: Братство Кольца",
+    "originalName": "The Lord of the Rings: The Fellowship of the Ring",
+    "yearProduced": "2001",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Власть прессы",
+    "originalName": "The Power of the Press",
+    "yearProduced": "1928",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Внутри нацистской Германии",
+    "originalName": "Inside Nazi Germany",
+    "yearProduced": "1938",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Военно-полевой госпиталь",
+    "originalName": "MASH",
+    "yearProduced": "1970",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Возвращение Сикокус 7",
+    "originalName": "Return of the Secaucus 7",
+    "yearProduced": "1980",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Возрождение",
+    "originalName": "Regeneration",
+    "yearProduced": "1915",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Война миров",
+    "originalName": "The War of the Worlds",
+    "yearProduced": "1953",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Волшебник страны Оз",
+    "originalName": "The Wizard of Oz",
+    "yearProduced": "1939",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Вопрос по порядку ведения заседания",
+    "originalName": "Point of Order!",
+    "yearProduced": "1964",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Воспитание крошки",
+    "originalName": "Bringing Up Baby",
+    "yearProduced": "1938",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Воспоминания о поездке в Литву",
+    "originalName": "Reminiscences of a Journey to Lithuania",
+    "yearProduced": "1971—1972",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Восход солнца",
+    "originalName": "Sunrise: A Song of Two Humans",
+    "yearProduced": "1927",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Вот так-то",
+    "originalName": "There It Is",
+    "yearProduced": "1928",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Вперёд, путешественник",
+    "originalName": "Now, Voyager",
+    "yearProduced": "1942",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Враг общества",
+    "originalName": "The Public Enemy",
+    "yearProduced": "1931",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Времена Харви Милка",
+    "originalName": "The Times of Harvey Milk",
+    "yearProduced": "1984",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Время без войны",
+    "originalName": "A Time Out of War",
+    "yearProduced": "1954",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Время для сжигания",
+    "originalName": "A Time for Burning",
+    "yearProduced": "1967",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Время свинга",
+    "originalName": "Swing Time",
+    "yearProduced": "1936",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Все мои дети",
+    "originalName": "All My Babies",
+    "yearProduced": "1953",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Всего лишь человек",
+    "originalName": "Nothing But a Man",
+    "yearProduced": "1964",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Всё о Еве",
+    "originalName": "All About Eve",
+    "yearProduced": "1950",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Всё, что дозволено небесами",
+    "originalName": "All That Heaven Allows",
+    "yearProduced": "1955",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Встреть меня в Сент-Луисе",
+    "originalName": "Meet Me in St. Louis",
+    "yearProduced": "1944",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Вся банда в сборе",
+    "originalName": "The Gang’s All Here",
+    "yearProduced": "1943",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Вся королевская рать",
+    "originalName": "All the King’s Men",
+    "yearProduced": "1949",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Вся президентская рать",
+    "originalName": "All the President’s Men",
+    "yearProduced": "1976",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Вторжение похитителей тел",
+    "originalName": "Invasion of the Body Snatchers",
+    "yearProduced": "1956",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Вторые",
+    "originalName": "Seconds",
+    "yearProduced": "1966",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Вудсток",
+    "originalName": "Woodstock",
+    "yearProduced": "1970",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Вход для сотрудников",
+    "originalName": "Employees' Entrance",
+    "yearProduced": "1933",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "ВыклВкл",
+    "originalName": "OffOn",
+    "yearProduced": "1967",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Выпускник",
+    "originalName": "The Graduate",
+    "yearProduced": "1967",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Выстоять и сделать",
+    "originalName": "Stand and Deliver",
+    "yearProduced": "1988",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Выстрел в упор",
+    "originalName": "Point Blank",
+    "yearProduced": "1967",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Выход дракона",
+    "originalName": "Enter the Dragon",
+    "yearProduced": "1973",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Газовый свет",
+    "originalName": "Gaslight",
+    "yearProduced": "1944",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Ганга Дин",
+    "originalName": "Gunga Din",
+    "yearProduced": "1939",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Гарольд и Мод",
+    "originalName": "Harold and Maude",
+    "yearProduced": "1971",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Гас Виссер и его поющая утка",
+    "originalName": "Theodore Case Sound Test: Gus Visser and his Singing Duck",
+    "yearProduced": "1925",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Где мои дети?",
+    "originalName": "Where Are My Children?",
+    "yearProduced": "1916",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Генерал",
+    "originalName": "The General",
+    "yearProduced": "1926",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Гибель «Лузитании»",
+    "originalName": "The Sinking of the Lusitania",
+    "yearProduced": "1918",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Гигант",
+    "originalName": "Giant",
+    "yearProduced": "1956",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Гильда",
+    "originalName": "Gilda",
+    "yearProduced": "1946",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Глазами навахо",
+    "originalName": "Through Navajo Eyes",
+    "yearProduced": "1966",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Глубокий сон",
+    "originalName": "The Big Sleep",
+    "yearProduced": "1946",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Глупые жёны",
+    "originalName": "Foolish Wives",
+    "yearProduced": "1922",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Голова-ластик",
+    "originalName": "Eraserhead",
+    "yearProduced": "1977",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Головокружение",
+    "originalName": "Vertigo",
+    "yearProduced": "1958",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Горбатая гора",
+    "originalName": "Brokeback Mountain",
+    "yearProduced": "2005",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Город",
+    "originalName": "The City",
+    "yearProduced": "1939",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Гражданин Кейн",
+    "originalName": "Citizen Kane",
+    "yearProduced": "1941",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Гранд-отель",
+    "originalName": "Grand Hotel",
+    "yearProduced": "1932",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Гроздья гнева",
+    "originalName": "The Grapes of Wrath",
+    "yearProduced": "1940",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Грозовой перевал",
+    "originalName": "Wuthering Heights",
+    "yearProduced": "1939",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Грязный Гарри",
+    "originalName": "Dirty Harry",
+    "yearProduced": "1971",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Да будет свет",
+    "originalName": "Let There Be Light",
+    "yearProduced": "1946",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Даже по-аргентински",
+    "originalName": "Down Argentine Way",
+    "yearProduced": "1940",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Дамбо",
+    "originalName": "Dumbo",
+    "yearProduced": "1941",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Двадцатый век",
+    "originalName": "Twentieth Century",
+    "yearProduced": "1934",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Движущиеся картинки № 1",
+    "originalName": "Motion Painting No. 1",
+    "yearProduced": "1947",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Двойная страховка",
+    "originalName": "Double Indemnity",
+    "yearProduced": "1944",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Двухполосное шоссе",
+    "originalName": "Two-Lane Blacktop",
+    "yearProduced": "1971",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Девушка без души",
+    "originalName": "The Girl Without a Soul",
+    "yearProduced": "1917",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Деказия",
+    "originalName": "Decasia",
+    "yearProduced": "2002",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Делай как надо!",
+    "originalName": "Do the Right Thing",
+    "yearProduced": "1989",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "День, когда остановилась Земля",
+    "originalName": "The Day the Earth Stood Still",
+    "yearProduced": "1951",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "День сурка",
+    "originalName": "Groundhog Day",
+    "yearProduced": "1993",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Дерево науки",
+    "originalName": "The Learning Tree",
+    "yearProduced": "1969",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Дерево растёт в Бруклине",
+    "originalName": "A Tree Grows In Brooklyn",
+    "yearProduced": "1945",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Дестри снова в седле",
+    "originalName": "Destry Rides Again",
+    "yearProduced": "1939",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Десятые степени",
+    "originalName": "Powers of Ten",
+    "yearProduced": "1977",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Десять заповедей",
+    "originalName": "The Ten Commandments",
+    "yearProduced": "1956",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Детские автомобильные гонки",
+    "originalName": "Kid Auto Races at Venice",
+    "yearProduced": "1914",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Джаз в летний день",
+    "originalName": "Jazz on a Summer’s Day",
+    "yearProduced": "1959",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Джем-сейшен",
+    "originalName": "Jam Session",
+    "yearProduced": "1942",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Джентльменское соглашение",
+    "originalName": "Gentleman’s Agreement",
+    "yearProduced": "1947",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Джеральд МакБоинг-Боинг",
+    "originalName": "Gerald McBoing-Boing",
+    "yearProduced": "1950",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Джонни Гитара",
+    "originalName": "Johnny Guitar",
+    "yearProduced": "1954",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Джоси Уэйлс — человек вне закона",
+    "originalName": "The Outlaw Josey Wales",
+    "yearProduced": "1976",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Джубило",
+    "originalName": "Jubilo",
+    "yearProduced": "1919",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Джунгли",
+    "originalName": "The Jungle",
+    "yearProduced": "1967",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Дикая банда",
+    "originalName": "The Wild Bunch",
+    "yearProduced": "1969",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Дикая река",
+    "originalName": "Wild River",
+    "yearProduced": "1960",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Дикие парни дороги",
+    "originalName": "Wild Boys of the Road",
+    "yearProduced": "1933",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Дикий и дремучий",
+    "originalName": "Wild and Woolly",
+    "yearProduced": "1917",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Дилижанс",
+    "originalName": "Stagecoach",
+    "yearProduced": "1939",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Динозавр Герти",
+    "originalName": "Gertie the Dinosaur",
+    "yearProduced": "1914",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Дневник Дэвида Гольцмана",
+    "originalName": "David Holzman’s Diary",
+    "yearProduced": "1967",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Дни вина и роз",
+    "originalName": "Days of Wine and Roses",
+    "yearProduced": "1962",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Дни жатвы",
+    "originalName": "Days of Heaven",
+    "yearProduced": "1978",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Долгое прощание",
+    "originalName": "The Long Goodbye",
+    "yearProduced": "1973",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Додсворт",
+    "originalName": "Dodsworth",
+    "yearProduced": "1936",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Дождливая погода",
+    "originalName": "Stormy Weather",
+    "yearProduced": "1943",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Доказательство съёмки",
+    "originalName": "The Evidence of the Film",
+    "yearProduced": "1913",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Доктор Стрейнджлав, или Как я перестал бояться и полюбил бомбу",
+    "originalName": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "yearProduced": "1964",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Дом, в котором я живу",
+    "originalName": "The House I Live In",
+    "yearProduced": "1945",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Дом восковых фигур",
+    "originalName": "House of Wax",
+    "yearProduced": "1953",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Дом посередине",
+    "originalName": "The House in the Middle",
+    "yearProduced": "1954",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Дорога в Марокко",
+    "originalName": "Road to Morocco",
+    "yearProduced": "1942",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Доходное дело",
+    "originalName": "Big Business",
+    "yearProduced": "1929",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Дочери пыли",
+    "originalName": "Daughters of the Dust",
+    "yearProduced": "1991",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Дочь Утренней Зари",
+    "originalName": "Daughter of Dawn",
+    "yearProduced": "1920",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Дочь Шанхая",
+    "originalName": "Daughter of Shanghai",
+    "yearProduced": "1937",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Дочь шахтёра",
+    "originalName": "Coal Miner’s Daughter",
+    "yearProduced": "1980",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Дракула",
+    "originalName": "Dracula",
+    "yearProduced": "1931",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Дракула",
+    "originalName": "Dracula",
+    "yearProduced": "1931",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Дурная слава",
+    "originalName": "Notorious",
+    "yearProduced": "1946",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Душной южной ночью",
+    "originalName": "In the Heat of the Night",
+    "yearProduced": "1967",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Дымовые сигналы",
+    "originalName": "Smoke Signals",
+    "yearProduced": "1998",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Дьявол никогда не спит",
+    "originalName": "The Devil Never Sleeps",
+    "yearProduced": "1994",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Его девушка Пятница",
+    "originalName": "His Girl Friday",
+    "yearProduced": "1940",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Ей это нужно позарез",
+    "originalName": "She’s Gotta Have It",
+    "yearProduced": "1986",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Железный конь",
+    "originalName": "The Iron Horse",
+    "yearProduced": "1924",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Жемчужина",
+    "originalName": "The Pearl",
+    "yearProduced": "1947",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Женщина-арбуз",
+    "originalName": "The Watermelon Woman",
+    "yearProduced": "1996",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Женщина года",
+    "originalName": "Woman of the Year",
+    "yearProduced": "1942",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Женщина под влиянием",
+    "originalName": "A Woman Under the Influence",
+    "yearProduced": "1974",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Женщины",
+    "originalName": "The Women",
+    "yearProduced": "1939",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Живая пустыня",
+    "originalName": "The Living Desert",
+    "yearProduced": "1953",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Жижи",
+    "originalName": "Gigi",
+    "yearProduced": "1958",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Жизнь американского пожарного",
+    "originalName": "Life of an American Fireman",
+    "yearProduced": "1903",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Жизнь и времена клепальщицы Рози",
+    "originalName": "The Life and Times of Rosie the Riveter",
+    "yearProduced": "1980",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Жизнь и смерть актера из массовки под номером 9413",
+    "originalName": "The Life and Death of 9413: a Hollywood Extra",
+    "yearProduced": "1928",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Жизнь Эмиля Золя",
+    "originalName": "The Life of Emile Zola",
+    "yearProduced": "1937",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Жил-был дурак",
+    "originalName": "A Fool There Was",
+    "yearProduced": "1915",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Забастовки рабочих-сталелитейщиков",
+    "originalName": "Republic Steel Strike Riot Newsreel Footage",
+    "yearProduced": "1937",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Забойщик овец",
+    "originalName": "Killer of Sheep",
+    "yearProduced": "1977",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Забытая граница",
+    "originalName": "The Forgotten Frontier",
+    "yearProduced": "1931",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Заводной апельсин",
+    "originalName": "A Clockwork Orange",
+    "yearProduced": "1971",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Завтрак у Тиффани",
+    "originalName": "Breakfast at Tiffany’s",
+    "yearProduced": "1961",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Запретная планета",
+    "originalName": "Forbidden Planet",
+    "yearProduced": "1956",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Затерянный мир",
+    "originalName": "The Lost World",
+    "yearProduced": "1925",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Звезда родилась",
+    "originalName": "A Star Is Born",
+    "yearProduced": "1954",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Зверинец",
+    "originalName": "National Lampoon’s Animal House",
+    "yearProduced": "1978",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Звёздные войны. Эпизод IV: Новая надежда",
+    "originalName": "Star Wars",
+    "yearProduced": "1977",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Звёздные войны. Эпизод V: Империя наносит ответный удар",
+    "originalName": "The Empire Strikes Back",
+    "yearProduced": "1980",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Звёздные войны. Эпизод VI: Возвращение джедая",
+    "originalName": "Star Wars. Episode VI: Return of the Jedi",
+    "yearProduced": "1983",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Звуки музыки",
+    "originalName": "The Sound of Music",
+    "yearProduced": "1965",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Землетрясение и пожар в Сан-Франциско: 18 апреля 1906 года",
+    "originalName": "San Francisco Earthquake & Fire: April 18, 1906",
+    "yearProduced": "1906",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Злые и красивые",
+    "originalName": "The Bad and the Beautiful",
+    "yearProduced": "1952",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Злые улицы",
+    "originalName": "Mean Streets",
+    "yearProduced": "1973",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Знак Зорро",
+    "originalName": "The Mark of Zorro",
+    "yearProduced": "1920",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Знак Зорро",
+    "originalName": "The Mark of Zorro",
+    "yearProduced": "1940",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Золотая лихорадка",
+    "originalName": "The Gold Rush",
+    "yearProduced": "1925",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Золотоискатели 1933-го года",
+    "originalName": "Gold Diggers of 1933",
+    "yearProduced": "1933",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Золушка",
+    "originalName": "Cinderella",
+    "yearProduced": "1950",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Играя блюз",
+    "originalName": "Jammin' the Blues",
+    "yearProduced": "1944",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Идти своим путём",
+    "originalName": "Going My Way",
+    "yearProduced": "1944",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Иезавель",
+    "originalName": "Jezebel",
+    "yearProduced": "1938",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Из Монтгомери в Мемфис",
+    "originalName": "King: a Filmed Record… Montgomery To Memphis",
+    "yearProduced": "1970",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Из прошлого",
+    "originalName": "Out of the Past",
+    "yearProduced": "1947",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Избавление",
+    "originalName": "Deliverance",
+    "yearProduced": "1972",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Изгнанники",
+    "originalName": "The Exiles",
+    "yearProduced": "1961",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Изгоняющий дьявола",
+    "originalName": "The Exorcist",
+    "yearProduced": "1973",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Изюминка на солнце",
+    "originalName": "A Raisin in the Sun",
+    "yearProduced": "1961",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Иллюзии",
+    "originalName": "Illusions",
+    "yearProduced": "1982",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Имитация жизни",
+    "originalName": "Imitation of Life",
+    "yearProduced": "1934",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Имитация жизни",
+    "originalName": "Imitation of Life",
+    "yearProduced": "1959",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Иммигрант",
+    "originalName": "The Immigrant",
+    "yearProduced": "1917",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Император Джонс",
+    "originalName": "The Emperor Jones",
+    "yearProduced": "1933",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Индиана Джонс: В поисках утраченного ковчега",
+    "originalName": "Raiders of the Lost Ark",
+    "yearProduced": "1981",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Инопланетянин",
+    "originalName": "E.T. the Extra-Terrestrial",
+    "yearProduced": "1982",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Интимная жизнь полипов",
+    "originalName": "The Sex Life of the Polyp",
+    "yearProduced": "1928",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Интимный разговор",
+    "originalName": "Pillow Talk",
+    "yearProduced": "1959",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Искатели",
+    "originalName": "The Searchers",
+    "yearProduced": "1956",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Искусные руки",
+    "originalName": "Master Hands",
+    "yearProduced": "1936",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Искусственные воды",
+    "originalName": "Eaux d’artifice",
+    "yearProduced": "1953",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Испортит ли успех Рока Хантера?",
+    "originalName": "Will Success Spoil Rock Hunter?",
+    "yearProduced": "1957",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "История в Феникс-сити",
+    "originalName": "The Phenix City Story",
+    "yearProduced": "1955",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "История игрушек",
+    "originalName": "Toy Story",
+    "yearProduced": "1995",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "История о менструации",
+    "originalName": "The Story of Menstruation",
+    "yearProduced": "1946",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "История рядового Джо",
+    "originalName": "The Story of G.I. Joe",
+    "yearProduced": "1945",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Исцеление игрока в покер",
+    "originalName": "A Cure for Pokeritis",
+    "yearProduced": "1912",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Итальянец",
+    "originalName": "The Italian",
+    "yearProduced": "1915",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Их собственная лига",
+    "originalName": "A League of Their Own",
+    "yearProduced": "1992",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "К востоку от рая",
+    "originalName": "East of Eden",
+    "yearProduced": "1955",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "К северу через северо-запад",
+    "originalName": "North by Northwest",
+    "yearProduced": "1959",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Кабаре",
+    "originalName": "Cabaret",
+    "yearProduced": "1972",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Кадры инаугурации президента Мак-Кинли",
+    "originalName": "President McKinley Inauguration Footage",
+    "yearProduced": "1901",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Как был завоёван Запад",
+    "originalName": "How the West Was Won",
+    "yearProduced": "1962",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Как зелена была моя долина",
+    "originalName": "How Green Was My Valley",
+    "yearProduced": "1941",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Каннаполис, Северная Каролина",
+    "originalName": "Kannapolis, N.C.",
+    "yearProduced": "1941",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Капризная Мариетта",
+    "originalName": "Naughty Marietta",
+    "yearProduced": "1935",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Кармен Джонс",
+    "originalName": "Carmen Jones",
+    "yearProduced": "1954",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Касабланка",
+    "originalName": "Casablanca",
+    "yearProduced": "1942",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Кастро Стрит",
+    "originalName": "Castro Street",
+    "yearProduced": "1966",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Катастрофа Гинденбурга",
+    "originalName": "Hindenburg Disaster Newsreel Footage",
+    "yearProduced": "1937",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Квартира",
+    "originalName": "The Apartment",
+    "yearProduced": "1960",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Кёльн: Из дневника Рэя и Эстер",
+    "originalName": "Cologne: From the Diary of Ray and Esther",
+    "yearProduced": "1939",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Кинг-Конг",
+    "originalName": "King Kong",
+    "yearProduced": "1933",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Кинооператор",
+    "originalName": "The Cameraman",
+    "yearProduced": "1928",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Кинопортрет",
+    "originalName": "Film Portrait",
+    "yearProduced": "1972",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Китайский квартал",
+    "originalName": "Chinatown",
+    "yearProduced": "1974",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Клерки",
+    "originalName": "Clerks",
+    "yearProduced": "1994",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Клуб Буэна Виста",
+    "originalName": "Buena Vista Social Club",
+    "yearProduced": "1999",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Клуб «Завтрак»",
+    "originalName": "The Breakfast Club",
+    "yearProduced": "1985",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Кнут Ронки настоящий американец",
+    "originalName": "Knute Rockne, All American",
+    "yearProduced": "1940",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Койяанискаци",
+    "originalName": "Koyaanisqatsi",
+    "yearProduced": "1982",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Команда из штата Индиана",
+    "originalName": "Hoosiers",
+    "yearProduced": "1986",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Коммивояжёр",
+    "originalName": "Salesman",
+    "yearProduced": "1969",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Король джаза",
+    "originalName": "King of Jazz",
+    "yearProduced": "1930",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Король Лев",
+    "originalName": "The Lion King",
+    "yearProduced": "1994",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Космическая одиссея 2001 года",
+    "originalName": "2001: A Space Odyssey",
+    "yearProduced": "1968",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Костюм фасона «Зут»",
+    "originalName": "Zoot Suit",
+    "yearProduced": "1981",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Кошмар на улице Вязов",
+    "originalName": "A Nightmare On Elm Street",
+    "yearProduced": "1984",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Красавица и Чудовище",
+    "originalName": "Beauty and the Beast",
+    "yearProduced": "1991",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Красная пыль",
+    "originalName": "Red Dust",
+    "yearProduced": "1932",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Красная река",
+    "originalName": "Red River",
+    "yearProduced": "1948",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Крепкий орешек",
+    "originalName": "Die Hard",
+    "yearProduced": "1988",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Крёстный отец",
+    "originalName": "The Godfather",
+    "yearProduced": "1972",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Крёстный отец 2",
+    "originalName": "The Godfather Part II",
+    "yearProduced": "1974",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Криминальное чтиво",
+    "originalName": "Pulp Fiction",
+    "yearProduced": "1994",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Кровь Иисуса",
+    "originalName": "The Blood of Jesus",
+    "yearProduced": "1941",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Крылья",
+    "originalName": "Wings",
+    "yearProduced": "1927",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Кто боится Вирджинии Вулф?",
+    "originalName": "Who’s Afraid of Virginia Woolf?",
+    "yearProduced": "1966",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Кто подставил кролика Роджера",
+    "originalName": "Who Framed Roger Rabbit",
+    "yearProduced": "1988",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Кто убил Винсента Чина?",
+    "originalName": "Who Killed Vincent Chin?",
+    "yearProduced": "1987",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Ла Бамба",
+    "originalName": "La Bamba",
+    "yearProduced": "1987",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Леди Ева",
+    "originalName": "The Lady Eve",
+    "yearProduced": "1941",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Леди из Шанхая",
+    "originalName": "The Lady from Shanghai",
+    "yearProduced": "1947",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Лесси возвращается домой",
+    "originalName": "Lassie Come Home",
+    "yearProduced": "1943",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Летать!",
+    "originalName": "To Fly!",
+    "yearProduced": "1976",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Лихорадка субботнего вечера",
+    "originalName": "Saturday Night Fever",
+    "yearProduced": "1977",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Лица",
+    "originalName": "Faces",
+    "yearProduced": "1968",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Лицо в толпе",
+    "originalName": "A Face in the Crowd",
+    "yearProduced": "1957",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Лицо со шрамом",
+    "originalName": "Scarface",
+    "yearProduced": "1932",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Лора",
+    "originalName": "Laura",
+    "yearProduced": "1944",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Лоуренс Аравийский",
+    "originalName": "Lawrence of Arabia",
+    "yearProduced": "1962",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Луизианская история",
+    "originalName": "Louisiana Story",
+    "yearProduced": "1948",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Лучшие годы нашей жизни",
+    "originalName": "The Best Years of Our Lives",
+    "yearProduced": "1946",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Лучший стрелок",
+    "originalName": "Top Gun",
+    "yearProduced": "1986",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Люби меня сегодня",
+    "originalName": "Love Me Tonight",
+    "yearProduced": "1932",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Любовь находит Энди Харди",
+    "originalName": "Love Finds Andy Hardy",
+    "yearProduced": "1938",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Люди искусства",
+    "originalName": "Show People",
+    "yearProduced": "1928",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Люди-кошки",
+    "originalName": "Cat People",
+    "yearProduced": "1942",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Люксо-младший",
+    "originalName": "Luxo Jr.",
+    "yearProduced": "1986",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Магазинчик за углом",
+    "originalName": "The Shop Around the Corner",
+    "yearProduced": "1940",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Маккейб и миссис Миллер",
+    "originalName": "McCabe & Mrs. Miller",
+    "yearProduced": "1971",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Маленькая мисс Маркер",
+    "originalName": "Little Miss Marker",
+    "yearProduced": "1934",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Маленький беглец",
+    "originalName": "Little Fugitive",
+    "yearProduced": "1953",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Маленький большой человек",
+    "originalName": "Little Big Man",
+    "yearProduced": "1970",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Маленький Немо",
+    "originalName": "Little Nemo",
+    "yearProduced": "1911",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Маленький Цезарь",
+    "originalName": "Little Caesar",
+    "yearProduced": "1931",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Малкольм Икс",
+    "originalName": "Malcolm X",
+    "yearProduced": "1992",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Малыш",
+    "originalName": "The Kid",
+    "yearProduced": "1921",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Мальтийский сокол",
+    "originalName": "The Maltese Falcon",
+    "yearProduced": "1941",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Манхэттен",
+    "originalName": "Manhatta",
+    "yearProduced": "1921",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Манхэттен",
+    "originalName": "Manhattan",
+    "yearProduced": "1979",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Маньчжурский кандидат",
+    "originalName": "The Manchurian Candidate",
+    "yearProduced": "1962",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Маппеты",
+    "originalName": "The Muppet Movie",
+    "yearProduced": "1979",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Мариан Андерсон: Концерт у мемориала Линкольна",
+    "originalName": "Marian Anderson: the Lincoln Memorial Concert",
+    "yearProduced": "1939",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Марокко",
+    "originalName": "Morocco",
+    "yearProduced": "1930",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Марти",
+    "originalName": "Marty",
+    "yearProduced": "1955",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Марш",
+    "originalName": "The March",
+    "yearProduced": "1964",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Марш Шермана",
+    "originalName": "Sherman’s March",
+    "yearProduced": "1986",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Матрица",
+    "originalName": "The Matrix",
+    "yearProduced": "1999",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Мать и отец",
+    "originalName": "Mom and Dad",
+    "yearProduced": "1945",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Маэстро магии",
+    "originalName": "Magical Maestro",
+    "yearProduced": "1952",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Мелодии ранчо",
+    "originalName": "Melody Ranch",
+    "yearProduced": "1940",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Мемфис Белль: История летающей крепости",
+    "originalName": "The Memphis Belle: A Story of a Flying Fortress",
+    "yearProduced": "1944",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Меня зовут Уна",
+    "originalName": "My Name is Oona",
+    "yearProduced": "1969",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Место под солнцем",
+    "originalName": "A Place in the Sun",
+    "yearProduced": "1951",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Мечты о баскетболе",
+    "originalName": "Hoop Dreams",
+    "yearProduced": "1994",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Мёртв по прибытии",
+    "originalName": "D.O.A.",
+    "yearProduced": "1950",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Мёртвые птицы",
+    "originalName": "Dead Birds",
+    "yearProduced": "1963",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Милдред Пирс",
+    "originalName": "Mildred Pierce",
+    "yearProduced": "1945",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Мисс Лулу Бэтт",
+    "originalName": "Miss Lulu Bett",
+    "yearProduced": "1921",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Миссис Минивер",
+    "originalName": "Mrs. Miniver",
+    "yearProduced": "1942",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Мистер Смит едет в Вашингтон",
+    "originalName": "Mr. Smith Goes to Washington",
+    "yearProduced": "1939",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Множественный Сидосис",
+    "originalName": "Multiple SIDosis",
+    "yearProduced": "1970",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Модеста",
+    "originalName": "Modesta",
+    "yearProduced": "1956",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Мой слуга Годфри",
+    "originalName": "My Man Godfrey",
+    "yearProduced": "1936",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Молодой мистер Линкольн",
+    "originalName": "Young Mr. Lincoln",
+    "yearProduced": "1939",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Молодой Франкенштейн",
+    "originalName": "Young Frankenstein",
+    "yearProduced": "1974",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Молчание ягнят",
+    "originalName": "The Silence of the Lambs",
+    "yearProduced": "1991",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Мордашка",
+    "originalName": "Baby Face",
+    "yearProduced": "1933",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Мост через реку Квай",
+    "originalName": "The Bridge on the River Kwai",
+    "yearProduced": "1957",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Мошенник",
+    "originalName": "The Hustler",
+    "yearProduced": "1961",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Моя дорогая Клементина",
+    "originalName": "My Darling Clementine",
+    "yearProduced": "1946",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Моя прекрасная леди",
+    "originalName": "My Fair Lady",
+    "yearProduced": "1964",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Музыкальная шкатулка",
+    "originalName": "The Music Box",
+    "yearProduced": "1932",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Музыкант",
+    "originalName": "The Music Man",
+    "yearProduced": "1962",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Музыкант",
+    "originalName": "El Mariachi",
+    "yearProduced": "1992",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Мушкетёры аллеи Пиг",
+    "originalName": "The Musketeers of Pig Alley",
+    "yearProduced": "1912",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Мэри Поппинс",
+    "originalName": "Mary Poppins",
+    "yearProduced": "1964",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "На западном фронте без перемен",
+    "originalName": "All Quiet on the Western Front",
+    "yearProduced": "1930",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "На улице",
+    "originalName": "In the Street",
+    "yearProduced": "1948",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Навигатор",
+    "originalName": "The Navigator",
+    "yearProduced": "1924",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Назад в будущее",
+    "originalName": "Back to the Future",
+    "yearProduced": "1985",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Нанук с севера",
+    "originalName": "Nanook of the North",
+    "yearProduced": "1922",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Наследница",
+    "originalName": "The Heiress",
+    "yearProduced": "1949",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Настоящие женщины всегда в теле",
+    "originalName": "Real Women Have Curves",
+    "yearProduced": "2002",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Национальный бархат",
+    "originalName": "National Velvet",
+    "yearProduced": "1944",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Не оглядывайся",
+    "originalName": "Dont Look Back",
+    "yearProduced": "1967",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Небосвод",
+    "originalName": "Sky High",
+    "yearProduced": "1922",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Невероятно уменьшающийся человек",
+    "originalName": "The Incredible Shrinking Man",
+    "yearProduced": "1957",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Невеста Франкенштейна",
+    "originalName": "The Bride of Frankenstein",
+    "yearProduced": "1935",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Незнакомцы в поезде",
+    "originalName": "Strangers on a Train",
+    "yearProduced": "1951",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Неприятности в раю",
+    "originalName": "Trouble in Paradise",
+    "yearProduced": "1932",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Непрощённый",
+    "originalName": "Unforgiven",
+    "yearProduced": "1992",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Нетерпимость",
+    "originalName": "Intolerance: Love’s Struggle Throughout the Ages",
+    "yearProduced": "1916",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Нечто из иного мира",
+    "originalName": "The Thing from Another World",
+    "yearProduced": "1951",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Ниночка",
+    "originalName": "Ninotchka",
+    "yearProduced": "1939",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Новые времена",
+    "originalName": "Modern Times",
+    "yearProduced": "1936",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Новый лист",
+    "originalName": "A New Leaf",
+    "yearProduced": "1971",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Норма Рэй",
+    "originalName": "Norma Rae",
+    "yearProduced": "1979",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Ностальгия",
+    "originalName": "Nostalgia",
+    "yearProduced": "1971",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Ночь в опере",
+    "originalName": "A Night at the Opera",
+    "yearProduced": "1935",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Ночь живых мертвецов",
+    "originalName": "Night of the Living Dead",
+    "yearProduced": "1968",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Ночь охотника",
+    "originalName": "The Night of the Hunter",
+    "yearProduced": "1955",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Ньюаркский атлет",
+    "originalName": "Newark Athlete",
+    "yearProduced": "1891",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Нэшвилл",
+    "originalName": "Nashville",
+    "yearProduced": "1975",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Нюрнбергский процесс",
+    "originalName": "Judgment at Nuremberg",
+    "yearProduced": "1961",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Обман",
+    "originalName": "The Cheat",
+    "yearProduced": "1915",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Обнажённая шпора",
+    "originalName": "The Naked Spur",
+    "yearProduced": "1953",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Обнажённый город",
+    "originalName": "The Naked City",
+    "yearProduced": "1948",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Обрушение Такомского моста",
+    "originalName": "Tacoma Narrows Bridge Collapse",
+    "yearProduced": "1940",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Объезд",
+    "originalName": "Detour",
+    "yearProduced": "1945",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Огни большого города",
+    "originalName": "City Lights",
+    "yearProduced": "1931",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Один лягушачий вечер",
+    "originalName": "One Froggy Evening",
+    "yearProduced": "1955",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Одинокие",
+    "originalName": "Lonesome",
+    "yearProduced": "1928",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Одна неделя",
+    "originalName": "One Week",
+    "yearProduced": "1920",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Однажды на Диком Западе",
+    "originalName": "Once Upon a Time in the West",
+    "yearProduced": "1968",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Одноглазые валеты",
+    "originalName": "One-Eyed Jacks",
+    "yearProduced": "1961",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Оклахома!",
+    "originalName": "Oklahoma!",
+    "yearProduced": "1955",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Окно во двор",
+    "originalName": "Rear Window",
+    "yearProduced": "1954",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Округ Харлан, США",
+    "originalName": "Harlan County U.S.A.",
+    "yearProduced": "1976",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Оловянная игрушка",
+    "originalName": "Tin Toy",
+    "yearProduced": "1988",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Она обошлась с ним нечестно",
+    "originalName": "She Done Him Wrong",
+    "yearProduced": "1933",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Опасные похождения Полины",
+    "originalName": "The Perils of Pauline",
+    "yearProduced": "1914",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Осада",
+    "originalName": "Siege",
+    "yearProduced": "1940",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Осведомитель",
+    "originalName": "The Informer",
+    "yearProduced": "1935",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Оскорбление",
+    "originalName": "Outrage",
+    "yearProduced": "1950",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "От бревна до корабля",
+    "originalName": "From Stump to Ship",
+    "yearProduced": "1930",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "От яслей до креста",
+    "originalName": "From the Manger to the Cross",
+    "yearProduced": "1912",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Отныне и во веки веков",
+    "originalName": "From Here to Eternity",
+    "yearProduced": "1953",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Охотник на оленей",
+    "originalName": "The Deer Hunter",
+    "yearProduced": "1978",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Охотники",
+    "originalName": "The Hunters",
+    "yearProduced": "1957",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Охотники за привидениями",
+    "originalName": "Ghostbusters",
+    "yearProduced": "1984",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Очарование[en]",
+    "originalName": "Allures",
+    "yearProduced": "1961",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Ошибка Мэйбл",
+    "originalName": "Mabel’s Blunder",
+    "yearProduced": "1914",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Падение дома Ашеров",
+    "originalName": "The Fall of the House of Usher",
+    "yearProduced": "1928",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Падение дома Ашеров",
+    "originalName": "House of Usher",
+    "yearProduced": "1960",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Парад в огнях рампы",
+    "originalName": "Footlight Parade",
+    "yearProduced": "1933",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Параллельный мир",
+    "originalName": "The Cool World",
+    "yearProduced": "1963",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Париж горит",
+    "originalName": "Paris Is Burning",
+    "yearProduced": "1990",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Парк юрского периода",
+    "originalName": "Jurassic Park",
+    "yearProduced": "1993",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Парни не плачут",
+    "originalName": "Boys Don’t Cry",
+    "yearProduced": "1999",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Парни что надо",
+    "originalName": "The Right Stuff",
+    "yearProduced": "1983",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Пароходик Вилли",
+    "originalName": "Steamboat Willie",
+    "yearProduced": "1928",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Пароходный Билл младший",
+    "originalName": "Steamboat Bill Jr.",
+    "yearProduced": "1928",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Патни Своуп",
+    "originalName": "Putney Swope",
+    "yearProduced": "1969",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Паттон",
+    "originalName": "Patton",
+    "yearProduced": "1970",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Певец джаза",
+    "originalName": "The Jazz Singer",
+    "yearProduced": "1927",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Первая полоса",
+    "originalName": "The Front Page",
+    "yearProduced": "1931",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Первокурсник",
+    "originalName": "The Freshman",
+    "yearProduced": "1925",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Передайте соус",
+    "originalName": "Pass the Gravy",
+    "yearProduced": "1928",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Песня барабана цветов",
+    "originalName": "Flower Drum Song",
+    "yearProduced": "1961",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Печать зла",
+    "originalName": "Touch of Evil",
+    "yearProduced": "1958",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Пидж",
+    "originalName": "Peege",
+    "yearProduced": "1972",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Пиноккио",
+    "originalName": "Pinocchio",
+    "yearProduced": "1940",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Письмо незнакомки",
+    "originalName": "Letter from an Unknown Woman",
+    "yearProduced": "1948",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Питер Пэн",
+    "originalName": "Peter Pan",
+    "yearProduced": "1924",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Плавучий театр",
+    "originalName": "Show Boat",
+    "yearProduced": "1936",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Планета обезьян",
+    "originalName": "Planet of the Apes",
+    "yearProduced": "1968",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Пленник Зенды",
+    "originalName": "The Prisoner of Zenda",
+    "yearProduced": "1937",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Плоть и дьявол",
+    "originalName": "Flesh and the Devil",
+    "yearProduced": "1926",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Плохой день в Блэк Роке",
+    "originalName": "Bad Day at Black Rock",
+    "yearProduced": "1955",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Плуг, нарушивший равнины",
+    "originalName": "The Plow That Broke the Plains",
+    "yearProduced": "1936",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Побег из Шоушенка",
+    "originalName": "The Shawshank Redemption",
+    "yearProduced": "1994",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Повелитель бури",
+    "originalName": "The Hurt Locker",
+    "yearProduced": "2008",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Погадай на ромашке",
+    "originalName": "Pull My Daisy",
+    "yearProduced": "1959",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Пограничная музыка",
+    "originalName": "Chulas Fronteras",
+    "yearProduced": "1976",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Под западными звёздами",
+    "originalName": "Under Western Stars",
+    "yearProduced": "1938",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Подруги",
+    "originalName": "Girlfriends",
+    "yearProduced": "1978",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Поезд в ад",
+    "originalName": "Hellbound Train",
+    "yearProduced": "1930",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Пожалуйста, не закапывайте меня живьём!",
+    "originalName": "Please Don’t Bury Me Alive!",
+    "yearProduced": "1976",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Поле его мечты",
+    "originalName": "Field of Dreams",
+    "yearProduced": "1989",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Полевые лилии",
+    "originalName": "Lilies of the Field",
+    "yearProduced": "1963",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Полицейские",
+    "originalName": "Cops",
+    "yearProduced": "1922",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Полночь",
+    "originalName": "Midnight",
+    "yearProduced": "1939",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Полуденные сети",
+    "originalName": "Meshes of the Afternoon",
+    "yearProduced": "1943",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Полуночный ковбой",
+    "originalName": "Midnight Cowboy",
+    "yearProduced": "1969",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Помни",
+    "originalName": "Memento",
+    "yearProduced": "2000",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Попай-морячок встречается с Синдбадом-мореходом",
+    "originalName": "Popeye the Sailor Meets Sinbad the Sailor",
+    "yearProduced": "1936",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Попутчик",
+    "originalName": "The Hitch-Hiker",
+    "yearProduced": "1953",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Порги и Бесс",
+    "originalName": "Porgy and Bess",
+    "yearProduced": "1959",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Порки в Стране чудес",
+    "originalName": "Porky in Wackyland",
+    "yearProduced": "1938",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Портрет Джейсона",
+    "originalName": "Portrait of Jason",
+    "yearProduced": "1967",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Последний вальс",
+    "originalName": "The Last Waltz",
+    "yearProduced": "1978",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Последний из могикан",
+    "originalName": "The Last of the Mohicans",
+    "yearProduced": "1920",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Последний киносеанс",
+    "originalName": "The Last Picture Show",
+    "yearProduced": "1971",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Последний приказ",
+    "originalName": "The Last Command",
+    "yearProduced": "1928",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Потерянный горизонт",
+    "originalName": "Lost Horizon",
+    "yearProduced": "1937",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Потерянный уикэнд",
+    "originalName": "The Lost Weekend",
+    "yearProduced": "1945",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Потоп в Баффало Крик: Мужской поступок",
+    "originalName": "The Buffalo Creek Flood: An Act of Man",
+    "yearProduced": "1975",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Похождения Элен",
+    "originalName": "The Exploits of Elaine",
+    "yearProduced": "1914",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Поцелуй",
+    "originalName": "The Kiss",
+    "yearProduced": "1896",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Почему мы сражаемся",
+    "originalName": "Why We Fight",
+    "yearProduced": "1942—1945",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Почему человек творит?",
+    "originalName": "Why Man Creates",
+    "yearProduced": "1968",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Поющие под дождём",
+    "originalName": "Singin' in the Rain",
+    "yearProduced": "1952",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Преданность Белой Оленихи",
+    "originalName": "White Fawn’s Devotion",
+    "yearProduced": "1910",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Предварительные выборы",
+    "originalName": "Primary",
+    "yearProduced": "1960",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Пригнись и накройся",
+    "originalName": "Duck and Cover",
+    "yearProduced": "1952",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Придворный шут",
+    "originalName": "The Court Jester",
+    "yearProduced": "1955",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Призрак Оперы",
+    "originalName": "The Phantom of the Opera",
+    "yearProduced": "1925",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Приключения Робин Гуда",
+    "originalName": "The Adventures of Robin Hood",
+    "yearProduced": "1938",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Принцесса никотина",
+    "originalName": "Princess Nicotine; or, The Smoke Fairy",
+    "yearProduced": "1909",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Принцесса-невеста",
+    "originalName": "The Princess Bride",
+    "yearProduced": "1987",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Пристани Нью-Йорка",
+    "originalName": "The Docks of New York",
+    "yearProduced": "1928",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Прогулка под солнцем",
+    "originalName": "A Walk in the Sun",
+    "yearProduced": "1945",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Продюсеры",
+    "originalName": "The Producers",
+    "yearProduced": "1968",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Происшествие на Саут-стрит",
+    "originalName": "Pickup on South Street",
+    "yearProduced": "1953",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Пройдёмте в вестибюль",
+    "originalName": "Let’s All Go To the Lobby",
+    "yearProduced": "1957",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Проклятье Квон Гвона",
+    "originalName": "The Curse of Quon Gwon: When the Far East Mingles with the West",
+    "yearProduced": "1916—1917",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Пролетая над гнездом кукушки",
+    "originalName": "One Flew Over the Cuckoo’s Nest",
+    "yearProduced": "1975",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Психо",
+    "originalName": "Psycho",
+    "yearProduced": "1960",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Птицы",
+    "originalName": "The Birds",
+    "yearProduced": "1963",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Пурпурный дождь",
+    "originalName": "Purple Rain",
+    "yearProduced": "1984",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Пустоши",
+    "originalName": "Badlands",
+    "yearProduced": "1973",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Путаница из-за фотографии",
+    "originalName": "Fatty’s Tintype Tangle",
+    "yearProduced": "1915",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Путь мира",
+    "originalName": "The Way of Peace",
+    "yearProduced": "1947",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Пять лёгких пьес",
+    "originalName": "Five Easy Pieces",
+    "yearProduced": "1970",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Работы студии Вестингхаус",
+    "originalName": "Westinghouse Works, 1904",
+    "yearProduced": "1904",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Рагглз из Ред-Геп",
+    "originalName": "Ruggles of Red Gap",
+    "yearProduced": "1935",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Разговор",
+    "originalName": "The Conversation",
+    "yearProduced": "1974",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Разоблачённый",
+    "originalName": "Unmasked",
+    "yearProduced": "1917",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Ранние абстракции",
+    "originalName": "Early Abstractions",
+    "yearProduced": "1939—1956",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Ребекка",
+    "originalName": "Rebecca",
+    "yearProduced": "1940",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Ребёнок Розмари",
+    "originalName": "Rosemary’s Baby",
+    "yearProduced": "1968",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Ребро Адама",
+    "originalName": "Adam’s Rib",
+    "yearProduced": "1949",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Ребята по соседству",
+    "originalName": "Boyz n the Hood",
+    "yearProduced": "1991",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Река",
+    "originalName": "The River",
+    "yearProduced": "1938",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Реквием-29",
+    "originalName": "Requiem-29",
+    "yearProduced": "1970",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Римские каникулы",
+    "originalName": "Roman Holiday",
+    "yearProduced": "1953",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Рио Браво",
+    "originalName": "Rio Bravo",
+    "yearProduced": "1959",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Рип ван Винкль",
+    "originalName": "Rip Van Winkle",
+    "yearProduced": "1896",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Ричард Прайор: Концерт в прямом эфире",
+    "originalName": "Richard Pryor: Live in Concert",
+    "yearProduced": "1979",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Ровно в полдень",
+    "originalName": "High Noon",
+    "yearProduced": "1952",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Роджер и я",
+    "originalName": "Roger & Me",
+    "yearProduced": "1989",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Рождение нации",
+    "originalName": "The Birth of a Nation",
+    "yearProduced": "1915",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Рождественская история",
+    "originalName": "A Christmas Story",
+    "yearProduced": "1983",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Рождённая вчера",
+    "originalName": "Born Yesterday",
+    "yearProduced": "1950",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Розовая пантера",
+    "originalName": "The Pink Panther",
+    "yearProduced": "1963",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Розовые фламинго",
+    "originalName": "Pink Flamingos",
+    "yearProduced": "1972",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Рокки",
+    "originalName": "Rocky",
+    "yearProduced": "1976",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Ростовщик",
+    "originalName": "The Pawnbroker",
+    "yearProduced": "1965",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Роуз Хобарт",
+    "originalName": "Rose Hobart",
+    "yearProduced": "1936",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Руки вверх!",
+    "originalName": "Hands Up!",
+    "yearProduced": "1926",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "С огоньком",
+    "originalName": "Ball of Fire",
+    "yearProduced": "1941",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Сабрина",
+    "originalName": "Sabrina",
+    "yearProduced": "1954",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Саломея",
+    "originalName": "Salomé",
+    "yearProduced": "1923",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Саундер",
+    "originalName": "Sounder",
+    "yearProduced": "1972",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Свадебный марш",
+    "originalName": "The Wedding March",
+    "yearProduced": "1928",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Сверкающие сёдла",
+    "originalName": "Blazing Saddles",
+    "yearProduced": "1974",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Свободные радикалы",
+    "originalName": "Free Radicals",
+    "yearProduced": "1979",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Сделка",
+    "originalName": "The Bargain",
+    "yearProduced": "1914",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Север",
+    "originalName": "El Norte",
+    "yearProduced": "1983",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Седьмое небо",
+    "originalName": "Seventh Heaven",
+    "yearProduced": "1927",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Седьмое путешествие Синдбада",
+    "originalName": "The 7th Voyage of Sinbad",
+    "yearProduced": "1958",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Секреты Лос-Анджелеса",
+    "originalName": "L.A. Confidential",
+    "yearProduced": "1997",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Секс, ложь и видео",
+    "originalName": "Sex, Lies, and Videotape",
+    "yearProduced": "1989",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Селена",
+    "originalName": "Selena",
+    "yearProduced": "1997",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Семь невест для семерых братьев",
+    "originalName": "Seven Brides for Seven Brothers",
+    "yearProduced": "1954",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Сент-Луис Блюз",
+    "originalName": "St. Louis Blues",
+    "yearProduced": "1929",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Сердце и разум",
+    "originalName": "Hearts and Minds",
+    "yearProduced": "1974",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Сердце-обличитель",
+    "originalName": "The Tell-Tale Heart",
+    "yearProduced": "1953",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Сержант Йорк",
+    "originalName": "Sergeant York",
+    "yearProduced": "1941",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Серые сады",
+    "originalName": "Grey Gardens",
+    "yearProduced": "1975",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Сила зла",
+    "originalName": "Force of Evil",
+    "yearProduced": "1948",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Сила и слава",
+    "originalName": "The Power and the Glory",
+    "yearProduced": "1933",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Силач",
+    "originalName": "The Strong Man",
+    "yearProduced": "1926",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Сильная жара",
+    "originalName": "The Big Heat",
+    "yearProduced": "1953",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Симфония ударов",
+    "originalName": "Punch Drunks",
+    "yearProduced": "1934",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Синяя птица",
+    "originalName": "The Blue Bird",
+    "yearProduced": "1918",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Сияние",
+    "originalName": "The Shining",
+    "yearProduced": "1980",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Скачи по горам",
+    "originalName": "Ride the High Country",
+    "yearProduced": "1962",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Слава герою-завоевателю",
+    "originalName": "Hail the Conquering Hero",
+    "yearProduced": "1944",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Славные парни",
+    "originalName": "Goodfellas",
+    "yearProduced": "1990",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Сладкий запах успеха",
+    "originalName": "Sweet Smell of Success",
+    "yearProduced": "1957",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Сломанные побеги",
+    "originalName": "Broken Blossoms",
+    "yearProduced": "1919",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Случай в Окс-Боу",
+    "originalName": "The Ox-Bow Incident",
+    "yearProduced": "1943",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Смешная девчонка",
+    "originalName": "Funny Girl",
+    "yearProduced": "1968",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Снос и возведение Звёздного Театра",
+    "originalName": "Demolishing and Building Up the Star Theatre",
+    "yearProduced": "1901",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Собака Звезда Человек",
+    "originalName": "Dog Star Man",
+    "yearProduced": "1964",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Собачий полдень",
+    "originalName": "Dog Day Afternoon",
+    "yearProduced": "1975",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Сокровища Сьерра-Мадре",
+    "originalName": "The Treasure of the Sierra Madre",
+    "yearProduced": "1948",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Соль земли",
+    "originalName": "Salt of the Earth",
+    "yearProduced": "1954",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Сон любителя гренок с сыром",
+    "originalName": "Dream of a Rarebit Fiend",
+    "yearProduced": "1906",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Сохранение языка жестов",
+    "originalName": "Preservation of the Sign Language",
+    "yearProduced": "1913",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Спартак",
+    "originalName": "Spartacus",
+    "yearProduced": "1960",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Спасти рядового Райана",
+    "originalName": "Saving Private Ryan",
+    "yearProduced": "1998",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Спекуляция пшеницей",
+    "originalName": "A Corner in Wheat",
+    "yearProduced": "1909",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Список Шиндлера",
+    "originalName": "Schindler’s List",
+    "yearProduced": "1993",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Спящая красавица",
+    "originalName": "Sleeping Beauty",
+    "yearProduced": "1959",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Средняя школа",
+    "originalName": "High School",
+    "yearProduced": "1968",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Средняя школа Томаса Кули",
+    "originalName": "Cooley High",
+    "yearProduced": "1975",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Старая мельница",
+    "originalName": "The Old Mill",
+    "yearProduced": "1937",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Старый брехун",
+    "originalName": "Old Yeller",
+    "yearProduced": "1957",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Стать американцем",
+    "originalName": "The Making of an American",
+    "yearProduced": "1920",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Страна по ту сторону заката",
+    "originalName": "The Land Beyond the Sunset",
+    "yearProduced": "1912",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Странствия Салливана",
+    "originalName": "Sullivan’s Travels",
+    "yearProduced": "1941",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Стычка волков",
+    "originalName": "Clash of the Wolves",
+    "yearProduced": "1925",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Супермен",
+    "originalName": "Superman",
+    "yearProduced": "1978",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Сцена с кузнецами",
+    "originalName": "Blacksmith Scene",
+    "yearProduced": "1893",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Считайте меня человеком",
+    "originalName": "Think of Me First as a Person",
+    "yearProduced": "1960—1975",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Сын шейха",
+    "originalName": "The Son of the Sheik",
+    "yearProduced": "1926",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Сыновья пустыни",
+    "originalName": "Sons of the Desert",
+    "yearProduced": "1933",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Табу",
+    "originalName": "Tabu: A Story of the South Seas",
+    "yearProduced": "1931",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Таксист",
+    "originalName": "Taxi Driver",
+    "yearProduced": "1976",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Такт лунного дыхания",
+    "originalName": "Moon Breath Beat",
+    "yearProduced": "1980",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Танцуй, девочка, танцуй",
+    "originalName": "Dance, Girl, Dance",
+    "yearProduced": "1940",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Танцующий с волками",
+    "originalName": "Dances with Wolves",
+    "yearProduced": "1990",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Тарантелла",
+    "originalName": "Tarantella",
+    "yearProduced": "1940",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Тарзан и его подруга",
+    "originalName": "Tarzan and His Mate",
+    "yearProduced": "1934",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Театральный фургон",
+    "originalName": "The Band Wagon",
+    "yearProduced": "1953",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Тевье",
+    "originalName": "Tevye",
+    "yearProduced": "1939",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Телевизионные новости",
+    "originalName": "Broadcast News",
+    "yearProduced": "1987",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Телесеть",
+    "originalName": "Network",
+    "yearProduced": "1976",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Тело и душа",
+    "originalName": "Body and Soul",
+    "yearProduced": "1925",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Тельма и Луиза",
+    "originalName": "Thelma & Louise",
+    "yearProduced": "1991",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Тени",
+    "originalName": "Shadows",
+    "yearProduced": "1959",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Тень сомнения",
+    "originalName": "Shadow of a Doubt",
+    "yearProduced": "1943",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Терминатор",
+    "originalName": "The Terminator",
+    "yearProduced": "1984",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Тёмный рыцарь",
+    "originalName": "The Dark Knight",
+    "yearProduced": "2008",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Титаник",
+    "originalName": "Titanic",
+    "yearProduced": "1997",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Тихий человек",
+    "originalName": "The Quiet Man",
+    "yearProduced": "1952",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Толпа",
+    "originalName": "The Crowd",
+    "yearProduced": "1928",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Только у ангелов есть крылья",
+    "originalName": "Only Angels Have Wings",
+    "yearProduced": "1939",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Тонкая голубая линия",
+    "originalName": "The Thin Blue Line",
+    "yearProduced": "1988",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Тонкий человек",
+    "originalName": "The Thin Man",
+    "yearProduced": "1934",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Топаз",
+    "originalName": "Topaz",
+    "yearProduced": "1943—1945",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Торговля душами",
+    "originalName": "Traffic in Souls",
+    "yearProduced": "1913",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Тот, кто получает пощёчины",
+    "originalName": "He Who Gets Slapped",
+    "yearProduced": "1924",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Трава: Битва народа за выживание",
+    "originalName": "Grass: A Nation’s Battle for Life",
+    "yearProduced": "1925",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Трагический фестиваль",
+    "originalName": "Verbena trágica",
+    "yearProduced": "1939",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Трамвай «Желание»",
+    "originalName": "A Streetcar Named Desire",
+    "yearProduced": "1951",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Транс и танец на Бали",
+    "originalName": "Trance and Dance in Bali",
+    "yearProduced": "1936—1939",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Три поросёнка",
+    "originalName": "Three Little Pigs",
+    "yearProduced": "1933",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Триллер",
+    "originalName": "Thriller",
+    "yearProduced": "1983",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Тропы славы",
+    "originalName": "Paths of Glory",
+    "yearProduced": "1957",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Туз в рукаве",
+    "originalName": "Ace in the Hole",
+    "yearProduced": "1951",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Туман войны",
+    "originalName": "Fog of War",
+    "yearProduced": "2003",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Тутси",
+    "originalName": "Tootsie",
+    "yearProduced": "1982",
+    "yearAdded": "1998"
+  },
+  {
+    "name": "Туфли",
+    "originalName": "Shoes",
+    "yearProduced": "1916",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Тэсс из Страны бурь",
+    "originalName": "Tess of the Storm Country",
+    "yearProduced": "1914",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Тюльпаны будут расти",
+    "originalName": "Tulips Shall Grow",
+    "yearProduced": "1942",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Тюремный рок",
+    "originalName": "Jailhouse Rock",
+    "yearProduced": "1957",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Убийство Фреда Хэмптона",
+    "originalName": "The Murder of Fred Hampton",
+    "yearProduced": "1971",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Убийцы",
+    "originalName": "The Killers",
+    "yearProduced": "1946",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Убить пересмешника",
+    "originalName": "To Kill a Mockingbird",
+    "yearProduced": "1962",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Увольнение в город",
+    "originalName": "On the Town",
+    "yearProduced": "1949",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Угадай, кто придёт к обеду?",
+    "originalName": "Guess Who’s Coming to Dinner",
+    "yearProduced": "1967",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Ужасная правда",
+    "originalName": "The Awful Truth",
+    "yearProduced": "1937",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Унесённые ветром",
+    "originalName": "Gone with the Wind",
+    "yearProduced": "1939",
+    "yearAdded": "1989"
+  },
+  {
+    "name": "Упадок западной цивилизации",
+    "originalName": "The Decline of Western Civilization",
+    "yearProduced": "1981",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Уродцы",
+    "originalName": "Freaks",
+    "yearProduced": "1932",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Уступи место завтрашнему дню",
+    "originalName": "Make Way for Tomorrow",
+    "yearProduced": "1937",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Утиный суп",
+    "originalName": "Duck Soup",
+    "yearProduced": "1933",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Утро Бронкса",
+    "originalName": "A Bronx Morning",
+    "yearProduced": "1931",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Фантазия",
+    "originalName": "Fantasia",
+    "yearProduced": "1940",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Фарго",
+    "originalName": "Fargo",
+    "yearProduced": "1996",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Фелиция",
+    "originalName": "Felicia",
+    "yearProduced": "1965",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Феррис Бьюллер берёт выходной",
+    "originalName": "Ferris Bueller’s Day Off",
+    "yearProduced": "1986",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Филадельфийская история",
+    "originalName": "The Philadelphia Story",
+    "yearProduced": "1940",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Фильм",
+    "originalName": "A Movie",
+    "yearProduced": "1958",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Фильм Запрудера",
+    "originalName": "Zapruder film",
+    "yearProduced": "1963",
+    "yearAdded": "1994"
+  },
+  {
+    "name": "Фильм Фрэнка",
+    "originalName": "Frank Film",
+    "yearProduced": "1973",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Флэш Гордон",
+    "originalName": "Flash Gordon",
+    "yearProduced": "1936",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Фокс Мувитон Ньюс: Оркестр приюта Дженкинса",
+    "originalName": "Fox Movietone News: Jenkins Orphanage Band",
+    "yearProduced": "1928",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Форрест Гамп",
+    "originalName": "Forrest Gump",
+    "yearProduced": "1994",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Франкенштейн",
+    "originalName": "Frankenstein",
+    "yearProduced": "1931",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Французский связной",
+    "originalName": "The French Connection",
+    "yearProduced": "1971",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Фред Отт. Чихание",
+    "originalName": "Fred Ott’s Sneeze",
+    "yearProduced": "1894",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Фудзи",
+    "originalName": "Fuji",
+    "yearProduced": "1974",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Хад",
+    "originalName": "Hud",
+    "yearProduced": "1963",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Халявщик",
+    "originalName": "Slacker",
+    "yearProduced": "1991",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Хижина в небе",
+    "originalName": "Cabin in the Sky",
+    "yearProduced": "1943",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Хижина дяди Тома",
+    "originalName": "Uncle Tom’s Cabin",
+    "yearProduced": "1914",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Хладнокровное убийство",
+    "originalName": "In Cold Blood",
+    "yearProduced": "1967",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Хладнокровный Люк",
+    "originalName": "Cool Hand Luke",
+    "yearProduced": "1967",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Хлеб",
+    "originalName": "Bread",
+    "yearProduced": "1918",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Хлеб наш насущный",
+    "originalName": "Our Daily Bread",
+    "yearProduced": "1934",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Холодным взором",
+    "originalName": "Medium Cool",
+    "yearProduced": "1969",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Художник дракона",
+    "originalName": "The Dragon Painter",
+    "yearProduced": "1919",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Хэллоуин",
+    "originalName": "Halloween",
+    "yearProduced": "1978",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Цветы и деревья",
+    "originalName": "Flowers and Trees",
+    "yearProduced": "1932",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Целуй меня насмерть",
+    "originalName": "Kiss Me Deadly",
+    "yearProduced": "1955",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Церковь хранителей заповедей, Бьюфорт, Южная Каролина, май 1940 года",
+    "originalName": "Commandment Keeper Church, Beaufort, South Carolina, May 1940",
+    "yearProduced": "1940",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Цивилизация",
+    "originalName": "Civilization",
+    "yearProduced": "1916",
+    "yearAdded": "1999"
+  },
+  {
+    "name": "Цилиндр",
+    "originalName": "Top Hat",
+    "yearProduced": "1935",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Человек, который застрелил Либерти Вэланса",
+    "originalName": "The Man Who Shot Liberty Valance",
+    "yearProduced": "1962",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Человек-невидимка",
+    "originalName": "The Invisible Man",
+    "yearProduced": "1933",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Человек с золотой рукой",
+    "originalName": "The Man with the Golden Arm",
+    "yearProduced": "1955",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Челюсти",
+    "originalName": "Jaws",
+    "yearProduced": "1975",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Чен исчез",
+    "originalName": "Chan Is Missing",
+    "yearProduced": "1982",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Чеснок стоит десяти матерей",
+    "originalName": "Garlic Is as Good as Ten Mothers",
+    "yearProduced": "1980",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Четыре всадника Апокалипсиса",
+    "originalName": "The Four Horsemen of the Apocalypse",
+    "yearProduced": "1921",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Чехословакия 1968",
+    "originalName": "Czechoslovakia 1968",
+    "yearProduced": "1969",
+    "yearAdded": "1997"
+  },
+  {
+    "name": "Чечакос",
+    "originalName": "The Chechahcos",
+    "yearProduced": "1924",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Чёрный пират",
+    "originalName": "The Black Pirate",
+    "yearProduced": "1926",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Чёрный скакун",
+    "originalName": "The Black Stallion",
+    "yearProduced": "1979",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Чокнутый профессор",
+    "originalName": "The Nutty Professor",
+    "yearProduced": "1963",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Что за опера, док?",
+    "originalName": "What’s Opera, Doc?",
+    "yearProduced": "1957",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Что случилось с Бэби Джейн?",
+    "originalName": "What Ever Happened to Baby Jane?",
+    "yearProduced": "1962",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Чудо в Морганс-Крик",
+    "originalName": "The Miracle of Morgan’s Creek",
+    "yearProduced": "1944",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Чудо на 34-й улице",
+    "originalName": "Miracle on 34th Street",
+    "yearProduced": "1947",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Чужой",
+    "originalName": "Alien",
+    "yearProduced": "1979",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Шафт",
+    "originalName": "Shaft",
+    "yearProduced": "1971",
+    "yearAdded": "2000"
+  },
+  {
+    "name": "Шейн",
+    "originalName": "Shane",
+    "yearProduced": "1953",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Шерлок-младший",
+    "originalName": "Sherlock Jr.",
+    "yearProduced": "1924",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Школьные джунгли",
+    "originalName": "Blackboard Jungle",
+    "yearProduced": "1955",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Шоковый коридор",
+    "originalName": "Shock Corridor",
+    "yearProduced": "1963",
+    "yearAdded": "1996"
+  },
+  {
+    "name": "Шоу T.A.M.I.",
+    "originalName": "The T.A.M.I. Show",
+    "yearProduced": "1964",
+    "yearAdded": "2006"
+  },
+  {
+    "name": "Шоу ужасов Рокки Хоррора",
+    "originalName": "The Rocky Horror Picture Show",
+    "yearProduced": "1975",
+    "yearAdded": "2005"
+  },
+  {
+    "name": "Шрек",
+    "originalName": "Shrek",
+    "yearProduced": "2001",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Щенки есть щенки",
+    "originalName": "Pups is Pups",
+    "yearProduced": "1930",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Эбботт и Костелло встречают Франкенштейна",
+    "originalName": "Abbott and Costello Meet Frankenstein",
+    "yearProduced": "1948",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Экспедиция Диксона-Ванамейкера в агентство кроу",
+    "originalName": "Dixon-Wanamaker Expedition to Crow Agency",
+    "yearProduced": "1908",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Экспериментальный звуковой фильм Диксона",
+    "originalName": "Dickson Experimental Sound Film",
+    "yearProduced": "1894—1895",
+    "yearAdded": "2003"
+  },
+  {
+    "name": "Электронный лабиринт THX 1138 4EB",
+    "originalName": "Electronic Labyrinth: THX 1138 4EB",
+    "yearProduced": "1967",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Эмпайр",
+    "originalName": "Empire",
+    "yearProduced": "1964",
+    "yearAdded": "2004"
+  },
+  {
+    "name": "Энни Холл",
+    "originalName": "Annie Hall",
+    "yearProduced": "1977",
+    "yearAdded": "1992"
+  },
+  {
+    "name": "Эта прекрасная жизнь",
+    "originalName": "It’s a Wonderful Life",
+    "yearProduced": "1946",
+    "yearAdded": "1990"
+  },
+  {
+    "name": "Это",
+    "originalName": "It",
+    "yearProduced": "1927",
+    "yearAdded": "2001"
+  },
+  {
+    "name": "Это кино",
+    "originalName": "This is Cinerama",
+    "yearProduced": "1952",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Это подарок",
+    "originalName": "It’s a Gift",
+    "yearProduced": "1934",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Это случилось однажды ночью",
+    "originalName": "It Happened One Night",
+    "yearProduced": "1934",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Это — Spinal Tap",
+    "originalName": "This is Spinal Tap",
+    "yearProduced": "1984",
+    "yearAdded": "2002"
+  },
+  {
+    "name": "Юмореска",
+    "originalName": "Humoresque",
+    "yearProduced": "1920",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Я — беглый каторжник",
+    "originalName": "I Am a Fugitive from a Chain Gang",
+    "yearProduced": "1932",
+    "yearAdded": "1991"
+  },
+  {
+    "name": "Я кто-то",
+    "originalName": "I Am Somebody",
+    "yearProduced": "1970",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Я Хоакин",
+    "originalName": "I am Joaquin",
+    "yearProduced": "1969",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Янки Дудл Денди",
+    "originalName": "Yankee Doodle Dandy",
+    "yearProduced": "1942",
+    "yearAdded": "1993"
+  },
+  {
+    "name": "Ярмарка штата",
+    "originalName": "State Fair",
+    "yearProduced": "1933",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Ярость",
+    "originalName": "Fury",
+    "yearProduced": "1936",
+    "yearAdded": "1995"
+  },
+  {
+    "name": "Август",
+    "originalName": "The Augustas",
+    "yearProduced": "1930-е-1950-е",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Кавалер Браммелс",
+    "originalName": "The Beau Brummels",
+    "yearProduced": "1928",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Перед Стоунвольскими бунтами: Становление гей-лесбийского сообщества",
+    "originalName": "Before Stonewall",
+    "yearProduced": "1984",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Веселье в печном клубе",
+    "originalName": "Bert Williams Lime Kiln Club Field Day",
+    "yearProduced": "1913",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Чёрный и загорелый",
+    "originalName": "Black and Tan",
+    "yearProduced": "1929",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Благослови их маленькие сердца",
+    "originalName": "Bless Their Little Hearts",
+    "yearProduced": "1984",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Ночи на бульваре",
+    "originalName": "Boulevard Nights",
+    "yearProduced": "1979",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Брэнди в глуши",
+    "originalName": "Brandy in the Wilderness",
+    "yearProduced": "1969",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Чикано",
+    "originalName": "Chicana",
+    "yearProduced": "1979",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Марш Сисеро",
+    "originalName": "Cicero March",
+    "yearProduced": "1966",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Анимированная компьютерная рука",
+    "originalName": "A Computer Animated Hand",
+    "yearProduced": "1972",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Кризис: После президентских выборов",
+    "originalName": "Crisis: Behind a Presidential Commitment",
+    "yearProduced": "1963",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Крик джаза",
+    "originalName": "Cry of Jazz",
+    "yearProduced": "1959",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Плач ребенка",
+    "originalName": "The Cry of the Children",
+    "yearProduced": "1912",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Мечта Диснейленда",
+    "originalName": "Disneyland Dream",
+    "yearProduced": "1956",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Эдвард Муйбридж, художник животных",
+    "originalName": "Eadweard Muybridge, Zoopraxographer",
+    "yearProduced": "1975",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Элла Синдерс",
+    "originalName": "Ella Cinders",
+    "yearProduced": "1926",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Эмигранты высаживаются на острове Эллис",
+    "originalName": "Emigrants Landing at Ellis Island",
+    "yearProduced": "1903",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Вечнозелёный",
+    "originalName": "Evergreen",
+    "yearProduced": "1965",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Пристанище Евы",
+    "originalName": "Eve’s Bayou",
+    "yearProduced": "1997",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Фабрика по производству искусственных фруктов",
+    "originalName": "Fake Fruit Factory",
+    "yearProduced": "1986",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Летающий ас",
+    "originalName": "The Flying Ace",
+    "yearProduced": "1926",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Борцы за свободу",
+    "originalName": "Freedom Riders",
+    "yearProduced": "2010",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Коллекция домашних фильмов Семьи Фуэнтес",
+    "originalName": "Fuentes Family Home Movies Collection",
+    "yearProduced": "1920s-1930s",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Съемки Второй мировой войны Джорджем Стивенсом",
+    "originalName": "George Stevens World War II Footage",
+    "yearProduced": "1943—1946",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Джордж Вашингтон Карвер в Институте Таскиги",
+    "originalName": "George Washington Carver at Tuskegee Institute",
+    "yearProduced": "1937",
+    "yearAdded": "2019"
+  },
+  {
+    "name": "Беглый взгляд на сад",
+    "originalName": "Glimpse of the Garden",
+    "yearProduced": "1957",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Земля",
+    "originalName": "The Ground",
+    "yearProduced": "1993—2001",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Взрослеющая девушка",
+    "originalName": "Growing Up Female",
+    "yearProduced": "1971",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Кусочек волос: фильм для легкомысленных людей",
+    "originalName": "Hair Piece: A Film for Nappyheaded People",
+    "yearProduced": "1984",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Герои все",
+    "originalName": "Heroes All",
+    "yearProduced": "1920, 1931",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Хестер-стрит",
+    "originalName": "Hester Street",
+    "yearProduced": "1975",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Дыра",
+    "originalName": "The Hole",
+    "yearProduced": "1962",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Бутерброды для Гогена",
+    "originalName": "Hot Dogs for Gauguin",
+    "yearProduced": "1972",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Часы для Джерома, Части 1 и 2",
+    "originalName": "Hours for Jerome Parts 1 and 2",
+    "yearProduced": "1980-1982",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Я, актриса",
+    "originalName": "I, an Actress",
+    "yearProduced": "1977",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Внутренний мир афазии",
+    "originalName": "The Inner World of Aphasia",
+    "yearProduced": "1968",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Нью-Йоркское метро",
+    "originalName": "Interior New York Subway, 14th Street to 42nd Street",
+    "yearProduced": "1905",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Джон Генри и Инки Пу",
+    "originalName": "John Henry and the Inky-Poo",
+    "yearProduced": "1946",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Клуб радости и удачи",
+    "originalName": "The Joy Luck Club",
+    "yearProduced": "1993",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Неудачливые похитители",
+    "originalName": "The Kidnappers Foil",
+    "yearProduced": "1930-1950-е",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Испытания цветной пленки Кодахром",
+    "originalName": "Kodachrome Color Motion-Picture Test",
+    "yearProduced": "1922",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Свинцовые ботинки",
+    "originalName": "The Lead Shoes",
+    "yearProduced": "1949",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Жизни исполнителей",
+    "originalName": "Lives of Performers",
+    "yearProduced": "1972",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Земля уходит из-под ног",
+    "originalName": "Losing Ground",
+    "yearProduced": "1982",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Свидание за завтраком",
+    "originalName": "The Lunch Date",
+    "yearProduced": "1990",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Ранние танцевальные фильмы Марты Грэм",
+    "originalName": "Martha Graham Early Dance films",
+    "yearProduced": "1931-1944",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Мауна-Кеа: Храм в осаде",
+    "originalName": "Mauna Kea: Temple Under Siege",
+    "yearProduced": "2006",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Человек и пыль",
+    "originalName": "Men & Dust",
+    "yearProduced": "1940",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Семья Миддлтонов на всемирной ярмарке в Нью-Йорке",
+    "originalName": "The Middleton Family at the New York World’s Fair",
+    "yearProduced": "1939",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Могучий как лось",
+    "originalName": "Mighty Like a Moose",
+    "yearProduced": "1926",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Монтерей-Поп",
+    "originalName": "Monterey Pop",
+    "yearProduced": "1968",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Темнокожий солдат",
+    "originalName": "The Negro Soldier",
+    "yearProduced": "1944",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Домашнее кино братьев Николас",
+    "originalName": "Nicholas Brothers Family Home Movies",
+    "yearProduced": "1930-е — 1940-е",
+    "yearAdded": "2011"
+  },
+  {
+    "name": "Никакой лжи",
+    "originalName": "No Lies",
+    "yearProduced": "1973",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Заметки о порте Св. Франциска",
+    "originalName": "Notes on the Port of St. Francis",
+    "yearProduced": "1951",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "На Бауэри",
+    "originalName": "On the Bowery",
+    "yearProduced": "1957",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Воспоминания спасшегося",
+    "originalName": "One Survivor Remembers",
+    "yearProduced": "1995",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Наш день",
+    "originalName": "Our Day",
+    "yearProduced": "1938",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Богоматерь Сферы",
+    "originalName": "Our Lady of the Sphere",
+    "yearProduced": "1972",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Притча",
+    "originalName": "Parable",
+    "yearProduced": "1964",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Дорогие образы",
+    "originalName": "Precious Images",
+    "yearProduced": "1986",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Как бы в Квакадеро",
+    "originalName": "Quasi at the Quackadero",
+    "yearProduced": "1975",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Красная книга",
+    "originalName": "The Red Book",
+    "yearProduced": "1994",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Месть Панчо Вильи",
+    "originalName": "The Revenge of Pancho Villa",
+    "yearProduced": "1930—1936",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Фильм о параде братьев Ринглинг",
+    "originalName": "Ringling Brothers Parade Film",
+    "yearProduced": "1902",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Самсара: Смерть и возрождение в Камбодже",
+    "originalName": "Samsara: Death and Rebirth in Cambodia",
+    "yearProduced": "1990",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Рытье и кукареканье",
+    "originalName": "Scratch and Crow",
+    "yearProduced": "1995",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Плыви или тони",
+    "originalName": "Sink or Swim",
+    "yearProduced": "1990",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Твой старик",
+    "originalName": "So’s Your Old Man",
+    "yearProduced": "1926",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Домашние фильмы Соломона Сэра Джонса",
+    "originalName": "Solomon Sir Jones films",
+    "yearProduced": "1924—1928",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Что-то хорошее",
+    "originalName": "Something Good — Negro Kiss",
+    "yearProduced": "1898",
+    "yearAdded": "2018"
+  },
+  {
+    "name": "Призрак, который сидит у двери",
+    "originalName": "The Spook Who Sat by the Door",
+    "yearProduced": "1973",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Старк Любовь",
+    "originalName": "Stark Love",
+    "yearProduced": "1927",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Не ищи смысла",
+    "originalName": "Stop Making Sense",
+    "yearProduced": "1984",
+    "yearAdded": "2021"
+  },
+  {
+    "name": "Образование коммунистов",
+    "originalName": "A Study in Reds",
+    "yearProduced": "1932",
+    "yearAdded": "2009"
+  },
+  {
+    "name": "Изучение реки",
+    "originalName": "Study of a River",
+    "yearProduced": "1996",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "Саспенс",
+    "originalName": "Suspense",
+    "yearProduced": "1913",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Сюзанна, Сюзанна",
+    "originalName": "Suzanne, Suzanne",
+    "yearProduced": "1982",
+    "yearAdded": "2016"
+  },
+  {
+    "name": "Свит Свитбэк: Песня мерзавца",
+    "originalName": "Sweet Sweetback’s Baadasssss Song",
+    "yearProduced": "1971",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Симбиопсихотаксиплазм",
+    "originalName": "Symbiopsychotaxiplasm",
+    "yearProduced": "1968",
+    "yearAdded": "2015"
+  },
+  {
+    "name": "Телониус Монк: Прямо и честно",
+    "originalName": "Thelonious Monk: Straight, No Chaser",
+    "yearProduced": "1988",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Они называют это профессиональным футболом",
+    "originalName": "They Call It Pro Football",
+    "yearProduced": "1967",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Время и мечты",
+    "originalName": "Time and Dreams",
+    "yearProduced": "1976",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Заснуть во гневе",
+    "originalName": "To Sleep with Anger",
+    "yearProduced": "1990",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Кроткий Дэвид",
+    "originalName": "Tol’able David",
+    "yearProduced": "1921",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Том, Том — сын дудочника",
+    "originalName": "Tom, Tom, the Piper’s Son",
+    "yearProduced": "1969—1971",
+    "yearAdded": "2007"
+  },
+  {
+    "name": "Поездка по рыночной улице перед пожаром",
+    "originalName": "A Trip Down Market Street",
+    "yearProduced": "1906",
+    "yearAdded": "2010"
+  },
+  {
+    "name": "V-E +1",
+    "originalName": "V-E +1",
+    "yearProduced": "1945",
+    "yearAdded": "2014"
+  },
+  {
+    "name": "Добродетельная соблазнительница",
+    "originalName": "A Virtuous Vamp",
+    "yearProduced": "1919",
+    "yearAdded": "2013"
+  },
+  {
+    "name": "Вода и энергия",
+    "originalName": "Water and Power",
+    "yearProduced": "1989",
+    "yearAdded": "2008"
+  },
+  {
+    "name": "Ваттстакс",
+    "originalName": "Wattstax",
+    "yearProduced": "1973",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "Кольцо желаний: Идиллия старой Англии",
+    "originalName": "The Wishing Ring: An Idyll of Old England",
+    "yearProduced": "1914",
+    "yearAdded": "2012"
+  },
+  {
+    "name": "Вокруг света с камерой и автомобилем",
+    "originalName": "With Car and Camera Around the World",
+    "yearProduced": "1929",
+    "yearAdded": "2020"
+  },
+  {
+    "name": "С бригадой Авраама Линкольна в Испании",
+    "originalName": "With the Abraham Lincoln Brigade in Spain",
+    "yearProduced": "1937-1938",
+    "yearAdded": "2017"
+  },
+  {
+    "name": "Вобблис",
+    "originalName": "The Wobblies",
+    "yearProduced": "1979",
+    "yearAdded": "2021"
+  }
+]

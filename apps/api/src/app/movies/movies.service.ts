@@ -6,6 +6,17 @@ import {
 } from '../database/schemas/movieList.schema';
 import { Model } from 'mongoose';
 import { DEFAULT_LIST_ID } from './movies.constants';
+import {readFileSync} from "fs";
+import {join} from "path";
+
+const movies = JSON.parse(readFileSync(join(__dirname, 'assets/data/movies.json')).toString()).map((movie, index) => ({
+  ...movie,
+  id: index,
+}));
+
+const MovieLists = {
+  usNationalRegistry: {listId: DEFAULT_LIST_ID, name: 'usNationalRegistry', list: movies},
+};
 
 @Injectable()
 export class MoviesService {
@@ -32,5 +43,11 @@ export class MoviesService {
         },
       )
       .exec();
+  }
+
+  async initDB() {
+    await this.movieListModel.collection.deleteMany({});
+
+    await this.movieListModel.create(MovieLists.usNationalRegistry);
   }
 }

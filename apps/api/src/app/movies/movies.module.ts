@@ -16,4 +16,8 @@ import {
   controllers: [MoviesController],
   providers: [MoviesService],
 })
-export class MoviesModule {}
+export class MoviesModule {
+  constructor(movieService: MoviesService) {
+    void movieService.initDB();
+  }
+}
