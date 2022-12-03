@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should render title 1`] = `
+<div
+  id="root1"
+>
+  <movie-picker-header />
+  <section
+    class="router-outlet"
+  >
+    <router-outlet />
+    
+    <movie-picker-authentication-modal />
+    <movie-picker-error />
+  </section>
+</div>
+`;
