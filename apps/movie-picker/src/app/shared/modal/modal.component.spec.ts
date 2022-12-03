@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
+import {ModalComponent} from './modal.component';
+import {HttpClientTestingModule} from "@angular/common/http/testing";
+import {HttpClient} from "@angular/common/http";
 
-import { ModalComponent } from './modal.component';
+jest.createMockFromModule('../../authentication.service')
 
 describe('ModalComponent', () => {
   let component: ModalComponent;
@@ -8,9 +11,10 @@ describe('ModalComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ModalComponent ]
+      providers: [HttpClientTestingModule, HttpClient],
+      declarations: [ModalComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ModalComponent);
     component = fixture.componentInstance;

@@ -1,4 +1,5 @@
 {
+  "name": "movie-picker-react",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/movie-picker-react/src",
   "projectType": "application",
@@ -72,7 +73,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/movie-picker-react"],
+      "outputs": ["{workspaceRoot}/coverage/apps/movie-picker-react"],
       "options": {
         "jestConfig": "apps/movie-picker-react/jest.config.ts",
         "passWithNoTests": true

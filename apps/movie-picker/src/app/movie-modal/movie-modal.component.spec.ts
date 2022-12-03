@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MovieModalComponent } from './movie-modal.component';
+import {HTTPService} from "../http.service";
 
 describe('MovieModalComponent', () => {
   let component: MovieModalComponent;
@@ -8,7 +9,8 @@ describe('MovieModalComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MovieModalComponent ]
+      declarations: [ MovieModalComponent ],
+      providers: [{provide: HTTPService, useValue: {}}],
     })
     .compileComponents();
 

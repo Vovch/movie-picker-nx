@@ -1,12 +1,14 @@
-import { TestBed } from '@angular/core/testing';
+import {TestBed} from '@angular/core/testing';
 
-import { ErrorInterceptor } from './error.interceptor';
+import {ErrorInterceptor} from './error.interceptor';
+import {Store} from "@ngrx/store";
 
 describe('ErrorInterceptor', () => {
   beforeEach(() => TestBed.configureTestingModule({
     providers: [
-      ErrorInterceptor
-      ]
+      ErrorInterceptor,
+      {provide: Store, useValue: {}}
+    ]
   }));
 
   it('should be created', () => {

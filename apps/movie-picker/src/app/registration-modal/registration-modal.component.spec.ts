@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { RegistrationModalComponent } from './registration-modal.component';
+import {RegistrationModalComponent} from './registration-modal.component';
+import {FormBuilder} from "@angular/forms";
+import {HTTPService} from "../http.service";
+import {NO_ERRORS_SCHEMA} from "@angular/core";
 
 describe('RegistrationModalComponent', () => {
   let component: RegistrationModalComponent;
@@ -8,9 +11,11 @@ describe('RegistrationModalComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RegistrationModalComponent ]
+      declarations: [RegistrationModalComponent],
+      providers: [FormBuilder, {provide: HTTPService, useValue: {}}],
+      schemas: [NO_ERRORS_SCHEMA]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(RegistrationModalComponent);
     component = fixture.componentInstance;

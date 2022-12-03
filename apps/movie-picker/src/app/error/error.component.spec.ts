@@ -1,6 +1,8 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { ErrorComponent } from './error.component';
+import {ErrorComponent} from './error.component';
+import {Store} from "@ngrx/store";
+import {of} from "rxjs";
 
 describe('ErrorComponent', () => {
   let component: ErrorComponent;
@@ -8,9 +10,10 @@ describe('ErrorComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ErrorComponent ]
+      providers: [{provide: Store, useValue: { select: () => of([])}}],
+      declarations: [ErrorComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ErrorComponent);
     component = fixture.componentInstance;
