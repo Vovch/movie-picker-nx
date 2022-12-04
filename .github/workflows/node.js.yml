@@ -51,7 +51,7 @@ jobs:
           SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
           SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
           
-      - name: Move front-end to appropriate folders
+#       - name: Move front-end to appropriate folders
       - run: cat ~/.ssh/staging.key
       - run: echo ${{ secrets.STAGING_SSH_USER }}@${{ secrets.STAGING_SSH_HOST }}
       - run: scp -r -i ~/.ssh/staging.key ./dist ${{ secrets.STAGING_SSH_USER }}@${{ secrets.STAGING_SSH_HOST }}:dist
