@@ -51,15 +51,9 @@ jobs:
           SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
           SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
           
-#       - name: Remote check out new master
-#         run: ssh staging 'cd movie-picker-nx && git fetch && git reset --hard origin/master'
-      # TODO: Is it possible to push artifacts from build step?
-#       - name: Remote build 
-#         run: ssh staging 'cd movie-picker-nx && npm i && npm run build'
       - name: Move front-end to appropriate folders
         run: scp -r -i ~/.ssh/staging.key ./dist ${{ secrets.STAGING_SSH_USER }}@${{ secrets.STAGING_SSH_HOST }}:dist
-#         run: ssh staging 'rm -rf /var/www/front && mv movie-picker-nx/dist/movie-picker/* /var/www/front/*'
-      - name: Move back-end
+#       - name: Move back-end
 #         run: ssh staging 'rm -rf /var/www/back && mv movie-picker-nx/dist/api/* /var/www/back/*'
       - name: Restart back-end
         run: ssh staging 'pm2 restart www'
