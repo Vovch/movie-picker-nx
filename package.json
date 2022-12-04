@@ -6,7 +6,7 @@
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
     "start": "nx run-many --parallel --target=serve --projects=api,movie-picker",
-    "build": "nx build",
+    "build": "nx run-many --parallel --target=build --projects=api,movie-picker",
     "test": "nx test",
     "test:watch": "nx test --watch"
   },
