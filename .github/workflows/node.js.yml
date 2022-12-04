@@ -48,10 +48,10 @@ jobs:
 
     - name: Copy artifacts
       run: |
-        ssh 'rm -rf /var/www/back'
+        ssh staging 'rm -rf /var/www/back'
         scp -r dist/apps/api staging:/var/www/back
         
-        ssh 'rm -rf /var/www/front/dist'
+        ssh staging 'rm -rf /var/www/front/dist'
         scp -r dist/apps/movie-picker staging:/var/www/front/dist
     - name: Restart back-end
       run: ssh staging 'pm2 restart www'
