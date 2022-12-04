@@ -54,7 +54,7 @@ jobs:
 #       - name: Move front-end to appropriate folders
       - run: cat ~/.ssh/staging.key
       - run: echo ${{ secrets.STAGING_SSH_USER }}@${{ secrets.STAGING_SSH_HOST }}
-      - run: scp -F staging dist ${{ secrets.STAGING_SSH_USER }}@${{ secrets.STAGING_SSH_HOST }}:dist
+      - run: scp -r -i ~/.ssh/staging.key staging dist ${{ secrets.STAGING_SSH_USER }}@${{ secrets.STAGING_SSH_HOST }}:dist
 #       - name: Move back-end
 #         run: ssh staging 'rm -rf /var/www/back && mv movie-picker-nx/dist/api/* /var/www/back/*'
       - name: Restart back-end
