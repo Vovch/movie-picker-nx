@@ -13,14 +13,14 @@
             <h2 class="title">US National Film Registry</h2>
         </header>
         <select class='movie-status' [disabled]='!isAuthenticated' (change)='handleSelectChange($event)'>
-          <option *ngFor='let status of statuses' [selected]='tab === status' [disabled]='!isAuthenticated' [ngValue]='status'>{{status}}</option>
+          <option *ngFor='let status of statuses' [selected]='tab === status' [disabled]='!isAuthenticated' [ngValue]='status'>{{status}} ({{badges[status]}})</option>
         </select>
         <span *ngIf='!isAuthenticated' class='text-sign-in'>*Sign in to get more functionality</span>
         <div class="vertical-buttons">
-            <button class="button-primary menu-button" (click)="handleSelectAllClick()">All</button>
-            <button class="button-primary menu-button" [disabled]='!isAuthenticated' (click)="handleSelectNewClick()">New</button>
-            <button class="button-primary menu-button" [disabled]='!isAuthenticated' (click)="handleSelectWatchedClick()">Watched</button>
-            <button class="button-primary menu-button" [disabled]='!isAuthenticated' (click)="handleSelectPostponedClick()">Postponed</button>
+            <button class="button-primary menu-button" (click)="handleSelectAllClick()">All ({{badges.ALL}})</button>
+            <button class="button-primary menu-button" [disabled]='!isAuthenticated' (click)="handleSelectNewClick()">New ({{badges.NEW}})</button>
+            <button class="button-primary menu-button" [disabled]='!isAuthenticated' (click)="handleSelectWatchedClick()">Watched ({{badges.WATCHED}})</button>
+            <button class="button-primary menu-button" [disabled]='!isAuthenticated' (click)="handleSelectPostponedClick()">Postponed ({{badges.POSTPONED}})</button>
         </div>
     </menu>
     <main class="content">

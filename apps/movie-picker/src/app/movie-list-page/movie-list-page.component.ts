@@ -1,8 +1,8 @@
-import {Component, OnChanges, OnInit, SimpleChanges} from '@angular/core';
-import {MoviesService} from '../movies.service';
-import {IMovie, IGetMoviesApiResponse, TGetUserMoviesModelResponse, EMovieStatus} from '@movie-picker/api-interfaces';
-import {EMovieTab} from './movie-list-page.enums';
-import {AuthenticationService} from '../authentication.service';
+import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { MoviesService } from '../movies.service';
+import { EMovieStatus, IGetMoviesApiResponse, IMovie, TGetUserMoviesModelResponse } from '@movie-picker/api-interfaces';
+import { EMovieTab } from './movie-list-page.enums';
+import { AuthenticationService } from '../authentication.service';
 
 @Component({
     selector: 'movie-picker-list-page',
@@ -19,6 +19,12 @@ export class MovieListPageComponent implements OnInit, OnChanges {
     userLists?: TGetUserMoviesModelResponse = [];
     isAuthenticated = false;
     statuses: EMovieTab[] = Object.values(EMovieTab);
+    badges: { [key in EMovieTab]: number } = {
+        [EMovieTab.ALL]: 0,
+        [EMovieTab.NEW]: 0,
+        [EMovieTab.WATCHED]: 0,
+        [EMovieTab.POSTPONED]: 0,
+    };
 
     constructor(private moviesService: MoviesService, private auth: AuthenticationService) {}
 
@@ -43,43 +49,56 @@ export class MovieListPageComponent implements OnInit, OnChanges {
         }
     }
 
-    filterMovies(userLists: TGetUserMoviesModelResponse = this.userLists as TGetUserMoviesModelResponse) {
+    fillBadges() {
+        this.badges = {
+            [EMovieTab.ALL]: this.calcFilteredMovies(EMovieTab.ALL).length,
+            [EMovieTab.NEW]: this.calcFilteredMovies(EMovieTab.NEW).length,
+            [EMovieTab.WATCHED]: this.calcFilteredMovies(EMovieTab.WATCHED).length,
+            [EMovieTab.POSTPONED]: this.calcFilteredMovies(EMovieTab.POSTPONED).length,
+        };
+    }
+
+    calcFilteredMovies(
+        tab: EMovieTab,
+        userLists: TGetUserMoviesModelResponse = this.userLists as TGetUserMoviesModelResponse
+    ) {
+        switch (tab) {
+            case EMovieTab.ALL:
+                return this.movies;
+            case EMovieTab.WATCHED:
+                return this.movies.filter(({ id }) =>
+                    userLists.some(
+                        ({ listId, movieId, status }) =>
+                            listId === this.listId && movieId === id && status === EMovieStatus.WATCHED
+                    )
+                );
+            case EMovieTab.POSTPONED:
+                return this.movies.filter(({ id }) =>
+                    userLists.some(
+                        ({ listId, movieId, status }) =>
+                            listId === this.listId && movieId === id && status === EMovieStatus.POSTPONED
+                    )
+                );
+            case EMovieTab.NEW:
+            default:
+                return this.movies.filter(
+                    ({ id }) => !userLists.some(({ listId, movieId }) => listId === this.listId && movieId === id)
+                );
+        }
+    }
+
+    filterMovies(userLists?: TGetUserMoviesModelResponse) {
         if (!this.movies) {
             return;
         }
 
-        switch (this.tab) {
-            case EMovieTab.ALL:
-                this.filteredMovies = this.movies;
-                break;
-            case EMovieTab.WATCHED:
-                this.filteredMovies = this.movies.filter(({id}) =>
-                    userLists.some(
-                        ({listId, movieId, status}) =>
-                            listId === this.listId && movieId === id && status === EMovieStatus.WATCHED,
-                    ),
-                );
-                break;
-            case EMovieTab.POSTPONED:
-                this.filteredMovies = this.movies.filter(({id}) =>
-                    userLists.some(
-                        ({listId, movieId, status}) =>
-                            listId === this.listId && movieId === id && status === EMovieStatus.POSTPONED,
-                    ),
-                );
-                break;
-            case EMovieTab.NEW:
-            default:
-                this.filteredMovies = this.movies.filter(
-                    ({id}) => !userLists.some(({listId, movieId}) => listId === this.listId && movieId === id),
-                );
-                break;
-        }
+        this.filteredMovies = this.calcFilteredMovies(this.tab, userLists);
+        this.fillBadges();
     }
 
     handleClickRandomMovie() {
         if (!this.filteredMovies) {
-          return;
+            return;
         }
 
         const randomMovieIndex = Math.floor(Math.random() * this.filteredMovies.length);
@@ -119,8 +138,8 @@ export class MovieListPageComponent implements OnInit, OnChanges {
         this.filterMovies();
     }
 
-    handleSelectChange($event: any) {
-      this.tab = $event.target.value;
-      this.filterMovies();
+    handleSelectChange($event: Event) {
+        this.tab = ($event.target as HTMLButtonElement).value as EMovieTab;
+        this.filterMovies();
     }
 }
