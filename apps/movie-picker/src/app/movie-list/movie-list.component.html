@@ -14,7 +14,7 @@
     <th class="list__cell list__column-heading"
         (click)="handleSort(column)"
         *ngFor="let column of columns">
-      <span *ngIf="currentSort === column">*</span>
+      <span *ngIf="sort.key === column">*</span>
       {{ column }}
     </th>
   </tr>

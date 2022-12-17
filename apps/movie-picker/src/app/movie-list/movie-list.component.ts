@@ -1,5 +1,25 @@
+import sortBy from 'lodash/sortBy'
 import {Component, EventEmitter, Input, OnChanges, Output} from '@angular/core';
 import {IMovie} from "@movie-picker/api-interfaces";
+
+enum ESortOrder {
+  ASC = 'ASC',
+  DESC = 'DESC'
+}
+
+interface ISort {
+  key: null | keyof IMovie;
+  order: null | ESortOrder;
+}
+
+const defaultSort = {
+  get sort() {
+    return {
+      key: null,
+      order: null,
+    }
+  }
+}
 
 @Component({
   selector: 'movie-picker-list',
@@ -13,15 +33,20 @@ export class MovieListComponent implements OnChanges {
   columns: (keyof IMovie)[] = [];
   search = '';
   filteredMovies: IMovie[] = [];
-  currentSort: null | keyof IMovie = null;
+  sort: ISort = defaultSort.sort;
 
   ngOnChanges() {
     if (this.movies.length) {
       this.columns = Object.keys(this.movies[0]).filter((key) => key !== 'id') as (keyof IMovie)[];
+      this.resetSort();
       this.filterMovies();
     } else {
       this.filteredMovies = [];
     }
+  }
+
+  resetSort() {
+    this.sort = defaultSort.sort;
   }
 
   filterMovies() {
@@ -44,23 +69,25 @@ export class MovieListComponent implements OnChanges {
   }
 
   handleSort(column: keyof IMovie) {
-    if (column === this.currentSort) {
-      this.movies.reverse();
-    } else {
-      this.movies.sort((a, b) => {
-        let sort = 0;
+    const isSame = column === this.sort.key;
+    let order = null;
 
-        if (a[column] > b[column]) {
-          sort = 1;
-        } else if (a[column] < b[column]) {
-          sort = -1;
-        }
-
-        return sort
-      })
+    if (isSame && this.sort.order === ESortOrder.ASC) {
+      order = ESortOrder.DESC;
+    } else if (!isSame) {
+      order = ESortOrder.ASC;
     }
 
-    this.currentSort = column
+    this.sort.key = order ? column : null;
+    this.sort.order = order;
+
+
     this.filterMovies();
+
+    if (this.sort.key) {
+      const sorted = sortBy(this.filteredMovies, [column])
+
+      this.filteredMovies = order === ESortOrder.ASC ? sorted : sorted.reverse();
+    }
   }
 }
