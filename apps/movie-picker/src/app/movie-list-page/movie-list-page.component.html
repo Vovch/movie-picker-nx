@@ -13,7 +13,7 @@
             <h2 class="title">US National Film Registry</h2>
         </header>
         <select class='movie-status' [disabled]='!isAuthenticated' (change)='handleSelectChange($event)'>
-          <option *ngFor='let status of statuses' [selected]='tab === status' [disabled]='!isAuthenticated' [ngValue]='status'>{{status}} ({{badges[status]}})</option>
+          <option *ngFor='let status of statuses' [selected]='tab === status' [disabled]='!isAuthenticated' [value]='status'>{{status}} ({{badges[status]}})</option>
         </select>
         <span *ngIf='!isAuthenticated' class='text-sign-in'>*Sign in to get more functionality</span>
         <div class="vertical-buttons">
