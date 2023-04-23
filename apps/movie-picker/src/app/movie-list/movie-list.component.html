@@ -12,16 +12,17 @@
   <thead class="list__header">
   <tr>
     <th class="list__cell list__column-heading"
-        (click)="handleSort(column)"
-        *ngFor="let column of columns">
-      <span *ngIf="sort.key === column">*</span>
-      {{ column }}
+        [class]='name'
+        (click)="handleSort(name)"
+        *ngFor="let name of columnNames">
+      <span *ngIf="sort.key === name">*</span>
+      {{ name }}
     </th>
   </tr>
   </thead>
   <tbody>
   <tr class="list__row" *ngFor="let movie of filteredMovies" (click)="handleRowClick(movie)">
-    <td class="list__cell" *ngFor="let column of columns">{{ movie[column] }}</td>
+    <td class="list__cell" *ngFor="let column of columnNames">{{ movie[column] }}</td>
   </tr>
   </tbody>
 </table>
