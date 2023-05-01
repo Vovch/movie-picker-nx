@@ -8,7 +8,7 @@ import { join } from 'path';
 
 const movies = JSON.parse(readFileSync(join(__dirname, 'assets/data/movies.json')).toString()).map((movie, index) => ({
     ...movie,
-    id: index,
+    id: movie.id ?? index,
 }));
 
 const MovieLists = {
