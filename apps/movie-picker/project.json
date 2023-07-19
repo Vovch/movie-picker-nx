@@ -17,7 +17,8 @@
         "inlineStyleLanguage": "less",
         "assets": [
           "apps/movie-picker/src/favicon.ico",
-          "apps/movie-picker/src/assets"
+          "apps/movie-picker/src/assets",
+          "apps/movie-picker/src/yandex_2f74c2a326d4a67c.html"
         ],
         "styles": ["apps/movie-picker/src/styles.less"],
         "stylePreprocessorOptions": {
