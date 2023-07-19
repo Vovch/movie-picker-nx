@@ -18,7 +18,8 @@
         "assets": [
           "apps/movie-picker/src/favicon.ico",
           "apps/movie-picker/src/assets",
-          "apps/movie-picker/src/yandex_2f74c2a326d4a67c.html"
+          "apps/movie-picker/src/yandex_2f74c2a326d4a67c.html",
+          "apps/movie-picker/src/googled035d6f062ba32fb.html"
         ],
         "styles": ["apps/movie-picker/src/styles.less"],
         "stylePreprocessorOptions": {
