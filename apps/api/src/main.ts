@@ -13,7 +13,7 @@ async function bootstrap() {
   const globalPrefix = 'api';
   app.setGlobalPrefix(globalPrefix);
 
-  app.enableCors({origin: ['http://localhost:4200', 'https://movie-picker.fun']});
+  app.enableCors({origin: ['http://localhost:4200', 'https://filmgu.ru']});
 
   const port = process.env.PORT || 3000;
   await app.listen(port);
