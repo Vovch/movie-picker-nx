@@ -11,6 +11,10 @@ const movies = JSON.parse(readFileSync(join(__dirname, 'assets/data/movies.json'
     id: movie.id ?? index,
 }));
 
+if (movies.some(({id}) => id === null || id === undefined)) {
+  throw new Error('Found movie without ID!')
+}
+
 const MovieLists = {
     usNationalRegistry: { listId: DEFAULT_LIST_ID, name: 'usNationalRegistry', list: movies },
 };
