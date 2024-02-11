@@ -9,6 +9,7 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
+        "postcssConfig": "apps/{your app here}/postcss.config.js",
         "compiler": "babel",
         "outputPath": "dist/apps/movie-picker-react",
         "index": "apps/movie-picker-react/src/index.html",

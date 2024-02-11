@@ -6,8 +6,6 @@ name: Node.js CI/CD
 on:
   push:
     branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
   workflow_dispatch:
 
 jobs:

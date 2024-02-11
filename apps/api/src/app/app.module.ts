@@ -6,6 +6,6 @@ import { MoviesModule } from './movies/movies.module';
 import { AuthModule } from './auth/auth.module';
 
 @Module({
-    imports: [MongooseModule.forRoot('mongodb://127.0.0.1:27017/movies'), UsersModule, MoviesModule, AuthModule],
+    imports: [MongooseModule.forRoot('mongodb://root:my-secret-password@127.0.0.1:27017/movies'), UsersModule, MoviesModule, AuthModule],
 })
 export class AppModule {}
