@@ -18,6 +18,11 @@ export interface IGetMoviesApiResponse {
     list: IMovie[];
 }
 
+export type TGetListsApiResponse = Array<{
+  listId: string;
+  name: string;
+}>;
+
 export interface IUserMovieList {
     listId: string;
     movieId: number;

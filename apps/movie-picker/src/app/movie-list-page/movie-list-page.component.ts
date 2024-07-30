@@ -1,145 +1,162 @@
 import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { MoviesService } from '../movies.service';
-import { EMovieStatus, IGetMoviesApiResponse, IMovie, TGetUserMoviesModelResponse } from '@movie-picker/api-interfaces';
+import {
+  EMovieStatus,
+  IGetMoviesApiResponse,
+  IMovie,
+  TGetListsApiResponse,
+  TGetUserMoviesModelResponse,
+} from '@movie-picker/api-interfaces';
 import { EMovieTab } from './movie-list-page.enums';
 import { AuthenticationService } from '../authentication.service';
 
 @Component({
-    selector: 'movie-picker-list-page',
-    templateUrl: './movie-list-page.component.html',
-    styleUrls: ['./movie-list-page.component.less'],
+  selector: 'movie-picker-list-page',
+  templateUrl: './movie-list-page.component.html',
+  styleUrls: ['./movie-list-page.component.less'],
 })
 export class MovieListPageComponent implements OnInit, OnChanges {
-    movies: IMovie[] = [];
-    listId = '';
-    isMovieModalOpen = false;
-    selectedMovie: IMovie | null = null;
-    tab: EMovieTab = EMovieTab.NEW;
-    filteredMovies: IMovie[] = [];
-    userLists?: TGetUserMoviesModelResponse = [];
-    isAuthenticated = false;
-    statuses: EMovieTab[] = Object.values(EMovieTab);
-    badges: { [key in EMovieTab]: number } = {
-        [EMovieTab.ALL]: 0,
-        [EMovieTab.NEW]: 0,
-        [EMovieTab.WATCHED]: 0,
-        [EMovieTab.POSTPONED]: 0,
+  lists: TGetListsApiResponse = [];
+  movies: IMovie[] = [];
+  listId = '';
+  listName = '';
+  isMovieModalOpen = false;
+  selectedMovie: IMovie | null = null;
+  tab: EMovieTab = EMovieTab.NEW;
+  filteredMovies: IMovie[] = [];
+  userLists?: TGetUserMoviesModelResponse = [];
+  isAuthenticated = false;
+  statuses: EMovieTab[] = Object.values(EMovieTab);
+  badges: { [key in EMovieTab]: number } = {
+    [EMovieTab.ALL]: 0,
+    [EMovieTab.NEW]: 0,
+    [EMovieTab.WATCHED]: 0,
+    [EMovieTab.POSTPONED]: 0,
+  };
+
+  constructor(private moviesService: MoviesService, private auth: AuthenticationService) {}
+
+  ngOnInit(): void {
+    this.moviesService.movies$.subscribe((movieList: IGetMoviesApiResponse) => {
+      this.movies = movieList.list;
+      this.listId = movieList.listId;
+      this.listName = movieList.name;
+
+      this.filterMovies();
+    });
+    this.moviesService.userLists$.subscribe((lists) => {
+      this.userLists = lists;
+
+      this.filterMovies(lists);
+    });
+    this.moviesService.lists$.subscribe((lists) => (this.lists = lists));
+    this.auth.isAuthenticated$.subscribe((isAuthenticated) => {
+      this.isAuthenticated = isAuthenticated;
+    });
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    if (this.movies && changes['tab']) {
+      this.filterMovies();
+    }
+  }
+
+  fillBadges() {
+    this.badges = {
+      [EMovieTab.ALL]: this.calcFilteredMovies(EMovieTab.ALL).length,
+      [EMovieTab.NEW]: this.calcFilteredMovies(EMovieTab.NEW).length,
+      [EMovieTab.WATCHED]: this.calcFilteredMovies(EMovieTab.WATCHED).length,
+      [EMovieTab.POSTPONED]: this.calcFilteredMovies(EMovieTab.POSTPONED).length,
     };
+  }
 
-    constructor(private moviesService: MoviesService, private auth: AuthenticationService) {}
+  calcFilteredMovies(
+    tab: EMovieTab,
+    userLists: TGetUserMoviesModelResponse = this.userLists as TGetUserMoviesModelResponse
+  ) {
+    switch (tab) {
+      case EMovieTab.ALL:
+        return this.movies;
+      case EMovieTab.WATCHED:
+        return this.movies.filter(({ id }) =>
+          userLists.some(
+            ({ listId, movieId, status }) => listId === this.listId && movieId === id && status === EMovieStatus.WATCHED
+          )
+        );
+      case EMovieTab.POSTPONED:
+        return this.movies.filter(({ id }) =>
+          userLists.some(
+            ({ listId, movieId, status }) =>
+              listId === this.listId && movieId === id && status === EMovieStatus.POSTPONED
+          )
+        );
+      case EMovieTab.NEW:
+      default:
+        return this.movies.filter(
+          ({ id }) => !userLists.some(({ listId, movieId }) => listId === this.listId && movieId === id)
+        );
+    }
+  }
 
-    ngOnInit(): void {
-        this.moviesService.movies$.subscribe((movieList: IGetMoviesApiResponse) => {
-            this.movies = movieList.list;
-            this.listId = movieList.listId;
-            this.filterMovies();
-        });
-        this.moviesService.userLists$.subscribe((lists) => {
-            this.userLists = lists;
-            this.filterMovies(lists);
-        });
-        this.auth.isAuthenticated$.subscribe((isAuthenticated) => {
-            this.isAuthenticated = isAuthenticated;
-        });
+  filterMovies(userLists?: TGetUserMoviesModelResponse) {
+    if (!this.movies) {
+      return;
     }
 
-    ngOnChanges(changes: SimpleChanges): void {
-        if (this.movies && changes['tab']) {
-            this.filterMovies();
-        }
+    this.filteredMovies = this.calcFilteredMovies(this.tab, userLists);
+    this.fillBadges();
+  }
+
+  handleClickRandomMovie() {
+    if (!this.filteredMovies) {
+      return;
     }
 
-    fillBadges() {
-        this.badges = {
-            [EMovieTab.ALL]: this.calcFilteredMovies(EMovieTab.ALL).length,
-            [EMovieTab.NEW]: this.calcFilteredMovies(EMovieTab.NEW).length,
-            [EMovieTab.WATCHED]: this.calcFilteredMovies(EMovieTab.WATCHED).length,
-            [EMovieTab.POSTPONED]: this.calcFilteredMovies(EMovieTab.POSTPONED).length,
-        };
-    }
+    const randomMovieIndex = Math.floor(Math.random() * this.filteredMovies.length);
 
-    calcFilteredMovies(
-        tab: EMovieTab,
-        userLists: TGetUserMoviesModelResponse = this.userLists as TGetUserMoviesModelResponse
-    ) {
-        switch (tab) {
-            case EMovieTab.ALL:
-                return this.movies;
-            case EMovieTab.WATCHED:
-                return this.movies.filter(({ id }) =>
-                    userLists.some(
-                        ({ listId, movieId, status }) =>
-                            listId === this.listId && movieId === id && status === EMovieStatus.WATCHED
-                    )
-                );
-            case EMovieTab.POSTPONED:
-                return this.movies.filter(({ id }) =>
-                    userLists.some(
-                        ({ listId, movieId, status }) =>
-                            listId === this.listId && movieId === id && status === EMovieStatus.POSTPONED
-                    )
-                );
-            case EMovieTab.NEW:
-            default:
-                return this.movies.filter(
-                    ({ id }) => !userLists.some(({ listId, movieId }) => listId === this.listId && movieId === id)
-                );
-        }
-    }
+    this.selectedMovie = this.filteredMovies[randomMovieIndex];
+    this.isMovieModalOpen = true;
+  }
 
-    filterMovies(userLists?: TGetUserMoviesModelResponse) {
-        if (!this.movies) {
-            return;
-        }
+  handleSelectMovie(movie: IMovie) {
+    this.selectedMovie = movie;
+    this.isMovieModalOpen = true;
+  }
 
-        this.filteredMovies = this.calcFilteredMovies(this.tab, userLists);
-        this.fillBadges();
-    }
+  handleHideModal() {
+    this.isMovieModalOpen = false;
+    this.selectedMovie = null;
+    this.filterMovies();
+  }
 
-    handleClickRandomMovie() {
-        if (!this.filteredMovies) {
-            return;
-        }
+  handleSelectAllClick() {
+    this.tab = EMovieTab.ALL;
+    this.filterMovies();
+  }
 
-        const randomMovieIndex = Math.floor(Math.random() * this.filteredMovies.length);
+  handleSelectNewClick() {
+    this.tab = EMovieTab.NEW;
+    this.filterMovies();
+  }
 
-        this.selectedMovie = this.filteredMovies[randomMovieIndex];
-        this.isMovieModalOpen = true;
-    }
+  handleSelectWatchedClick() {
+    this.tab = EMovieTab.WATCHED;
+    this.filterMovies();
+  }
 
-    handleSelectMovie(movie: IMovie) {
-        this.selectedMovie = movie;
-        this.isMovieModalOpen = true;
-    }
+  handleSelectPostponedClick() {
+    this.tab = EMovieTab.POSTPONED;
+    this.filterMovies();
+  }
 
-    handleHideModal() {
-        this.isMovieModalOpen = false;
-        this.selectedMovie = null;
-        this.filterMovies();
-    }
+  handleFilterChange($event: Event) {
+    this.tab = ($event.target as HTMLButtonElement).value as EMovieTab;
+    this.filterMovies();
+  }
 
-    handleSelectAllClick() {
-        this.tab = EMovieTab.ALL;
-        this.filterMovies();
-    }
+  handleListSelect($event: Event) {
+    this.listId = ($event.target as HTMLButtonElement).value;
 
-    handleSelectNewClick() {
-        this.tab = EMovieTab.NEW;
-        this.filterMovies();
-    }
-
-    handleSelectWatchedClick() {
-        this.tab = EMovieTab.WATCHED;
-        this.filterMovies();
-    }
-
-    handleSelectPostponedClick() {
-        this.tab = EMovieTab.POSTPONED;
-        this.filterMovies();
-    }
-
-    handleSelectChange($event: Event) {
-        this.tab = ($event.target as HTMLButtonElement).value as EMovieTab;
-        this.filterMovies();
-    }
+    this.moviesService.selectList(this.listId);
+  }
 }

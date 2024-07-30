@@ -18,6 +18,7 @@ export class AppComponent implements OnInit {
           this.moviesService.fetchUserLists(login, hash);
         }
 
-        this.http.getMovies().subscribe((movieList) => this.moviesService.changeMoviesList(movieList));
+        this.http.getLists().subscribe(this.moviesService.changeLists);
+        this.moviesService.selectList();
     }
 }

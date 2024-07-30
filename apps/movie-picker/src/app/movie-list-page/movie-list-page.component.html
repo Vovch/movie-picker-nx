@@ -1,35 +1,61 @@
 <section class="page">
-    <menu class="menu">
-        <header class='menu-header'>
-            <div class='random-button-wrapper'
-                 (click)="handleClickRandomMovie()">
-              <movie-picker-svg-dice
-                  role="button"
-                  class="random-button"
-                  aria-label="Pick random movie"
-                  title="Pick random movie"></movie-picker-svg-dice>
-              <h3 class='button-text'>Click the dice!</h3>
-            </div>
-            <h2 class="title">US National Film Registry</h2>
-        </header>
-        <select class='movie-status' [disabled]='!isAuthenticated' (change)='handleSelectChange($event)'>
-          <option *ngFor='let status of statuses' [selected]='tab === status' [disabled]='!isAuthenticated' [value]='status'>{{status}} ({{badges[status]}})</option>
-        </select>
-        <span *ngIf='!isAuthenticated' class='text-sign-in'>*Sign in to get more functionality</span>
-        <div class="vertical-buttons">
-            <button class="button-primary menu-button" (click)="handleSelectAllClick()">All ({{badges.ALL}})</button>
-            <button class="button-primary menu-button" [disabled]='!isAuthenticated' (click)="handleSelectNewClick()">New ({{badges.NEW}})</button>
-            <button class="button-primary menu-button" [disabled]='!isAuthenticated' (click)="handleSelectWatchedClick()">Watched ({{badges.WATCHED}})</button>
-            <button class="button-primary menu-button" [disabled]='!isAuthenticated' (click)="handleSelectPostponedClick()">Postponed ({{badges.POSTPONED}})</button>
-        </div>
-    </menu>
-    <main class="content">
-        <movie-picker-list [movies]="filteredMovies" (selectMovie)="handleSelectMovie($event)"></movie-picker-list>
-        <movie-picker-movie-modal
-            *ngIf="selectedMovie"
-            [isOpen]="isMovieModalOpen"
-            [movie]="selectedMovie"
-            [listId]="listId"
-            (hideModal)="handleHideModal()"></movie-picker-movie-modal>
-    </main>
+  <menu class="menu">
+    <header class="menu-header">
+      <div class="random-button-wrapper" (click)="handleClickRandomMovie()">
+        <movie-picker-svg-dice
+          role="button"
+          class="random-button"
+          aria-label="Pick random movie"
+          title="Pick random movie"
+        ></movie-picker-svg-dice>
+        <h3 class="button-text">Click the dice!</h3>
+      </div>
+      <h2 class="title">{{ listName }}</h2>
+    </header>
+    <select class="movie-status" [disabled]="!isAuthenticated" (change)="handleFilterChange($event)">
+      <option
+        *ngFor="let status of statuses"
+        [selected]="tab === status"
+        [disabled]="!isAuthenticated"
+        [value]="status"
+      >
+        {{ status }} ({{ badges[status] }})
+      </option>
+    </select>
+    <span *ngIf="!isAuthenticated" class="text-sign-in">*Sign in to get more functionality</span>
+    <div class="vertical-buttons">
+      <button class="button-primary menu-button" (click)="handleSelectAllClick()">All ({{ badges.ALL }})</button>
+      <button class="button-primary menu-button" [disabled]="!isAuthenticated" (click)="handleSelectNewClick()">
+        New ({{ badges.NEW }})
+      </button>
+      <button class="button-primary menu-button" [disabled]="!isAuthenticated" (click)="handleSelectWatchedClick()">
+        Watched ({{ badges.WATCHED }})
+      </button>
+      <button class="button-primary menu-button" [disabled]="!isAuthenticated" (click)="handleSelectPostponedClick()">
+        Postponed ({{ badges.POSTPONED }})
+      </button>
+    </div>
+  </menu>
+  <main class="content">
+    <select *ngIf="lists.length > 1" (change)="handleListSelect($event)">
+      <option *ngFor="let list of lists" [selected]="list.listId === listId" [value]="list.listId">
+        {{ list.name }}
+      </option>
+    </select>
+
+    <h2 *ngIf="lists.length <= 1" class="list__title">{{ listName }}</h2>
+
+    <movie-picker-list
+      [movies]="filteredMovies"
+      (selectMovie)="handleSelectMovie($event)"
+      [listName]="listName"
+    ></movie-picker-list>
+    <movie-picker-movie-modal
+      *ngIf="selectedMovie"
+      [isOpen]="isMovieModalOpen"
+      [movie]="selectedMovie"
+      [listId]="listId"
+      (hideModal)="handleHideModal()"
+    ></movie-picker-movie-modal>
+  </main>
 </section>
