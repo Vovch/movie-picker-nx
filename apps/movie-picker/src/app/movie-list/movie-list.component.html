@@ -15,8 +15,10 @@
         [class]='name'
         (click)="handleSort(name)"
         *ngFor="let name of columnNames">
-      <span *ngIf="sort.key === name">*</span>
-      {{ name }}
+      <span *ngIf="sortKey === name">
+        {{ sortOrder === 'asc' ? '▲' : sortOrder === 'desc' ? '▼' : '' }}
+      </span>
+      {{ columnLabels[name] }}
     </th>
   </tr>
   </thead>

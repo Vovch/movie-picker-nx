@@ -1,25 +1,10 @@
-import sortBy from 'lodash/sortBy';
 import { Component, EventEmitter, Input, OnChanges, Output } from '@angular/core';
 import { IMovie } from '@movie-picker/api-interfaces';
+import { orderBy } from 'lodash';
 
-enum ESortOrder {
-    ASC = 'ASC',
-    DESC = 'DESC',
-}
-
-interface ISort {
-    key: null | keyof IMovie;
-    order: null | ESortOrder;
-}
-
-const defaultSort = {
-    get sort() {
-        return {
-            key: null,
-            order: null,
-        };
-    },
-};
+type MovieKey = keyof Omit<IMovie, 'id'>;
+type SortKey = MovieKey | null;
+type SortOrder = 'asc' | 'desc' | null;
 
 @Component({
     selector: 'movie-picker-list',
@@ -30,23 +15,38 @@ export class MovieListComponent implements OnChanges {
     @Input() movies: IMovie[] = [];
     @Output() selectMovie = new EventEmitter<IMovie>();
 
-    columnNames: (keyof IMovie)[] = [];
+    columnNames: MovieKey[] = [];
     search = '';
     filteredMovies: IMovie[] = [];
-    sort: ISort = defaultSort.sort;
+    sortKey: SortKey = null;
+    sortOrder: SortOrder = null;
+
+    columnLabels: { [key in MovieKey]: string } = {
+        name: 'Movie Title',
+        originalName: 'Original Title',
+        director: 'Director',
+        yearProduced: 'Year Produced',
+        yearAdded: 'Year Added to Registry'
+    };
 
     ngOnChanges() {
         if (this.movies.length) {
-            this.columnNames = Object.keys(this.movies[0]).filter((key) => key !== 'id') as (keyof IMovie)[];
+            this.columnNames = Object.keys(this.movies[0]).filter((key) => key !== 'id') as MovieKey[];
             this.resetSort();
-            this.filterMovies();
+            this.updateFilteredMovies();
         } else {
             this.filteredMovies = [];
         }
     }
 
     resetSort() {
-        this.sort = defaultSort.sort;
+        this.sortKey = null;
+        this.sortOrder = null;
+    }
+
+    updateFilteredMovies() {
+        this.filterMovies();
+        this.sortMovies();
     }
 
     filterMovies() {
@@ -61,32 +61,27 @@ export class MovieListComponent implements OnChanges {
 
     handleSearchChange($event: Event) {
         this.search = ($event.target as HTMLInputElement).value;
-        this.filterMovies();
+        this.updateFilteredMovies();
     }
 
     handleRowClick(movie: IMovie) {
         this.selectMovie.emit(movie);
     }
 
-    handleSort(column: keyof IMovie) {
-        const isSame = column === this.sort.key;
-        let order = null;
-
-        if (isSame && this.sort.order === ESortOrder.ASC) {
-            order = ESortOrder.DESC;
-        } else if (!isSame) {
-            order = ESortOrder.ASC;
+    handleSort(column: SortKey) {
+        if (column === this.sortKey) {
+            this.sortOrder = this.sortOrder === 'asc' ? 'desc' : this.sortOrder === 'desc' ? null : 'asc';
+        } else {
+            this.sortKey = column;
+            this.sortOrder = 'asc';
         }
 
-        this.sort.key = order ? column : null;
-        this.sort.order = order;
+        this.updateFilteredMovies();
+    }
 
-        this.filterMovies();
-
-        if (this.sort.key) {
-            const sorted = sortBy(this.filteredMovies, [column]);
-
-            this.filteredMovies = order === ESortOrder.ASC ? sorted : sorted.reverse();
+    private sortMovies() {
+        if (this.sortKey && this.sortOrder) {
+            this.filteredMovies = orderBy(this.filteredMovies, [this.sortKey], [this.sortOrder]);
         }
     }
 }
