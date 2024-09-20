@@ -6,7 +6,9 @@
   "targets": {
     "build": {
       "executor": "@nrwl/webpack:webpack",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
@@ -66,14 +68,20 @@
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["apps/movie-picker-react/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": [
+          "apps/movie-picker-react/**/*.{ts,tsx,js,jsx}"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/apps/movie-picker-react"],
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/movie-picker-react"
+      ],
       "options": {
         "jestConfig": "apps/movie-picker-react/jest.config.ts",
         "passWithNoTests": true
