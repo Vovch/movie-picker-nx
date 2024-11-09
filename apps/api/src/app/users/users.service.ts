@@ -13,6 +13,7 @@ import {
 import { randomBytes, scrypt } from 'crypto';
 import { promisify } from 'util';
 import { UpdateUserDto } from './dto/update-user.dto';
+import { IMovie, IUserMovieList } from '@movie-picker/api-interfaces';
 
 @Injectable()
 export class UsersService {

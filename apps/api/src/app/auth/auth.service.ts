@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { UsersService } from '../users/users.service';
 import { User } from '../users/entities/user.entity';
+import { IMovie, IUserMovieList } from '@movie-picker/api-interfaces';
 
 @Injectable()
 export class AuthService {

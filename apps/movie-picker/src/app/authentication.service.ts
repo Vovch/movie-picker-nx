@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 import {HTTPService} from './http.service';
 import {BehaviorSubject, tap} from 'rxjs';
+import { IMovie, IUserMovieList } from '@movie-picker/api-interfaces';
 
 @Injectable({
   providedIn: 'root',

@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {environment} from '../environments/environment';
-import {IGetMoviesApiResponse, ILoginRequest, TGetUserMoviesModelResponse} from '@movie-picker/api-interfaces';
+import {IGetMoviesApiResponse, ILoginRequest, TGetUserMoviesModelResponse, IMovie, IUserMovieList} from '@movie-picker/api-interfaces';
 
 @Injectable({
   providedIn: 'root',

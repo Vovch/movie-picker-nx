@@ -5,6 +5,7 @@ import { Model } from 'mongoose';
 import { DEFAULT_LIST_ID } from './movies.constants';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { IMovie } from '@movie-picker/api-interfaces';
 
 const movies = JSON.parse(readFileSync(join(__dirname, 'assets/data/movies.json')).toString()).map((movie, index) => ({
     ...movie,
