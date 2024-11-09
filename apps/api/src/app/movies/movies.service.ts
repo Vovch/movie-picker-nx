@@ -47,6 +47,30 @@ export class MoviesService {
             .exec();
     }
 
+    async createMovie(movie: IMovie): Promise<MovieList> {
+        const newMovie = new this.movieListModel({
+            listId: DEFAULT_LIST_ID,
+            list: [movie],
+        });
+        return newMovie.save();
+    }
+
+    async updateMovie(id: number, movie: IMovie): Promise<MovieList> {
+        return this.movieListModel.findOneAndUpdate(
+            { listId: DEFAULT_LIST_ID, 'list.id': id },
+            { $set: { 'list.$': movie } },
+            { new: true }
+        ).exec();
+    }
+
+    async deleteMovie(id: number): Promise<MovieList> {
+        return this.movieListModel.findOneAndUpdate(
+            { listId: DEFAULT_LIST_ID },
+            { $pull: { list: { id } } },
+            { new: true }
+        ).exec();
+    }
+
     async initDB() {
         await this.movieListModel.collection.deleteMany({});
 
