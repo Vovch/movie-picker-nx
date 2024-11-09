@@ -4,6 +4,7 @@ import {
   IGetMoviesApiResponse,
   TGetUserMoviesModelResponse,
   IMovie,
+  IUserMovieList,
 } from '@movie-picker/api-interfaces';
 import { HTTPService } from './http.service';
 import { AuthenticationService } from './authentication.service';
