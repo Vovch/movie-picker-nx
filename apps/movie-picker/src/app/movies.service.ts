@@ -3,6 +3,7 @@ import { BehaviorSubject } from 'rxjs';
 import {
   IGetMoviesApiResponse,
   TGetUserMoviesModelResponse,
+  IMovie,
 } from '@movie-picker/api-interfaces';
 import { HTTPService } from './http.service';
 import { AuthenticationService } from './authentication.service';
@@ -64,5 +65,32 @@ export class MoviesService {
 
         this.changeUserLists(userLists);
       });
+  }
+
+  createMovie(movie: IMovie) {
+    this.http.createMovie(movie).subscribe((newMovie: IMovie) => {
+      const currentMovies = this.movies.value;
+      currentMovies.list.push(newMovie);
+      this.changeMoviesList(currentMovies);
+    });
+  }
+
+  updateMovie(id: number, movie: IMovie) {
+    this.http.updateMovie(id, movie).subscribe((updatedMovie: IMovie) => {
+      const currentMovies = this.movies.value;
+      const index = currentMovies.list.findIndex(m => m.id === id);
+      if (index !== -1) {
+        currentMovies.list[index] = updatedMovie;
+        this.changeMoviesList(currentMovies);
+      }
+    });
+  }
+
+  deleteMovie(id: number) {
+    this.http.deleteMovie(id).subscribe(() => {
+      const currentMovies = this.movies.value;
+      currentMovies.list = currentMovies.list.filter(m => m.id !== id);
+      this.changeMoviesList(currentMovies);
+    });
   }
 }
