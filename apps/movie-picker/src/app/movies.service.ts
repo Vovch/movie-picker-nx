@@ -41,57 +41,18 @@ export class MoviesService {
   }
 
   changeMovieStatus(listId: string, movieId: number, status: string | null) {
-    const { login, hash } = this.auth.getAuthInfo();
+      const { login, hash } = this.auth.getAuthInfo();
 
-    this.http
-      .changeMovieStatus(
-        login as string,
-        hash as string,
-        listId,
-        movieId,
-        status
-      )
-      .subscribe(() => {
-        let userLists = this.userLists.value.filter(
-          (list) => !(list.listId === listId && list.movieId === movieId)
-        );
+      this.http.changeMovieStatus(login as string, hash as string, listId, movieId, status).subscribe(() => {
+          let userLists = this.userLists.value.filter((list) => !(list.listId === listId && list.movieId === movieId));
 
-        if (status) {
-          userLists.push({ listId, movieId, status });
-        } else {
-          userLists = userLists.filter(
-            (list) => list.listId !== listId || list.movieId !== movieId
-          );
-        }
+          if (status) {
+              userLists.push({ listId, movieId, status });
+          } else {
+              userLists = userLists.filter((list) => list.listId !== listId || list.movieId !== movieId);
+          }
 
-        this.changeUserLists(userLists);
+          this.changeUserLists(userLists);
       });
-  }
-
-  createMovie(movie: IMovie) {
-    this.http.createMovie(movie).subscribe((newMovie: IMovie) => {
-      const currentMovies = this.movies.value;
-      currentMovies.list.push(newMovie);
-      this.changeMoviesList(currentMovies);
-    });
-  }
-
-  updateMovie(id: number, movie: IMovie) {
-    this.http.updateMovie(id, movie).subscribe((updatedMovie: IMovie) => {
-      const currentMovies = this.movies.value;
-      const index = currentMovies.list.findIndex(m => m.id === id);
-      if (index !== -1) {
-        currentMovies.list[index] = updatedMovie;
-        this.changeMoviesList(currentMovies);
-      }
-    });
-  }
-
-  deleteMovie(id: number) {
-    this.http.deleteMovie(id).subscribe(() => {
-      const currentMovies = this.movies.value;
-      currentMovies.list = currentMovies.list.filter(m => m.id !== id);
-      this.changeMoviesList(currentMovies);
-    });
   }
 }
