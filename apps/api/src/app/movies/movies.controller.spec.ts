@@ -18,5 +18,8 @@ describe('MoviesController', () => {
         expect(controller).toBeDefined();
     });
 
-    // Add more tests. AI!
+    it('should return an array of movies', async () => {
+        const result = await controller.findAll();
+        expect(result).toBeInstanceOf(Array);
+    });
 });
