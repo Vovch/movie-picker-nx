@@ -3,7 +3,6 @@ import { UsersController } from './users.controller';
 import { UsersService } from './users.service';
 import { GoogleCaptchaGuard } from '../google-captcha.guard';
 
-// Please fix this test. AI!
 describe('UsersController', () => {
     let controller: UsersController;
 
@@ -26,12 +25,6 @@ describe('UsersController', () => {
                     },
                 },
                 GoogleCaptchaGuard,
-                {
-                    provide: 'HttpService',
-                    useValue: {
-                        post: jest.fn().mockResolvedValue({ data: { success: true } }),
-                    },
-                },
             ],
         }).compile();
 
