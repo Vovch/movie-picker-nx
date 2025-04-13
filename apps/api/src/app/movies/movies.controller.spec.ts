@@ -22,4 +22,6 @@ describe('MoviesController', () => {
         const result = await controller.findAll();
         expect(result).toBeInstanceOf(Array);
     });
+
+    // Add a comprehensive test set. AI!
 });
