@@ -1,8 +1,8 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {FormBuilder} from '@angular/forms';
-import {CaptchaService} from '../captcha.service';
-import {AuthenticationService} from '../authentication.service';
-import {MoviesService} from '../movies.service';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
+import { CaptchaService } from '../captcha.service';
+import { AuthenticationService } from '../authentication.service';
+import { MoviesService } from '../movies.service';
 
 @Component({
     selector: 'movie-picker-authentication-modal',
@@ -32,14 +32,14 @@ export class AuthenticationModalComponent {
     }
 
     async handleLogin() {
-        const {login, password} = this.loginForm.value;
+        const { login, password } = this.loginForm.value;
 
         if (login && password) {
             const loginSubject = await this.auth.login(login, password);
 
             loginSubject.subscribe({
                 next: (lists) => {
-                    this.loginForm.reset();
+                    this.loginForm.reset(); // Ensure the form is reset here
                     this.handleHideModal();
                     this.moviesService.changeUserLists(lists);
                 },
