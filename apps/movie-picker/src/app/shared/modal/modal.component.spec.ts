@@ -60,4 +60,32 @@ describe('ModalComponent', () => {
       expect(emitSpy).toHaveBeenCalled();
     });
   });
+
+  describe('slots rendering', () => {
+    it('should render header, body, and footer slots when modal is open', () => {
+      component.isOpen = true;
+      fixture.detectChanges();
+
+      const headerSlot = fixture.nativeElement.querySelector('[slot=header]');
+      const bodySlot = fixture.nativeElement.querySelector('[slot=body]');
+      const footerSlot = fixture.nativeElement.querySelector('[slot=footer]');
+
+      expect(headerSlot).toBeTruthy();
+      expect(bodySlot).toBeTruthy();
+      expect(footerSlot).toBeTruthy();
+    });
+
+    it('should not render slots when modal is closed', () => {
+      component.isOpen = false;
+      fixture.detectChanges();
+
+      const headerSlot = fixture.nativeElement.querySelector('[slot=header]');
+      const bodySlot = fixture.nativeElement.querySelector('[slot=body]');
+      const footerSlot = fixture.nativeElement.querySelector('[slot=footer]');
+
+      expect(headerSlot).toBeNull();
+      expect(bodySlot).toBeNull();
+      expect(footerSlot).toBeNull();
+    });
+  });
 });
