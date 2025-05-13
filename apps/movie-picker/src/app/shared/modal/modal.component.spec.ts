@@ -50,6 +50,10 @@ describe('ModalComponent', () => {
     it('should emit hideModal event when close button is clicked', () => {
       const emitSpy = jest.spyOn(component.hideModal, 'emit');
 
+      // Ensure the modal is open before querying for the close button
+      component.isOpen = true;
+      fixture.detectChanges();
+
       const closeButton = fixture.nativeElement.querySelector('.close');
       closeButton.click();
 
