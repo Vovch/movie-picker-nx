@@ -1,5 +1,16 @@
-import {ComponentFixture, TestBed} from '@angular/core/testing';
-import {ModalComponent} from './modal.component';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ModalComponent } from './modal.component';
+
+@Component({
+  template: `
+    <movie-picker-modal [isOpen]="true">
+      <ng-content [slot="header"]>Header Content</ng-content>
+      <ng-content [slot="body"]>Body Content</ng-content>
+      <ng-content [slot="footer"]>Footer Content</ng-content>
+    </movie-picker-modal>
+  `,
+})
+class TestHostComponent {}
 
 describe('ModalComponent', () => {
   let component: ModalComponent;
@@ -7,9 +18,8 @@ describe('ModalComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ModalComponent]
-    })
-      .compileComponents();
+      declarations: [ModalComponent, TestHostComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(ModalComponent);
     component = fixture.componentInstance;
@@ -86,6 +96,33 @@ describe('ModalComponent', () => {
       expect(headerSlot).toBeNull();
       expect(bodySlot).toBeNull();
       expect(footerSlot).toBeNull();
+    });
+  });
+
+  describe('content rendering in slots', () => {
+    let hostFixture: ComponentFixture<TestHostComponent>;
+
+    beforeEach(() => {
+      hostFixture = TestBed.createComponent(TestHostComponent);
+      hostFixture.detectChanges();
+    });
+
+    it('should render header content when modal is open', () => {
+      const headerContent = hostFixture.nativeElement.querySelector('[slot=header]');
+      expect(headerContent).toBeTruthy();
+      expect(headerContent.textContent.trim()).toBe('Header Content');
+    });
+
+    it('should render body content when modal is open', () => {
+      const bodyContent = hostFixture.nativeElement.querySelector('[slot=body]');
+      expect(bodyContent).toBeTruthy();
+      expect(bodyContent.textContent.trim()).toBe('Body Content');
+    });
+
+    it('should render footer content when modal is open', () => {
+      const footerContent = hostFixture.nativeElement.querySelector('[slot=footer]');
+      expect(footerContent).toBeTruthy();
+      expect(footerContent.textContent.trim()).toBe('Footer Content');
     });
   });
 });
