@@ -1,9 +1,5 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 import {ModalComponent} from './modal.component';
-import {HttpClientTestingModule} from "@angular/common/http/testing";
-import {HttpClient} from "@angular/common/http";
-
-jest.createMockFromModule('../../authentication.service')
 
 describe('ModalComponent', () => {
   let component: ModalComponent;
@@ -11,7 +7,6 @@ describe('ModalComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      providers: [HttpClientTestingModule, HttpClient],
       declarations: [ModalComponent]
     })
       .compileComponents();
@@ -23,5 +18,42 @@ describe('ModalComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  describe('isOpen input', () => {
+    it('should show modal when isOpen is true', () => {
+      component.isOpen = true;
+      fixture.detectChanges();
+
+      const modalBackdrop = fixture.nativeElement.querySelector('.modal-backdrop');
+      expect(modalBackdrop).toBeTruthy();
+    });
+
+    it('should hide modal when isOpen is false', () => {
+      component.isOpen = false;
+      fixture.detectChanges();
+
+      const modalBackdrop = fixture.nativeElement.querySelector('.modal-backdrop');
+      expect(modalBackdrop).toBeNull();
+    });
+  });
+
+  describe('hideModal output', () => {
+    it('should emit hideModal event when handleHideModal is called', () => {
+      const emitSpy = jest.spyOn(component.hideModal, 'emit');
+
+      component.handleHideModal();
+
+      expect(emitSpy).toHaveBeenCalled();
+    });
+
+    it('should emit hideModal event when close button is clicked', () => {
+      const emitSpy = jest.spyOn(component.hideModal, 'emit');
+
+      const closeButton = fixture.nativeElement.querySelector('.close');
+      closeButton.click();
+
+      expect(emitSpy).toHaveBeenCalled();
+    });
   });
 });
