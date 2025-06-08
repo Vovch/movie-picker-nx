@@ -5,10 +5,21 @@ import { MoviesService } from './movies.service';
 describe('MoviesController', () => {
   let controller: MoviesController;
 
+  // Mock MovieListModel
+  const mockMovieListModel = {
+    // Add mock methods and properties here
+  };
+
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [MoviesController],
-      providers: [MoviesService],
+      providers: [
+        MoviesService,
+        {
+          provide: 'MovieListModel', // Or use the actual MovieListModel class
+          useValue: mockMovieListModel,
+        },
+      ],
     }).compile();
 
     controller = module.get<MoviesController>(MoviesController);

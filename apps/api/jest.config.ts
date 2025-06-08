@@ -13,4 +13,5 @@ export default {
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageDirectory: '../../coverage/apps/api',
+  coverageReporters: ['json', 'lcov', 'text', 'text-summary', 'json-summary'],
 };
