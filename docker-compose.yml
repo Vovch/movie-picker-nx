@@ -1,0 +1,60 @@
+version: '3.9'
+
+services:
+  mongo:
+    image: mongo:6
+    restart: unless-stopped
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+
+  dev:
+    build:
+      context: .
+      target: development
+    image: movie-picker-dev
+    ports:
+      - '4200:4200'
+      - '3000:3000'
+    environment:
+      MONGODB_URI: mongodb://mongo:27017/movies
+      NODE_ENV: development
+      NX_DAEMON: 'false'
+    volumes:
+      - .:/workspace
+      - node_modules:/workspace/node_modules
+    depends_on:
+      - mongo
+    command: npm start -- --host=0.0.0.0
+
+  api:
+    profiles:
+      - production
+    build:
+      context: .
+      target: api
+    image: movie-picker-api
+    ports:
+      - '3000:3000'
+    environment:
+      MONGODB_URI: mongodb://mongo:27017/movies
+      NODE_ENV: production
+    depends_on:
+      - mongo
+
+  web:
+    profiles:
+      - production
+    build:
+      context: .
+      target: web
+    image: movie-picker-web
+    ports:
+      - '8080:80'
+    depends_on:
+      - api
+
+volumes:
+  mongo-data:
+  node_modules:

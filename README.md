@@ -87,8 +87,19 @@ Run `nx graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
+## Docker
 
+- **Development (hot reload for API and Angular app):**
+  ```sh
+  docker compose up --build dev
+  ```
+  The dev container runs `npm start`, exposing Angular on `http://localhost:4200` and the Nest API on `http://localhost:3000`, backed by the Mongo service.
 
+- **Production build:** build both production images and run them with MongoDB.
+  ```sh
+  docker compose --profile production up --build api web mongo
+  ```
+  The frontend is served by Nginx on `http://localhost:8080` and proxies API requests to the Nest service on port `3000`.
 
 
 
