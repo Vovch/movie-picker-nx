@@ -78,7 +78,7 @@
         "yearProduced": "1930",
         "yearAdded": "2021",
         "id": 468,
-        "durationMinutes": null
+        "durationMinutes": 50
     },
     {
         "name": "Академия Рашмор",
@@ -123,7 +123,7 @@
         "yearProduced": "1984",
         "yearAdded": "2019",
         "id": 11,
-        "durationMinutes": null
+        "durationMinutes": 160
     },
     {
         "name": "Америка, Америка",
@@ -222,7 +222,7 @@
         "yearProduced": "1995",
         "yearAdded": "2023",
         "id": 1772,
-        "durationMinutes": null
+        "durationMinutes": 140
     },
     {
         "name": "Асфальтовые джунгли",
@@ -1338,7 +1338,7 @@
         "yearProduced": "1977",
         "yearAdded": "2022",
         "id": 967,
-        "durationMinutes": null
+        "durationMinutes": 133
     },
     {
         "name": "Высадка эмигрантов на острове Эллис",
@@ -1617,7 +1617,7 @@
         "yearProduced": "1941",
         "yearAdded": "2017",
         "id": 150,
-        "durationMinutes": null
+        "durationMinutes": 64
     },
     {
         "name": "Двадцатый век",
@@ -1752,7 +1752,7 @@
         "yearProduced": "2001",
         "yearAdded": "2024",
         "id": 2516,
-        "durationMinutes": null
+        "durationMinutes": 88
     },
     {
         "name": "Детские автомобильные гонки",
@@ -2040,7 +2040,7 @@
         "yearProduced": "1930-е — 1940-е",
         "yearAdded": "2011",
         "id": 782,
-        "durationMinutes": null
+        "durationMinutes": 13
     },
     {
         "name": "Домашние фильмы Кэба Кэллоуэя",
@@ -2049,7 +2049,7 @@
         "yearProduced": "1948—1951",
         "yearAdded": "2022",
         "id": 1040,
-        "durationMinutes": null
+        "durationMinutes": 16
     },
     {
         "name": "Домашняя вечеринка",
@@ -2166,7 +2166,7 @@
         "yearProduced": "1998",
         "yearAdded": "2018",
         "id": 201,
-        "durationMinutes": null
+        "durationMinutes": 89
     },
     {
         "name": "Дьявол никогда не спит",
@@ -2211,7 +2211,7 @@
         "yearProduced": "2008",
         "yearAdded": "2022",
         "id": 1057,
-        "durationMinutes": null
+        "durationMinutes": 126
     },
     {
         "name": "Жемчужина",
@@ -2364,7 +2364,7 @@
         "yearProduced": "1904",
         "yearAdded": "1998",
         "id": 516,
-        "durationMinutes": null
+        "durationMinutes": 10
     },
     {
         "name": "Заводной апельсин",
@@ -2508,7 +2508,7 @@
         "yearProduced": "1906",
         "yearAdded": "2005",
         "id": 231,
-        "durationMinutes": null
+        "durationMinutes": 3
     },
     {
         "name": "Земля",
@@ -2517,7 +2517,7 @@
         "yearProduced": "1993—2001",
         "yearAdded": "2020",
         "id": 756,
-        "durationMinutes": null
+        "durationMinutes": 20
     },
     {
         "name": "Земля уходит из-под ног",
@@ -2553,7 +2553,7 @@
         "yearProduced": "1920",
         "yearAdded": "2015",
         "id": 234,
-        "durationMinutes": null
+        "durationMinutes": 106
     },
     {
         "name": "Знак Зорро",
@@ -2562,7 +2562,7 @@
         "yearProduced": "1940",
         "yearAdded": "2009",
         "id": 235,
-        "durationMinutes": null
+        "durationMinutes": 94
     },
     {
         "name": "Золотая лихорадка",
@@ -2850,7 +2850,7 @@
         "yearProduced": "1984",
         "yearAdded": "2022",
         "id": 1125,
-        "durationMinutes": null
+        "durationMinutes": 48
     },
     {
         "name": "Их собственная лига",
@@ -2895,7 +2895,7 @@
         "yearProduced": "1943—1946",
         "yearAdded": "2008",
         "id": 753,
-        "durationMinutes": null
+        "durationMinutes": 96
     },
     {
         "name": "Кадры инаугурации президента Мак-Кинли",
@@ -3030,7 +3030,7 @@
         "yearProduced": "1921",
         "yearAdded": "2023",
         "id": 2076,
-        "durationMinutes": null
+        "durationMinutes": 13
     },
     {
         "name": "Китайский квартал",
@@ -3120,7 +3120,7 @@
         "yearProduced": "1920-е — 1930-е",
         "yearAdded": "2017",
         "id": 752,
-        "durationMinutes": null
+        "durationMinutes": 35
     },
     {
         "name": "Коллекция фильмов семьи Боулано",
@@ -3129,7 +3129,7 @@
         "yearProduced": "1950—1978",
         "yearAdded": "2023",
         "id": 2086,
-        "durationMinutes": null
+        "durationMinutes": 43
     },
     {
         "name": "Колон: Из дневника Рэя и Эстер",
@@ -3219,7 +3219,7 @@
         "yearProduced": "1984",
         "yearAdded": "2021",
         "id": 297,
-        "durationMinutes": null
+        "durationMinutes": 91
     },
     {
         "name": "Кошмар перед Рождеством",
@@ -3228,7 +3228,7 @@
         "yearProduced": "1993",
         "yearAdded": "2023",
         "id": 2096,
-        "durationMinutes": null
+        "durationMinutes": 76
     },
     {
         "name": "Красавица и Чудовище",
@@ -3714,7 +3714,7 @@
         "yearProduced": "1971",
         "yearAdded": "2022",
         "id": 1214,
-        "durationMinutes": null
+        "durationMinutes": 18
     },
     {
         "name": "Манхатта",
@@ -4227,7 +4227,7 @@
         "yearProduced": "1966",
         "yearAdded": "2002",
         "id": 136,
-        "durationMinutes": null
+        "durationMinutes": 79
     },
     {
         "name": "Навигатор",
@@ -4290,7 +4290,7 @@
         "yearProduced": "2002",
         "yearAdded": "2019",
         "id": 384,
-        "durationMinutes": null
+        "durationMinutes": 86
     },
     {
         "name": "Национальный бархат",
@@ -4407,7 +4407,7 @@
         "yearProduced": "1930-е — 1970-е",
         "yearAdded": "2012",
         "id": 769,
-        "durationMinutes": null
+        "durationMinutes": 17
     },
     {
         "name": "Нечто из иного мира",
@@ -4587,7 +4587,7 @@
         "yearProduced": "1940",
         "yearAdded": "1998",
         "id": 409,
-        "durationMinutes": null
+        "durationMinutes": 8
     },
     {
         "name": "Обувь",
@@ -4632,7 +4632,7 @@
         "yearProduced": "1931",
         "yearAdded": "1991",
         "id": 411,
-        "durationMinutes": null
+        "durationMinutes": 87
     },
     {
         "name": "Один дома",
@@ -4740,7 +4740,7 @@
         "yearProduced": "1914",
         "yearAdded": "2008",
         "id": 422,
-        "durationMinutes": null
+        "durationMinutes": 199
     },
     {
         "name": "Оркестр приюта Дженкинса",
@@ -4776,7 +4776,7 @@
         "yearProduced": "1987",
         "yearAdded": "2023",
         "id": 2265,
-        "durationMinutes": null
+        "durationMinutes": 61
     },
     {
         "name": "Оскорбление",
@@ -4785,7 +4785,7 @@
         "yearProduced": "1950",
         "yearAdded": "2020",
         "id": 425,
-        "durationMinutes": null
+        "durationMinutes": 75
     },
     {
         "name": "От бревна до корабля",
@@ -4812,7 +4812,7 @@
         "yearProduced": "2011",
         "yearAdded": "2022",
         "id": 1326,
-        "durationMinutes": null
+        "durationMinutes": 86
     },
     {
         "name": "Отныне и во веки веков",
@@ -4920,7 +4920,7 @@
         "yearProduced": "1990",
         "yearAdded": "2016",
         "id": 438,
-        "durationMinutes": null
+        "durationMinutes": 71
     },
     {
         "name": "Парик: Фильм для людей с непослушными волосами",
@@ -4947,7 +4947,7 @@
         "yearProduced": "1999",
         "yearAdded": "2019",
         "id": 440,
-        "durationMinutes": null
+        "durationMinutes": 118
     },
     {
         "name": "Парни что надо",
@@ -5406,7 +5406,7 @@
         "yearProduced": "1914",
         "yearAdded": "1994",
         "id": 489,
-        "durationMinutes": null
+        "durationMinutes": 199
     },
     {
         "name": "Поцелуй",
@@ -5424,7 +5424,7 @@
         "yearProduced": "1942—1945",
         "yearAdded": "2000",
         "id": 491,
-        "durationMinutes": null
+        "durationMinutes": 409
     },
     {
         "name": "Почему человек творит",
@@ -5712,7 +5712,7 @@
         "yearProduced": "1989",
         "yearAdded": "2022",
         "id": 1421,
-        "durationMinutes": null
+        "durationMinutes": 55
     },
     {
         "name": "Разговор",
@@ -5730,7 +5730,7 @@
         "yearProduced": "1917",
         "yearAdded": "2014",
         "id": 519,
-        "durationMinutes": null
+        "durationMinutes": 60
     },
     {
         "name": "Ранние абстракции",
@@ -5793,7 +5793,7 @@
         "yearProduced": "1970",
         "yearAdded": "2021",
         "id": 526,
-        "durationMinutes": null
+        "durationMinutes": 12
     },
     {
         "name": "Римские каникулы",
@@ -5838,7 +5838,7 @@
         "yearProduced": "1979",
         "yearAdded": "2021",
         "id": 530,
-        "durationMinutes": null
+        "durationMinutes": 78
     },
     {
         "name": "Ровно в полдень",
@@ -5946,7 +5946,7 @@
         "yearProduced": "1989",
         "yearAdded": "2022",
         "id": 1448,
-        "durationMinutes": null
+        "durationMinutes": 83
     },
     {
         "name": "Рытьё и кукареканье",
@@ -5964,7 +5964,7 @@
         "yearProduced": "1929",
         "yearAdded": "2020",
         "id": 822,
-        "durationMinutes": null
+        "durationMinutes": 56
     },
     {
         "name": "С бригадой имени Авраама Линкольна в Испании",
@@ -5973,7 +5973,7 @@
         "yearProduced": "1938",
         "yearAdded": "2017",
         "id": 823,
-        "durationMinutes": null
+        "durationMinutes": 16
     },
     {
         "name": "С огоньком",
@@ -6018,7 +6018,7 @@
         "yearProduced": "1913",
         "yearAdded": "2020",
         "id": 806,
-        "durationMinutes": null
+        "durationMinutes": 10
     },
     {
         "name": "Саундер",
@@ -6027,7 +6027,7 @@
         "yearProduced": "1972",
         "yearAdded": "2021",
         "id": 545,
-        "durationMinutes": null
+        "durationMinutes": 105
     },
     {
         "name": "Свадебный банкет",
@@ -6396,7 +6396,7 @@
         "yearProduced": "1961—1964",
         "yearAdded": "1992",
         "id": 577,
-        "durationMinutes": null
+        "durationMinutes": 78
     },
     {
         "name": "Собачий полдень",
@@ -6468,7 +6468,7 @@
         "yearProduced": "2010",
         "yearAdded": "2024",
         "id": 2519,
-        "durationMinutes": null
+        "durationMinutes": 120
     },
     {
         "name": "Союз прислуги",
@@ -6486,7 +6486,7 @@
         "yearProduced": "1960",
         "yearAdded": "2017",
         "id": 583,
-        "durationMinutes": null
+        "durationMinutes": 197
     },
     {
         "name": "Спасти рядового Райана",
@@ -6522,7 +6522,7 @@
         "yearProduced": "1959",
         "yearAdded": "2019",
         "id": 587,
-        "durationMinutes": null
+        "durationMinutes": 75
     },
     {
         "name": "Средняя школа",
@@ -6612,7 +6612,7 @@
         "yearProduced": "1975—1976",
         "yearAdded": "2024",
         "id": 2504,
-        "durationMinutes": null
+        "durationMinutes": 27
     },
     {
         "name": "Стычка волков",
@@ -6639,7 +6639,7 @@
         "yearProduced": "1978",
         "yearAdded": "2017",
         "id": 596,
-        "durationMinutes": null
+        "durationMinutes": 143
     },
     {
         "name": "Суперфлай",
@@ -6648,7 +6648,7 @@
         "yearProduced": "1972",
         "yearAdded": "2022",
         "id": 1174,
-        "durationMinutes": null
+        "durationMinutes": 91
     },
     {
         "name": "Суровая любовь",
@@ -6711,7 +6711,7 @@
         "yearProduced": "1982",
         "yearAdded": "2016",
         "id": 807,
-        "durationMinutes": null
+        "durationMinutes": 30
     },
     {
         "name": "Табу",
@@ -6747,7 +6747,7 @@
         "yearProduced": "1931—1944",
         "yearAdded": "2013",
         "id": 775,
-        "durationMinutes": null
+        "durationMinutes": 78
     },
     {
         "name": "Танцуй, девочка, танцуй",
@@ -6837,7 +6837,7 @@
         "yearProduced": "1988",
         "yearAdded": "2017",
         "id": 810,
-        "durationMinutes": null
+        "durationMinutes": 90
     },
     {
         "name": "Тельма и Луиза",
@@ -6846,7 +6846,7 @@
         "yearProduced": "1991",
         "yearAdded": "2016",
         "id": 613,
-        "durationMinutes": null
+        "durationMinutes": 130
     },
     {
         "name": "Темнокожий солдат",
@@ -6918,7 +6918,7 @@
         "yearProduced": "1974",
         "yearAdded": "2024",
         "id": 2503,
-        "durationMinutes": null
+        "durationMinutes": 83
     },
     {
         "name": "Титаник",
@@ -6954,7 +6954,7 @@
         "yearProduced": "1939",
         "yearAdded": "2017",
         "id": 621,
-        "durationMinutes": null
+        "durationMinutes": 121
     },
     {
         "name": "Том, Том, сын дудочника",
@@ -7188,7 +7188,7 @@
         "yearProduced": "1981",
         "yearAdded": "2024",
         "id": 2506,
-        "durationMinutes": null
+        "durationMinutes": 82
     },
     {
         "name": "Укуренные",
@@ -7215,7 +7215,7 @@
         "yearProduced": "1979",
         "yearAdded": "2021",
         "id": 824,
-        "durationMinutes": null
+        "durationMinutes": 89
     },
     {
         "name": "Уоттстакс",
@@ -7332,7 +7332,7 @@
         "yearProduced": "1963",
         "yearAdded": "1994",
         "id": 659,
-        "durationMinutes": null
+        "durationMinutes": 1
     },
     {
         "name": "Фильм Фрэнка",
@@ -7350,7 +7350,7 @@
         "yearProduced": "1924—1928",
         "yearAdded": "2016",
         "id": 799,
-        "durationMinutes": null
+        "durationMinutes": 137
     },
     {
         "name": "Флэш Гордон",
@@ -7359,7 +7359,7 @@
         "yearProduced": "1936",
         "yearAdded": "1996",
         "id": 661,
-        "durationMinutes": null
+        "durationMinutes": 245
     },
     {
         "name": "Форрест Гамп",
@@ -7413,7 +7413,7 @@
         "yearProduced": "1963",
         "yearAdded": "2018",
         "id": 668,
-        "durationMinutes": null
+        "durationMinutes": 112
     },
     {
         "name": "Халявщик",
@@ -7512,7 +7512,7 @@
         "yearProduced": "1937",
         "yearAdded": "1997",
         "id": 218,
-        "durationMinutes": null
+        "durationMinutes": 8
     },
     {
         "name": "Хроника катастрофы дирижабля «Гинденбург»",
@@ -7566,7 +7566,7 @@
         "yearProduced": "1940",
         "yearAdded": "2005",
         "id": 681,
-        "durationMinutes": null
+        "durationMinutes": 42
     },
     {
         "name": "Цивилизация",
@@ -7737,7 +7737,7 @@
         "yearProduced": "1898",
         "yearAdded": "2018",
         "id": 800,
-        "durationMinutes": null
+        "durationMinutes": 1
     },
     {
         "name": "Чудо в Морганс-Крик",
@@ -7854,7 +7854,7 @@
         "yearProduced": "2001",
         "yearAdded": "2020",
         "id": 708,
-        "durationMinutes": null
+        "durationMinutes": 90
     },
     {
         "name": "Щенки есть щенки",
@@ -8025,7 +8025,7 @@
         "yearProduced": "1970",
         "yearAdded": "2019",
         "id": 724,
-        "durationMinutes": null
+        "durationMinutes": 30
     },
     {
         "name": "Я Хоакин",
