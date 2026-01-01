@@ -33,8 +33,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Build API
+        run: npx nx build api --configuration=production
+
       - name: Start API
-        run: npx nx serve api --host=0.0.0.0 --port=3000 >/tmp/api.log 2>&1 &
+        run: PORT=3000 node dist/apps/api/main.js >/tmp/api.log 2>&1 &
 
       - name: Start frontend
         run: npx nx serve movie-picker --host=0.0.0.0 --port=4200 >/tmp/web.log 2>&1 &
