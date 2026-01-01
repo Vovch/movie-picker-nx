@@ -1,0 +1,33 @@
+{
+  "listId": "registry-2024",
+  "name": "US National Film Registry",
+  "list": [
+    {
+      "id": 1,
+      "name": "Rear Window",
+      "originalName": "Rear Window",
+      "director": "Alfred Hitchcock",
+      "yearProduced": "1954",
+      "yearAdded": "1998",
+      "durationMinutes": 112
+    },
+    {
+      "id": 2,
+      "name": "Metropolis",
+      "originalName": "Metropolis",
+      "director": "Fritz Lang",
+      "yearProduced": "1927",
+      "yearAdded": "1989",
+      "durationMinutes": 153
+    },
+    {
+      "id": 3,
+      "name": "Do the Right Thing",
+      "originalName": "Do the Right Thing",
+      "director": "Spike Lee",
+      "yearProduced": "1989",
+      "yearAdded": "1999",
+      "durationMinutes": 120
+    }
+  ]
+}
