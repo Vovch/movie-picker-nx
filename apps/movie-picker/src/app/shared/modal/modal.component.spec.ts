@@ -1,20 +1,24 @@
+import { Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ModalComponent } from './modal.component';
 
 @Component({
   template: `
-    <movie-picker-modal [isOpen]="true">
-      <ng-content [slot="header"]>Header Content</ng-content>
-      <ng-content [slot="body"]>Body Content</ng-content>
-      <ng-content [slot="footer"]>Footer Content</ng-content>
+    <movie-picker-modal [isOpen]="isOpen">
+      <div slot="header">Header Content</div>
+      <div slot="body">Body Content</div>
+      <div slot="footer">Footer Content</div>
     </movie-picker-modal>
   `,
 })
-class TestHostComponent {}
+class TestHostComponent {
+  isOpen = true;
+}
 
 describe('ModalComponent', () => {
   let component: ModalComponent;
   let fixture: ComponentFixture<ModalComponent>;
+  let hostFixture: ComponentFixture<TestHostComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -72,13 +76,16 @@ describe('ModalComponent', () => {
   });
 
   describe('slots rendering', () => {
-    it('should render header, body, and footer slots when modal is open', () => {
-      component.isOpen = true;
-      fixture.detectChanges();
+    beforeEach(() => {
+      hostFixture = TestBed.createComponent(TestHostComponent);
+    });
 
-      const headerSlot = fixture.nativeElement.querySelector('[slot=header]');
-      const bodySlot = fixture.nativeElement.querySelector('[slot=body]');
-      const footerSlot = fixture.nativeElement.querySelector('[slot=footer]');
+    it('should render header, body, and footer slots when modal is open', () => {
+      hostFixture.detectChanges();
+
+      const headerSlot = hostFixture.nativeElement.querySelector('[slot=header]');
+      const bodySlot = hostFixture.nativeElement.querySelector('[slot=body]');
+      const footerSlot = hostFixture.nativeElement.querySelector('[slot=footer]');
 
       expect(headerSlot).toBeTruthy();
       expect(bodySlot).toBeTruthy();
@@ -86,12 +93,12 @@ describe('ModalComponent', () => {
     });
 
     it('should not render slots when modal is closed', () => {
-      component.isOpen = false;
-      fixture.detectChanges();
+      hostFixture.componentInstance.isOpen = false;
+      hostFixture.detectChanges();
 
-      const headerSlot = fixture.nativeElement.querySelector('[slot=header]');
-      const bodySlot = fixture.nativeElement.querySelector('[slot=body]');
-      const footerSlot = fixture.nativeElement.querySelector('[slot=footer]');
+      const headerSlot = hostFixture.nativeElement.querySelector('[slot=header]');
+      const bodySlot = hostFixture.nativeElement.querySelector('[slot=body]');
+      const footerSlot = hostFixture.nativeElement.querySelector('[slot=footer]');
 
       expect(headerSlot).toBeNull();
       expect(bodySlot).toBeNull();
@@ -100,8 +107,6 @@ describe('ModalComponent', () => {
   });
 
   describe('content rendering in slots', () => {
-    let hostFixture: ComponentFixture<TestHostComponent>;
-
     beforeEach(() => {
       hostFixture = TestBed.createComponent(TestHostComponent);
       hostFixture.detectChanges();
