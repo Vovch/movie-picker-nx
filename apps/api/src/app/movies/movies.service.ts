@@ -39,6 +39,7 @@ export class MoviesService {
                         director: 1,
                         yearProduced: 1,
                         yearAdded: 1,
+                        durationMinutes: 1,
                     },
                     listId: 1,
                     name: 1,
