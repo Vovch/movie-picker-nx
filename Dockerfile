@@ -2,6 +2,7 @@ FROM node:18-bullseye-slim AS base
 WORKDIR /workspace
 
 COPY package*.json ./
+COPY decorate-angular-cli.js ./decorate-angular-cli.js
 RUN npm ci
 
 COPY . .
