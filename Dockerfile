@@ -1,11 +1,9 @@
 FROM node:18-bullseye-slim AS base
 WORKDIR /workspace
 
-COPY package*.json ./
-COPY decorate-angular-cli.js ./decorate-angular-cli.js
-RUN npm ci
-
+COPY package*.json decorate-angular-cli.js ./
 COPY . .
+RUN npm ci
 
 # Development image that runs both API and Angular dev servers via npm start.
 FROM base AS development
@@ -24,7 +22,7 @@ WORKDIR /workspace
 ENV NODE_ENV=production
 
 COPY package*.json ./
-RUN npm ci --omit=dev
+RUN npm ci --omit=dev --ignore-scripts
 
 COPY --from=build /workspace/dist/apps/api ./dist/apps/api
 ENV PORT=3000
