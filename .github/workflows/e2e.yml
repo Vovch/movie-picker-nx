@@ -1,0 +1,54 @@
+name: End-to-End Tests
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    services:
+      mongo:
+        image: mongo:6
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd="mongosh --eval 'db.runCommand({ ping: 1 })'"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=5
+    env:
+      MONGODB_URI: mongodb://127.0.0.1:27017/movies
+      NX_DAEMON: 'false'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build API
+        run: npx nx build api --configuration=production
+
+      - name: Start API
+        run: PORT=3000 node dist/apps/api/main.js >/tmp/api.log 2>&1 &
+
+      - name: Start frontend
+        run: npx nx serve movie-picker --host=0.0.0.0 --port=4200 >/tmp/web.log 2>&1 &
+
+      - name: Wait for services
+        run: |
+          set -euo pipefail
+          npx wait-on --timeout=120000 --httpTimeout=10000 --log \
+            http://127.0.0.1:3000/api/movies \
+            http://127.0.0.1:4200 \
+            || (echo 'Service readiness check failed. API log:'; cat /tmp/api.log; echo 'Frontend log:'; cat /tmp/web.log; exit 1)
+
+      - name: Run movie-picker e2e tests
+        run: npx nx e2e movie-picker-e2e --headless --skipServe --baseUrl=http://127.0.0.1:4200
