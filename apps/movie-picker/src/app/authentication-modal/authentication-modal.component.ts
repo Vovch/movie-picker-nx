@@ -39,7 +39,7 @@ export class AuthenticationModalComponent {
 
             loginSubject.subscribe({
                 next: (lists) => {
-                    this.loginForm.reset(); // Ensure the form is reset here
+                    this.loginForm.reset({ login: '', password: '' }); // Ensure the form is reset here
                     this.handleHideModal();
                     this.moviesService.changeUserLists(lists);
                 },

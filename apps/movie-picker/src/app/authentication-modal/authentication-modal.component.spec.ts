@@ -1,8 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { FormBuilder } from '@angular/forms';
+import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
 import { CaptchaService } from '../captcha.service';
 import { AuthenticationService } from '../authentication.service';
 import { MoviesService } from '../movies.service';
+import { ModalComponent } from '../shared/modal/modal.component';
 import { AuthenticationModalComponent } from './authentication-modal.component';
 
 describe('AuthenticationModalComponent', () => {
@@ -15,12 +17,13 @@ describe('AuthenticationModalComponent', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [AuthenticationModalComponent],
+            imports: [CommonModule, ReactiveFormsModule],
+            declarations: [AuthenticationModalComponent, ModalComponent],
             providers: [
                 FormBuilder,
                 { provide: CaptchaService, useValue: {} },
-                { provide: AuthenticationService, useValue: {} },
-                { provide: MoviesService, useValue: {} },
+                { provide: AuthenticationService, useValue: { login: jest.fn() } },
+                { provide: MoviesService, useValue: { changeUserLists: jest.fn() } },
             ],
         }).compileComponents();
     });
@@ -30,8 +33,8 @@ describe('AuthenticationModalComponent', () => {
         component = fixture.componentInstance;
         formBuilder = TestBed.inject(FormBuilder);
         captchaService = TestBed.inject(CaptchaService);
-        authService = TestBed.inject(AuthenticationService);
-        moviesService = TestBed.inject(MoviesService);
+        authService = TestBed.inject(AuthenticationService) as jest.Mocked<AuthenticationService>;
+        moviesService = TestBed.inject(MoviesService) as jest.Mocked<MoviesService>;
 
         fixture.detectChanges();
     });
@@ -52,19 +55,21 @@ describe('AuthenticationModalComponent', () => {
     });
 
     it('should reset the form and emit hideModal event on successful login', async () => {
-        const mockLoginSubject = { subscribe: jest.fn() };
-        authService.login = jest.fn().mockReturnValue(mockLoginSubject);
+        const mockLists = ['my list'];
+        const hideModalSpy = jest.spyOn(component.hideModal, 'emit');
+        const mockLoginSubject = {
+            subscribe: jest.fn(({ next }) => next(mockLists)),
+        };
+        authService.login = jest.fn().mockReturnValue(mockLoginSubject as any);
 
         component.loginForm.setValue({ login: 'testuser', password: 'password' });
         await component.handleLogin();
 
+        expect(mockLoginSubject.subscribe).toHaveBeenCalled();
         expect(component.loginForm.value.login).toBe('');
         expect(component.loginForm.value.password).toBe('');
-        expect(mockLoginSubject.subscribe).toHaveBeenCalledWith({
-            next: () => {
-                expect(component.hideModal.emit).toHaveBeenCalled();
-            },
-        });
+        expect(hideModalSpy).toHaveBeenCalled();
+        expect(moviesService.changeUserLists).toHaveBeenCalledWith(mockLists);
     });
 
     it('should set isError to true on login failure', async () => {
