@@ -6,6 +6,7 @@ import {
   getMovieRows,
   getSearchInput,
 } from '../support/app.po';
+import { orderBy } from 'lodash';
 
 describe('movie-picker', () => {
   before(() => {
@@ -61,10 +62,8 @@ describe('movie-picker', () => {
     };
 
     cy.get('@movieData').then((movies: IMovie[]) => {
-      const sortedAsc = [...movies].sort(
-        (a, b) => Number(a.yearAdded) - Number(b.yearAdded) || a.name.localeCompare(b.name)
-      );
-      const sortedDesc = [...sortedAsc].reverse();
+      const sortedAsc = orderBy(movies, ['yearAdded'], ['asc']);
+      const sortedDesc = orderBy(movies, ['yearAdded'], ['desc']);
 
       yearAddedColumn.click();
       assertMovieOrder(sortedAsc.slice(0, 3).map((movie) => movie.name));

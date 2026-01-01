@@ -40,7 +40,12 @@ jobs:
         run: npx nx serve movie-picker --host=0.0.0.0 --port=4200 >/tmp/web.log 2>&1 &
 
       - name: Wait for services
-        run: npx wait-on http://127.0.0.1:3000/api/movies http://127.0.0.1:4200
+        run: |
+          set -euo pipefail
+          npx wait-on --timeout=120000 --httpTimeout=10000 --log \
+            http://127.0.0.1:3000/api/movies \
+            http://127.0.0.1:4200 \
+            || (echo 'Service readiness check failed. API log:'; cat /tmp/api.log; echo 'Frontend log:'; cat /tmp/web.log; exit 1)
 
       - name: Run movie-picker e2e tests
         run: npx nx e2e movie-picker-e2e --headless --skipServe --baseUrl=http://127.0.0.1:4200
