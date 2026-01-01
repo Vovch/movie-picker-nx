@@ -26,7 +26,8 @@ export class MovieListComponent implements OnChanges {
         originalName: 'Original Title',
         director: 'Director',
         yearProduced: 'Year Produced',
-        yearAdded: 'Year Added to Registry'
+        yearAdded: 'Year Added to Registry',
+        durationMinutes: 'Duration (minutes)',
     };
 
     ngOnChanges() {

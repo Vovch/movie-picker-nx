@@ -10,6 +10,7 @@ export interface IMovie {
     director: string;
     yearProduced: string;
     yearAdded: string;
+    durationMinutes: number | null;
 }
 
 export interface IGetMoviesApiResponse {

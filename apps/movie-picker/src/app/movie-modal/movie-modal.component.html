@@ -22,6 +22,11 @@
         </div>
 
         <div class="field">
+            <h3 class="label">Duration</h3>
+            <p class="value">{{ movie.durationMinutes !== null ? movie.durationMinutes + ' min' : 'Unknown' }}</p>
+        </div>
+
+        <div class="field">
             <h3 class="label">Year Added</h3>
             <p class="value">{{ movie.yearAdded }}</p>
         </div>

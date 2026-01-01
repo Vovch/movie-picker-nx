@@ -34,6 +34,7 @@ describe('MovieListComponent', () => {
                 director: 'Director 1',
                 yearProduced: '2020',
                 yearAdded: '2021',
+                durationMinutes: 120,
             },
             {
                 id: 2,
@@ -42,6 +43,7 @@ describe('MovieListComponent', () => {
                 director: 'Director 2',
                 yearProduced: '2021',
                 yearAdded: '2022',
+                durationMinutes: 110,
             },
         ];
 
@@ -59,11 +61,13 @@ describe('MovieListComponent', () => {
         expect(rowOne.querySelectorAll('td')[2].textContent).toContain('Director 1');
         expect(rowOne.querySelectorAll('td')[3].textContent).toContain('2020');
         expect(rowOne.querySelectorAll('td')[4].textContent).toContain('2021');
+        expect(rowOne.querySelectorAll('td')[5].textContent).toContain('120');
         expect(rowTwo.querySelector('td').textContent).toContain('Movie 2');
         expect(rowTwo.querySelectorAll('td')[1].textContent).toContain('Movie 2 Original');
         expect(rowTwo.querySelectorAll('td')[2].textContent).toContain('Director 2');
         expect(rowTwo.querySelectorAll('td')[3].textContent).toContain('2021');
         expect(rowTwo.querySelectorAll('td')[4].textContent).toContain('2022');
+        expect(rowTwo.querySelectorAll('td')[5].textContent).toContain('110');
         expect(compiled.querySelector('table').textContent).toContain('Total: 2 movies.');
     });
 
@@ -76,6 +80,7 @@ describe('MovieListComponent', () => {
                 director: 'Director 1',
                 yearProduced: '2020',
                 yearAdded: '2021',
+                durationMinutes: 100,
             },
             {
                 id: 2,
@@ -84,6 +89,7 @@ describe('MovieListComponent', () => {
                 director: 'Director 2',
                 yearProduced: '2021',
                 yearAdded: '2022',
+                durationMinutes: 90,
             },
         ];
         // Trigger OnChanges by setting the input property
@@ -105,6 +111,7 @@ describe('MovieListComponent', () => {
                 director: 'Director 1',
                 yearProduced: '2020',
                 yearAdded: '2021',
+                durationMinutes: 120,
             },
             {
                 id: 2,
@@ -113,6 +120,7 @@ describe('MovieListComponent', () => {
                 director: 'Director 2',
                 yearProduced: '2021',
                 yearAdded: '2022',
+                durationMinutes: 110,
             },
             {
                 id: 3,
@@ -121,6 +129,7 @@ describe('MovieListComponent', () => {
                 director: 'Director 3',
                 yearProduced: '2022',
                 yearAdded: '2023',
+                durationMinutes: 130,
             },
         ];
 
