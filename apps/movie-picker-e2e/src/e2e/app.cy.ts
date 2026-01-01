@@ -9,13 +9,10 @@ import {
 import { orderBy } from 'lodash';
 
 describe('movie-picker', () => {
-  before(() => {
+  beforeEach(() => {
     cy.request('/api/movies')
       .its('body.list')
       .as('movieData');
-  });
-
-  beforeEach(() => {
     cy.visit('/');
   });
 
