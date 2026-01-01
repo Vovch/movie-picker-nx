@@ -8,4 +8,5 @@ export class Movie {
     @Prop() originalName: string;
     @Prop() yearProduced: string;
     @Prop() yearAdded: string;
+    @Prop() durationMinutes: number | null;
 }

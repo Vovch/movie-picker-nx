@@ -5,4 +5,5 @@ export class Movie {
     originalName: string;
     yearProduced: string;
     yearAdded: string;
+    durationMinutes: number | null;
 }

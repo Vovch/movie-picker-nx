@@ -30,12 +30,12 @@
             <td class="list__cell" *ngFor="let column of columnNames">{{ movie[column] }}</td>
         </tr>
         <tr class="list__row" *ngIf="filteredMovies.length === 0">
-            <td class="list__cell" colspan="5">No movies found.</td>
+            <td class="list__cell" [attr.colspan]="columnNames.length || 1">No movies found.</td>
         </tr>
     </tbody>
     <tfoot class="list__footer">
         <tr>
-            <td class="list__cell" colspan="5">Total: {{ filteredMovies.length }} movies.</td>
+            <td class="list__cell" [attr.colspan]="columnNames.length || 1">Total: {{ filteredMovies.length }} movies.</td>
         </tr>
     </tfoot>
 </table>

@@ -73,7 +73,8 @@ describe('AppComponent', () => {
         originalName: 'Original Movie 1',
         director: 'Director 1',
         yearProduced: '2001',
-        yearAdded: '2002'
+        yearAdded: '2002',
+        durationMinutes: 101
       },
       {
         id: 2,
@@ -81,7 +82,8 @@ describe('AppComponent', () => {
         originalName: 'Original Movie 2',
         director: 'Director 2',
         yearProduced: '2003',
-        yearAdded: '2004'
+        yearAdded: '2004',
+        durationMinutes: 102
       },
       {
         id: 3,
@@ -89,7 +91,8 @@ describe('AppComponent', () => {
         originalName: 'Original Movie 3',
         director: 'Director 3',
         yearProduced: '2005',
-        yearAdded: '2006'
+        yearAdded: '2006',
+        durationMinutes: 103
       },
     ];
 
