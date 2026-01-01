@@ -1,9 +1,11 @@
 FROM node:18-bullseye-slim AS base
 WORKDIR /workspace
 
-COPY package*.json decorate-angular-cli.js ./
+COPY package*.json ./
+RUN npm ci --ignore-scripts
+
 COPY . .
-RUN npm ci
+RUN npm run postinstall --if-present
 
 # Development image that runs both API and Angular dev servers via npm start.
 FROM base AS development
