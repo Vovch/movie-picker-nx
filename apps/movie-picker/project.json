@@ -81,7 +81,8 @@
       },
       "defaultConfiguration": "development",
       "options": {
-        "proxyConfig": "apps/movie-picker/proxy.conf.json"
+        "proxyConfig": "apps/movie-picker/proxy.conf.json",
+        "host": "0.0.0.0"
       }
     },
     "extract-i18n": {
