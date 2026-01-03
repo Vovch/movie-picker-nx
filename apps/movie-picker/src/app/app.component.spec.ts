@@ -23,7 +23,14 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
-      providers: [{provide: HTTPService, useValue: { getMovies: jest.fn().mockReturnValue(of([])) }}],
+      providers: [{
+        provide: HTTPService,
+        useValue: {
+          getMovies: jest.fn().mockReturnValue(of([])),
+          cacheMoviesList: jest.fn(),
+          getCachedMovies: jest.fn().mockResolvedValue(null),
+        }
+      }],
       schemas: [NO_ERRORS_SCHEMA],
     }).compileComponents();
 
