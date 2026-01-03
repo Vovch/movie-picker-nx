@@ -5,6 +5,7 @@ exports[`AppComponent should render title 1`] = `
   id="root3"
 >
   <movie-picker-header />
+  
   <section
     class="router-outlet"
   >

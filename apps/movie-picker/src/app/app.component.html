@@ -1,5 +1,9 @@
 <movie-picker-header></movie-picker-header>
 
+<section *ngIf="isOffline" class="offline-banner" role="status">
+    {{ offlineMessage }}
+</section>
+
 <section class="router-outlet">
     <router-outlet></router-outlet>
     <movie-picker-authentication-modal></movie-picker-authentication-modal>

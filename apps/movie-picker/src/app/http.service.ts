@@ -8,6 +8,7 @@ import {IGetMoviesApiResponse, ILoginRequest, TGetUserMoviesModelResponse, IMovi
 })
 export class HTTPService {
   private apiUrl = environment.apiUrl;
+  private readonly cacheName = 'movie-picker-movies';
 
   constructor(private http: HttpClient) {
   }
@@ -37,5 +38,37 @@ export class HTTPService {
       hash,
       captchaResponse,
     } as ILoginRequest);
+  }
+
+  async cacheMoviesList(moviesList: IGetMoviesApiResponse) {
+    if (!this.canUseCacheStorage()) {
+      return;
+    }
+
+    const cache = await caches.open(this.cacheName);
+    const response = new Response(JSON.stringify(moviesList), {
+      headers: {'Content-Type': 'application/json'}
+    });
+
+    await cache.put(this.apiUrl + '/movies', response);
+  }
+
+  async getCachedMovies(): Promise<IGetMoviesApiResponse | null> {
+    if (!this.canUseCacheStorage()) {
+      return null;
+    }
+
+    const cache = await caches.open(this.cacheName);
+    const cachedResponse = await cache.match(this.apiUrl + '/movies');
+
+    if (!cachedResponse) {
+      return null;
+    }
+
+    return cachedResponse.json();
+  }
+
+  private canUseCacheStorage(): boolean {
+    return typeof window !== 'undefined' && 'caches' in window;
   }
 }
