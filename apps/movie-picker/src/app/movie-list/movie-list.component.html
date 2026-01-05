@@ -12,6 +12,7 @@
 <table class="list">
     <thead class="list__header">
         <tr>
+            <th class="list__cell list__column-heading list__row-number">#</th>
             <th
                 class="list__cell list__column-heading"
                 [class]="name"
@@ -26,16 +27,17 @@
         </tr>
     </thead>
     <tbody>
-        <tr class="list__row" *ngFor="let movie of filteredMovies" (click)="handleRowClick(movie)">
+        <tr class="list__row" *ngFor="let movie of filteredMovies; let i = index" (click)="handleRowClick(movie)">
+            <td class="list__cell list__row-number">{{ i + 1 }}</td>
             <td class="list__cell" *ngFor="let column of columnNames">{{ movie[column] }}</td>
         </tr>
         <tr class="list__row" *ngIf="filteredMovies.length === 0">
-            <td class="list__cell" [attr.colspan]="columnNames.length || 1">No movies found.</td>
+            <td class="list__cell" [attr.colspan]="columnNames.length + 1">No movies found.</td>
         </tr>
     </tbody>
     <tfoot class="list__footer">
         <tr>
-            <td class="list__cell" [attr.colspan]="columnNames.length || 1">Total: {{ filteredMovies.length }} movies.</td>
+            <td class="list__cell" [attr.colspan]="columnNames.length + 1">Total: {{ filteredMovies.length }} movies.</td>
         </tr>
     </tfoot>
 </table>
