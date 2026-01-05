@@ -56,18 +56,23 @@ describe('MovieListComponent', () => {
         const rowOne = compiled.querySelectorAll('tr')[1];
         const rowTwo = compiled.querySelectorAll('tr')[2];
 
-        expect(rowOne.querySelector('td').textContent).toContain('Movie 1');
-        expect(rowOne.querySelectorAll('td')[1].textContent).toContain('Movie 1 Original');
-        expect(rowOne.querySelectorAll('td')[2].textContent).toContain('Director 1');
-        expect(rowOne.querySelectorAll('td')[3].textContent).toContain('2020');
-        expect(rowOne.querySelectorAll('td')[4].textContent).toContain('2021');
-        expect(rowOne.querySelectorAll('td')[5].textContent).toContain('120');
-        expect(rowTwo.querySelector('td').textContent).toContain('Movie 2');
-        expect(rowTwo.querySelectorAll('td')[1].textContent).toContain('Movie 2 Original');
-        expect(rowTwo.querySelectorAll('td')[2].textContent).toContain('Director 2');
-        expect(rowTwo.querySelectorAll('td')[3].textContent).toContain('2021');
-        expect(rowTwo.querySelectorAll('td')[4].textContent).toContain('2022');
-        expect(rowTwo.querySelectorAll('td')[5].textContent).toContain('110');
+        const rowOneCells = rowOne.querySelectorAll('td');
+        const rowTwoCells = rowTwo.querySelectorAll('td');
+
+        expect(rowOneCells[0].textContent.trim()).toBe('1');
+        expect(rowOneCells[1].textContent).toContain('Movie 1');
+        expect(rowOneCells[2].textContent).toContain('Movie 1 Original');
+        expect(rowOneCells[3].textContent).toContain('Director 1');
+        expect(rowOneCells[4].textContent).toContain('2020');
+        expect(rowOneCells[5].textContent).toContain('2021');
+        expect(rowOneCells[6].textContent).toContain('120');
+        expect(rowTwoCells[0].textContent.trim()).toBe('2');
+        expect(rowTwoCells[1].textContent).toContain('Movie 2');
+        expect(rowTwoCells[2].textContent).toContain('Movie 2 Original');
+        expect(rowTwoCells[3].textContent).toContain('Director 2');
+        expect(rowTwoCells[4].textContent).toContain('2021');
+        expect(rowTwoCells[5].textContent).toContain('2022');
+        expect(rowTwoCells[6].textContent).toContain('110');
         expect(compiled.querySelector('table').textContent).toContain('Total: 2 movies.');
     });
 
