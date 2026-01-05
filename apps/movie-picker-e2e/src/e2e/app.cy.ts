@@ -1,19 +1,22 @@
-import { IMovie } from '@movie-picker/api-interfaces';
-import {
-  getColumnHeader,
-  getFirstColumnCells,
-  getModal,
-  getMovieRows,
-  getSearchInput,
-} from '../support/app.po';
+import { IGetMoviesApiResponse, IMovie } from '@movie-picker/api-interfaces';
+import { getColumnHeader, getFirstDataColumnCells, getModal, getMovieRows, getSearchInput } from '../support/app.po';
 import { orderBy } from 'lodash';
 
 describe('movie-picker', () => {
   beforeEach(() => {
-    cy.request('/api/movies')
-      .its('body.list')
-      .as('movieData');
+    cy.readFile<IMovie[]>('../api/src/assets/data/movies.json').then((movies) => {
+      const response: IGetMoviesApiResponse = {
+        listId: 'usNationalRegistry',
+        name: 'US National Film Registry',
+        list: movies,
+      };
+
+      cy.intercept('GET', '/api/movies', response).as('getMovies');
+      cy.wrap(movies).as('movieData');
+    });
+
     cy.visit('/');
+    cy.wait('@getMovies');
   });
 
   it('renders the movie list returned by the API', () => {
@@ -47,7 +50,7 @@ describe('movie-picker', () => {
     const yearAddedColumn = getColumnHeader('Year Added to Registry');
 
     const assertMovieOrder = (expectedOrder: string[]) => {
-      getFirstColumnCells()
+      getFirstDataColumnCells()
         .should('have.length.at.least', expectedOrder.length)
         .then(($cells) => {
           const names = [...$cells]
