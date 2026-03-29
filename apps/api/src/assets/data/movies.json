@@ -8098,5 +8098,230 @@
         "yearAdded": "2014",
         "id": 817,
         "durationMinutes": 17
+    },
+    {
+        "name": "Бестолковые",
+        "originalName": "Clueless",
+        "director": "Эми Хекерлинг",
+        "yearProduced": "1995",
+        "yearAdded": "2025",
+        "id": 2520,
+        "durationMinutes": 97
+    },
+    {
+        "name": "Большое разочарование",
+        "originalName": "The Big Chill",
+        "director": "Лоуренс Кэздан",
+        "yearProduced": "1983",
+        "yearAdded": "2025",
+        "id": 2521,
+        "durationMinutes": 105
+    },
+    {
+        "name": "Бродяга и собака",
+        "originalName": "The Tramp and the Dog",
+        "director": "Уильям Селиг",
+        "yearProduced": "1896",
+        "yearAdded": "2025",
+        "id": 2522,
+        "durationMinutes": 1
+    },
+    {
+        "name": "Бруклинский мост",
+        "originalName": "Brooklyn Bridge",
+        "director": "Кен Бёрнс",
+        "yearProduced": "1981",
+        "yearAdded": "2025",
+        "id": 2523,
+        "durationMinutes": 58
+    },
+    {
+        "name": "Воробушки",
+        "originalName": "Sparrows",
+        "director": "Уильям Бодайн",
+        "yearProduced": "1926",
+        "yearAdded": "2025",
+        "id": 2524,
+        "durationMinutes": 84
+    },
+    {
+        "name": "Высшее общество",
+        "originalName": "High Society",
+        "director": "Чарльз Уолтерс",
+        "yearProduced": "1956",
+        "yearAdded": "2025",
+        "id": 2525,
+        "durationMinutes": 111
+    },
+    {
+        "name": "Горничная Макмиллана",
+        "originalName": "The Maid of McMillan",
+        "director": "Джордж Дэниел Бартлетт и Дональд Уилсон Стюарт",
+        "yearProduced": "1916",
+        "yearAdded": "2025",
+        "id": 2526,
+        "durationMinutes": 15
+    },
+    {
+        "name": "Десять ночей в баре",
+        "originalName": "Ten Nights in a Barroom",
+        "director": "Рой Калнек",
+        "yearProduced": "1926",
+        "yearAdded": "2025",
+        "id": 2527,
+        "durationMinutes": 63
+    },
+    {
+        "name": "Зажигательная команда",
+        "originalName": "The Wrecking Crew",
+        "director": "Денни Тедеско",
+        "yearProduced": "2008",
+        "yearAdded": "2025",
+        "id": 2528,
+        "durationMinutes": 101
+    },
+    {
+        "name": "История Лавингов",
+        "originalName": "The Loving Story",
+        "director": "Нэнси Буирски",
+        "yearProduced": "2011",
+        "yearAdded": "2025",
+        "id": 2529,
+        "durationMinutes": 77
+    },
+    {
+        "name": "Клятва меча",
+        "originalName": "The Oath of the Sword",
+        "director": "Фрэнк Шоу",
+        "yearProduced": "1914",
+        "yearAdded": "2025",
+        "id": 2530,
+        "durationMinutes": 31
+    },
+    {
+        "name": "Леди",
+        "originalName": "The Lady",
+        "director": "Фрэнк Борзейги",
+        "yearProduced": "1925",
+        "yearAdded": "2025",
+        "id": 2531,
+        "durationMinutes": 8
+    },
+    {
+        "name": "Начало",
+        "originalName": "Inception",
+        "director": "Кристофер Нолан",
+        "yearProduced": "2010",
+        "yearAdded": "2025",
+        "id": 2532,
+        "durationMinutes": 148
+    },
+    {
+        "name": "Нечто",
+        "originalName": "The Thing",
+        "director": "Джон Карпентер",
+        "yearProduced": "1982",
+        "yearAdded": "2025",
+        "id": 2533,
+        "durationMinutes": 109
+    },
+    {
+        "name": "Отель «Гранд Будапешт»",
+        "originalName": "The Grand Budapest Hotel",
+        "director": "Уэс Андерсон",
+        "yearProduced": "2014",
+        "yearAdded": "2025",
+        "id": 2534,
+        "durationMinutes": 100
+    },
+    {
+        "name": "Парень-каратист",
+        "originalName": "The Karate Kid",
+        "director": "Джон Эвилдсен",
+        "yearProduced": "1984",
+        "yearAdded": "2025",
+        "id": 2535,
+        "durationMinutes": 127
+    },
+    {
+        "name": "Перед рассветом",
+        "originalName": "Before Sunrise",
+        "director": "Ричард Линклейтер",
+        "yearProduced": "1995",
+        "yearAdded": "2025",
+        "id": 2536,
+        "durationMinutes": 101
+    },
+    {
+        "name": "Светлое Рождество",
+        "originalName": "White Christmas",
+        "director": "Майкл Кёртис",
+        "yearProduced": "1954",
+        "yearAdded": "2025",
+        "id": 2537,
+        "durationMinutes": 120
+    },
+    {
+        "name": "Скажите кто-нибудь аминь",
+        "originalName": "Say Amen, Somebody",
+        "director": "Джордж Ниренберг",
+        "yearProduced": "1982",
+        "yearAdded": "2025",
+        "id": 2538,
+        "durationMinutes": 100
+    },
+    {
+        "name": "Слава",
+        "originalName": "Glory",
+        "director": "Эдвард Цвик",
+        "yearProduced": "1989",
+        "yearAdded": "2025",
+        "id": 2539,
+        "durationMinutes": 122
+    },
+    {
+        "name": "Суперсемейка",
+        "originalName": "The Incredibles",
+        "director": "Брэд Бёрд",
+        "yearProduced": "2004",
+        "yearAdded": "2025",
+        "id": 2540,
+        "durationMinutes": 115
+    },
+    {
+        "name": "Филадельфия",
+        "originalName": "Philadelphia",
+        "director": "Джонатан Демми",
+        "yearProduced": "1993",
+        "yearAdded": "2025",
+        "id": 2541,
+        "durationMinutes": 126
+    },
+    {
+        "name": "Фрида",
+        "originalName": "Frida",
+        "director": "Джули Теймор",
+        "yearProduced": "2002",
+        "yearAdded": "2025",
+        "id": 2542,
+        "durationMinutes": 123
+    },
+    {
+        "name": "Часы",
+        "originalName": "The Hours",
+        "director": "Стивен Долдри",
+        "yearProduced": "2002",
+        "yearAdded": "2025",
+        "id": 2543,
+        "durationMinutes": 114
+    },
+    {
+        "name": "Шоу Трумана",
+        "originalName": "The Truman Show",
+        "director": "Питер Уир",
+        "yearProduced": "1998",
+        "yearAdded": "2025",
+        "id": 2544,
+        "durationMinutes": 103
     }
 ]
