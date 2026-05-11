@@ -6,4 +6,5 @@ export class Movie {
     yearProduced: string;
     yearAdded: string;
     durationMinutes: number | null;
+    watchUrl: string | string[] | null;
 }

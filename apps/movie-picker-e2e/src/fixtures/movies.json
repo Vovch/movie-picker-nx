@@ -9,7 +9,8 @@
       "director": "Alfred Hitchcock",
       "yearProduced": "1954",
       "yearAdded": "1998",
-      "durationMinutes": 112
+      "durationMinutes": 112,
+      "watchUrl": null
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "director": "Fritz Lang",
       "yearProduced": "1927",
       "yearAdded": "1989",
-      "durationMinutes": 153
+      "durationMinutes": 153,
+      "watchUrl": null
     },
     {
       "id": 3,
@@ -27,7 +29,8 @@
       "director": "Spike Lee",
       "yearProduced": "1989",
       "yearAdded": "1999",
-      "durationMinutes": 120
+      "durationMinutes": 120,
+      "watchUrl": null
     }
   ]
 }

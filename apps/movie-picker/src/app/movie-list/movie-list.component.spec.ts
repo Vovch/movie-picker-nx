@@ -1,7 +1,7 @@
+import { beforeEach, describe, expect, it } from '@jest/globals';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MovieListComponent } from './movie-list.component';
-
 describe('MovieListComponent', () => {
     let component: MovieListComponent;
     let fixture: ComponentFixture<MovieListComponent>;
@@ -35,6 +35,7 @@ describe('MovieListComponent', () => {
                 yearProduced: '2020',
                 yearAdded: '2021',
                 durationMinutes: 120,
+                watchUrl: null,
             },
             {
                 id: 2,
@@ -44,6 +45,7 @@ describe('MovieListComponent', () => {
                 yearProduced: '2021',
                 yearAdded: '2022',
                 durationMinutes: 110,
+                watchUrl: null,
             },
         ];
 
@@ -86,6 +88,7 @@ describe('MovieListComponent', () => {
                 yearProduced: '2020',
                 yearAdded: '2021',
                 durationMinutes: 100,
+                watchUrl: null,
             },
             {
                 id: 2,
@@ -95,6 +98,7 @@ describe('MovieListComponent', () => {
                 yearProduced: '2021',
                 yearAdded: '2022',
                 durationMinutes: 90,
+                watchUrl: null,
             },
         ];
         // Trigger OnChanges by setting the input property
@@ -117,6 +121,7 @@ describe('MovieListComponent', () => {
                 yearProduced: '2020',
                 yearAdded: '2021',
                 durationMinutes: 120,
+                watchUrl: null,
             },
             {
                 id: 2,
@@ -126,6 +131,7 @@ describe('MovieListComponent', () => {
                 yearProduced: '2021',
                 yearAdded: '2022',
                 durationMinutes: 110,
+                watchUrl: null,
             },
             {
                 id: 3,
@@ -135,6 +141,7 @@ describe('MovieListComponent', () => {
                 yearProduced: '2022',
                 yearAdded: '2023',
                 durationMinutes: 130,
+                watchUrl: null,
             },
         ];
 

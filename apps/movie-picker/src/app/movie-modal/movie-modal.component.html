@@ -30,6 +30,15 @@
             <h3 class="label">Year Added</h3>
             <p class="value">{{ movie.yearAdded }}</p>
         </div>
+
+        <div class="field" *ngIf="watchUrlLinks.length">
+            <h3 class="label">Watch</h3>
+            <p class="value" *ngFor="let url of watchUrlLinks; let i = index">
+                <a [href]="url" target="_blank" rel="noopener noreferrer">{{
+                    watchUrlLinks.length > 1 ? 'Part ' + (i + 1) + ' of ' + watchUrlLinks.length : 'Open watch or download link'
+                }}</a>
+            </p>
+        </div>
     </div>
     <div slot="footer" class='footer'>
       <span *ngIf='!isAuthenticated' class='text-sign-in'>*Sign in to get more functionality</span>

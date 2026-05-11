@@ -40,6 +40,7 @@ export class MoviesService {
                         yearProduced: 1,
                         yearAdded: 1,
                         durationMinutes: 1,
+                        watchUrl: 1,
                     },
                     listId: 1,
                     name: 1,

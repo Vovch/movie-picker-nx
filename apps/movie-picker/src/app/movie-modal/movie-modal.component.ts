@@ -18,6 +18,13 @@ export class MovieModalComponent implements OnInit {
 
     constructor(private moviesService: MoviesService, private auth: AuthenticationService) {}
 
+    /** Normalized watch links for template (single string or multi-part list). */
+    get watchUrlLinks(): string[] {
+        const w = this.movie?.watchUrl;
+        if (w == null) return [];
+        return Array.isArray(w) ? w : [w];
+    }
+
     ngOnInit(): void {
         this.auth.isAuthenticated$.subscribe((isAuthenticated) => (this.isAuthenticated = isAuthenticated));
     }

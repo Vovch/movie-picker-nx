@@ -81,7 +81,8 @@ describe('AppComponent', () => {
         director: 'Director 1',
         yearProduced: '2001',
         yearAdded: '2002',
-        durationMinutes: 101
+        durationMinutes: 101,
+        watchUrl: null,
       },
       {
         id: 2,
@@ -90,7 +91,8 @@ describe('AppComponent', () => {
         director: 'Director 2',
         yearProduced: '2003',
         yearAdded: '2004',
-        durationMinutes: 102
+        durationMinutes: 102,
+        watchUrl: null,
       },
       {
         id: 3,
@@ -99,7 +101,8 @@ describe('AppComponent', () => {
         director: 'Director 3',
         yearProduced: '2005',
         yearAdded: '2006',
-        durationMinutes: 103
+        durationMinutes: 103,
+        watchUrl: null,
       },
     ];
 

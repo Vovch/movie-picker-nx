@@ -1,4 +1,5 @@
 import { Prop, Schema } from '@nestjs/mongoose';
+import { Schema as MongooseSchema } from 'mongoose';
 
 @Schema({ autoCreate: false })
 export class Movie {
@@ -9,4 +10,6 @@ export class Movie {
     @Prop() yearProduced: string;
     @Prop() yearAdded: string;
     @Prop() durationMinutes: number | null;
+    @Prop({ type: MongooseSchema.Types.Mixed })
+    watchUrl: string | string[] | null;
 }
