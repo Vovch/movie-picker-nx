@@ -46,20 +46,20 @@ describe('movie-picker', () => {
     });
   });
 
+  const assertMovieOrder = (expectedOrder: string[]) => {
+    getFirstDataColumnCells()
+      .should('have.length.at.least', expectedOrder.length)
+      .then(($cells) => {
+        const names = [...$cells]
+          .slice(0, expectedOrder.length)
+          .map((cell) => cell.textContent?.trim());
+
+        expect(names).to.deep.eq(expectedOrder);
+      });
+  };
+
   it('sorts movies when a column header is clicked', () => {
     const yearAddedColumn = getColumnHeader('Year Added to Registry');
-
-    const assertMovieOrder = (expectedOrder: string[]) => {
-      getFirstDataColumnCells()
-        .should('have.length.at.least', expectedOrder.length)
-        .then(($cells) => {
-          const names = [...$cells]
-            .slice(0, expectedOrder.length)
-            .map((cell) => cell.textContent?.trim());
-
-          expect(names).to.deep.eq(expectedOrder);
-        });
-    };
 
     cy.get('@movieData').then((movies: IMovie[]) => {
       const sortedAsc = orderBy(movies, ['yearAdded'], ['asc']);
@@ -70,6 +70,25 @@ describe('movie-picker', () => {
 
       yearAddedColumn.click();
       assertMovieOrder(sortedDesc.slice(0, 3).map((movie) => movie.name));
+
+      yearAddedColumn.click();
+      assertMovieOrder(movies.slice(0, 3).map((movie) => movie.name));
+    });
+  });
+
+  it('sorts movies by multiple columns when additional headers are clicked', () => {
+    const yearAddedColumn = getColumnHeader('Year Added to Registry');
+    const titleColumn = getColumnHeader('Movie Title');
+
+    cy.get('@movieData').then((movies: IMovie[]) => {
+      const sortedByYearThenName = orderBy(movies, ['yearAdded', 'name'], ['asc', 'asc']);
+
+      yearAddedColumn.click();
+      titleColumn.click();
+
+      yearAddedColumn.should('have.attr', 'data-sort-order', 'asc').and('have.attr', 'data-sort-priority', '1');
+      titleColumn.should('have.attr', 'data-sort-order', 'asc').and('have.attr', 'data-sort-priority', '2');
+      assertMovieOrder(sortedByYearThenName.slice(0, 3).map((movie) => movie.name));
     });
   });
 

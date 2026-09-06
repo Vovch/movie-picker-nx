@@ -45,7 +45,20 @@
   }
 }
 
+.list__sort {
+  display: inline-flex;
+  align-items: baseline;
+  margin-right: 0.25em;
+}
+
+.list__sort-priority {
+  font-size: 0.75em;
+  margin-left: 0.1em;
+  color: @color-text-inactive;
+}
+
 .list__column-heading {
+  cursor: pointer;
   user-select: none;
 
   &:hover {
