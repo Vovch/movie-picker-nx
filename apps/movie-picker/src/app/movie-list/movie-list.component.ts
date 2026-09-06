@@ -3,8 +3,12 @@ import { IMovie } from '@movie-picker/api-interfaces';
 import { orderBy } from 'lodash';
 
 type MovieKey = keyof Omit<IMovie, 'id'>;
-type SortKey = MovieKey | null;
-type SortOrder = 'asc' | 'desc' | null;
+type SortOrder = 'asc' | 'desc';
+
+interface SortCriterion {
+    key: MovieKey;
+    order: SortOrder;
+}
 
 @Component({
     selector: 'movie-picker-list',
@@ -18,8 +22,7 @@ export class MovieListComponent implements OnChanges {
     columnNames: MovieKey[] = [];
     search = '';
     filteredMovies: IMovie[] = [];
-    sortKey: SortKey = null;
-    sortOrder: SortOrder = null;
+    sorts: SortCriterion[] = [];
 
     columnLabels: { [key in MovieKey]: string } = {
         name: 'Movie Title',
@@ -41,8 +44,7 @@ export class MovieListComponent implements OnChanges {
     }
 
     resetSort() {
-        this.sortKey = null;
-        this.sortOrder = null;
+        this.sorts = [];
     }
 
     updateFilteredMovies() {
@@ -69,20 +71,66 @@ export class MovieListComponent implements OnChanges {
         this.selectMovie.emit(movie);
     }
 
-    handleSort(column: SortKey) {
-        if (column === this.sortKey) {
-            this.sortOrder = this.sortOrder === 'asc' ? 'desc' : this.sortOrder === 'desc' ? null : 'asc';
-        } else {
-            this.sortKey = column;
-            this.sortOrder = 'asc';
-        }
-
+    handleSort(column: MovieKey) {
+        this.updateSortColumn(column);
         this.updateFilteredMovies();
     }
 
+    getSort(column: MovieKey): SortCriterion | undefined {
+        return this.sorts.find((sort) => sort.key === column);
+    }
+
+    getSortPriority(column: MovieKey): number | null {
+        if (this.sorts.length < 2) {
+            return null;
+        }
+
+        const index = this.sorts.findIndex((sort) => sort.key === column);
+
+        return index === -1 ? null : index + 1;
+    }
+
+    getAriaSort(column: MovieKey): 'ascending' | 'descending' | 'none' {
+        const sort = this.getSort(column);
+
+        if (!sort) {
+            return 'none';
+        }
+
+        return sort.order === 'asc' ? 'ascending' : 'descending';
+    }
+
+    private updateSortColumn(column: MovieKey) {
+        const index = this.sorts.findIndex((sort) => sort.key === column);
+
+        if (index === -1) {
+            this.sorts = [...this.sorts, { key: column, order: 'asc' }];
+            return;
+        }
+
+        this.cycleSortAt(index);
+    }
+
+    private cycleSortAt(index: number) {
+        const current = this.sorts[index];
+
+        if (current.order === 'asc') {
+            this.sorts = this.sorts.map((sort, sortIndex) =>
+                sortIndex === index ? { ...sort, order: 'desc' } : sort
+            );
+            return;
+        }
+
+        this.sorts = this.sorts.filter((_, sortIndex) => sortIndex !== index);
+    }
+
     private sortMovies() {
-        if (this.sortKey && this.sortOrder) {
-            this.filteredMovies = orderBy(this.filteredMovies, [this.sortKey], [this.sortOrder]);
+        if (this.sorts.length) {
+            this.filteredMovies = orderBy(
+                this.filteredMovies,
+                this.sorts.map((sort) => sort.key),
+                this.sorts.map((sort) => sort.order)
+            );
         }
     }
 }

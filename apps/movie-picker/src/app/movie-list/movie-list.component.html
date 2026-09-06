@@ -16,11 +16,16 @@
             <th
                 class="list__cell list__column-heading"
                 [class]="name"
+                [attr.aria-sort]="getAriaSort(name)"
+                [attr.data-sort-order]="getSort(name)?.order"
+                [attr.data-sort-priority]="getSortPriority(name)"
+                title="Click to sort. Click again to reverse. A third click clears this column."
                 (click)="handleSort(name)"
                 *ngFor="let name of columnNames"
             >
-                <span *ngIf="sortKey === name">
-                    {{ sortOrder === 'asc' ? '▲' : sortOrder === 'desc' ? '▼' : '' }}
+                <span class="list__sort" *ngIf="getSort(name) as sort">
+                    <span class="list__sort-arrow" aria-hidden="true">{{ sort.order === 'asc' ? '▲' : '▼' }}</span>
+                    <span class="list__sort-priority" *ngIf="getSortPriority(name) as priority">{{ priority }}</span>
                 </span>
                 {{ columnLabels[name] }}
             </th>
