@@ -78,17 +78,17 @@ describe('movie-picker', () => {
 
   it('sorts movies by multiple columns when additional headers are clicked', () => {
     const yearAddedColumn = getColumnHeader('Year Added to Registry');
-    const titleColumn = getColumnHeader('Movie Title');
+    const durationColumn = getColumnHeader('Duration (minutes)');
 
     cy.get('@movieData').then((movies: IMovie[]) => {
-      const sortedByYearThenName = orderBy(movies, ['yearAdded', 'name'], ['asc', 'asc']);
+      const sortedByYearThenDuration = orderBy(movies, ['yearAdded', 'durationMinutes'], ['asc', 'asc']);
 
       yearAddedColumn.click();
-      titleColumn.click();
+      durationColumn.click();
 
       yearAddedColumn.should('have.attr', 'data-sort-order', 'asc').and('have.attr', 'data-sort-priority', '1');
-      titleColumn.should('have.attr', 'data-sort-order', 'asc').and('have.attr', 'data-sort-priority', '2');
-      assertMovieOrder(sortedByYearThenName.slice(0, 3).map((movie) => movie.name));
+      durationColumn.should('have.attr', 'data-sort-order', 'asc').and('have.attr', 'data-sort-priority', '2');
+      assertMovieOrder(sortedByYearThenDuration.slice(0, 3).map((movie) => movie.name));
     });
   });
 
